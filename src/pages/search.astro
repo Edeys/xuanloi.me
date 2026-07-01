@@ -9,9 +9,9 @@ import Main from "@/layouts/Main.astro";
 const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
 ---
 
-<Layout title={`Search | ${SITE.title}`} description="Search through Peter Steinberger's blog posts on iOS development, Swift, and open source projects.">
+<Layout title={`Tìm kiếm | ${SITE.title}`} description="Tìm kiếm bài viết trên blog của Xuân Lợi.">
   <Header />
-  <Main pageTitle="Search" pageDesc="Search any article ...">
+  <Main pageTitle="Tìm kiếm" pageDesc="Tìm bất kỳ bài viết nào ...">
     <div id="pagefind-search" transition:persist data-backurl={backUrl}></div>
   </Main>
   <Footer />
@@ -36,7 +36,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       if (import.meta.env.DEV) {
         pageFindSearch.innerHTML = `
             <div class="bg-muted/75 rounded p-4 space-y-4 mb-4">
-              <p><strong>DEV mode Warning! </strong>You need to build the project at least once to see the search results during development.</p>
+              <p><strong>Cảnh báo DEV mode! </strong>Cần build project ít nhất một lần để tìm kiếm hoạt động.</p>
               <code class="block bg-black text-white px-2 py-1 rounded">pnpm run build</code>
             </div>
           `;
@@ -71,7 +71,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       // Auto-focus the search input and add placeholder
       if (searchInput) {
         searchInput.focus();
-        searchInput.placeholder = "Search posts, e.g. 'Swift concurrency'";
+        searchInput.placeholder = "Tìm bài viết, ví dụ 'marketing'";
       }
       searchInput?.addEventListener("input", resetSearchParam);
       clearButton?.addEventListener("click", resetSearchParam);

@@ -26,8 +26,8 @@ export const GET: APIRoute = async () => {
     markdownContent += `## ${year}\n\n`;
 
     for (const post of postsByYear[Number(year)]) {
-      const date = post.data.pubDatetime.toLocaleDateString("en-US", {
-        month: "short",
+      const date = post.data.pubDatetime.toLocaleDateString("vi-VN", {
+        month: "long",
         day: "numeric",
       });
       markdownContent += `- ${date}: [${post.data.title}](/posts/${post.id}.md)\n`;

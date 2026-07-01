@@ -50,7 +50,7 @@ const structuredData = {
 ---
 
 <!doctype html>
-<html lang=`${SITE.lang ?? "en"}` class={`${scrollSmooth && "scroll-smooth"}`}>
+<html lang={`${SITE.lang ?? "en"}`} class={`${scrollSmooth && "scroll-smooth"}`}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -131,19 +131,32 @@ const structuredData = {
 
     <script is:inline>
       (function() {
-        const storedTheme = localStorage.getItem("theme");
-        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        const theme = storedTheme || (prefersDark ? "dark" : "light");
-        document.documentElement.setAttribute("data-theme", theme);
+        function applyTheme() {
+          const cur = localStorage.getItem("theme")
+            || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          document.documentElement.setAttribute("data-theme", cur);
+          return cur;
+        }
+
+        applyTheme();
+
+        // Preserve theme across Astro view transitions (ClientRouter)
+        document.addEventListener("astro:before-swap", (e) => {
+          const theme = document.documentElement.getAttribute("data-theme") || "light";
+          if (e.newDocument) {
+            e.newDocument.documentElement.setAttribute("data-theme", theme);
+          }
+        });
 
         function attachThemeBtn() {
+          applyTheme();
           const themeBtn = document.getElementById("theme-btn");
           if (!themeBtn) return;
           const updateBtn = (t) => {
             themeBtn.setAttribute("aria-label", t === "dark" ? "Switch to light mode" : "Switch to dark mode");
             themeBtn.title = t === "dark" ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ tối";
           };
-          updateBtn(theme);
+          updateBtn(document.documentElement.getAttribute("data-theme"));
           themeBtn.addEventListener("click", () => {
             const cur = document.documentElement.getAttribute("data-theme") || "light";
             const next = cur === "light" ? "dark" : "light";

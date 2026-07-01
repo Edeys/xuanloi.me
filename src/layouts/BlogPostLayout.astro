@@ -51,7 +51,7 @@ const canonicalURL = new URL(canonicalPath, Astro.site).toString();
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M15 6l-6 6l6 6" />
           </svg>
-          <span>Go back</span>
+          <span>Quay lại</span>
         </a>
       </div>
     )
@@ -94,16 +94,16 @@ const canonicalURL = new URL(canonicalPath, Astro.site).toString();
           <path d="M7.01 17h.005"></path>
           <path d="M10.01 17h.005"></path>
         </svg>
-        <span class="sr-only">Published:</span>
+        <span class="sr-only">Đã đăng:</span>
         <span class="text-sm italic sm:text-base">
           <FormattedDate date={pubDatetime} />
           {
             modDatetime && (
               <>
                 <span aria-hidden="true"> | </span>
-                <span class="sr-only">&nbsp;Updated:&nbsp;</span>
+                <span class="sr-only">&nbsp;Cập nhật:&nbsp;</span>
                 <span class="text-nowrap">
-                  Updated <FormattedDate date={modDatetime} />
+                  Cập nhật <FormattedDate date={modDatetime} />
                 </span>
               </>
             )

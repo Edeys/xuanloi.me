@@ -24,11 +24,11 @@ const { title, description, pubDatetime, modDatetime, heroImage } = Astro.props;
 
 	          <div class="post-meta">
 	            <span>
-	              Posted on <FormattedDate date={pubDatetime} />
+	              Đăng ngày <FormattedDate date={pubDatetime} />
 	              {
 	                modDatetime && (
 	                  <span class="last-updated-on">
-	                    · Updated on <FormattedDate date={modDatetime} />
+	                    · Cập nhật <FormattedDate date={modDatetime} />
 	                  </span>
 	                )
 	              }

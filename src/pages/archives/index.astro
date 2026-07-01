@@ -15,26 +15,18 @@ if (!SITE.showArchives) {
 const posts = await getCollection("blog", ({ data }) => !data.draft);
 
 const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  "Tháng 1", "Tháng 2", "Tháng 3",
+  "Tháng 4", "Tháng 5", "Tháng 6",
+  "Tháng 7", "Tháng 8", "Tháng 9",
+  "Tháng 10", "Tháng 11", "Tháng 12",
 ];
 ---
 
-<Layout title={`Archives | ${SITE.title}`}>
+<Layout title={`Lưu trữ | ${SITE.title}`}>
   <Header />
   <main id="main-content" class="mx-auto w-full max-w-3xl px-4 pb-4">
-    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">Archives</h1>
-    <p class="mt-2 mb-6 italic">Browse all posts by year and month</p>
+    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">Lưu trữ</h1>
+    <p class="mt-2 mb-6 italic">Xem tất cả bài viết theo năm và tháng</p>
     {
       Object.entries(
         getPostsByGroupCondition(posts, (post) =>
