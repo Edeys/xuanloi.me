@@ -129,21 +129,62 @@ const structuredData = {
 
     <ClientRouter />
 
-    <script is:inline src="/toggle-theme.js"></script>
-    
-    <!-- Domain-based markdown redirect -->
     <script is:inline>
-      // Check if we're on steipete.md domain
-      const hostname = window.location.hostname;
-      if ((hostname === 'steipete.md' || hostname === 'www.steipete.md') && !window.location.pathname.endsWith('.md')) {
-        // Redirect to the .md version of the current page
-        const mdPath = window.location.pathname === '/' ? '/index.md' : window.location.pathname + '.md';
-        window.location.replace(mdPath + window.location.search + window.location.hash);
+      const themeBtn = document.getElementById("theme-btn");
+      if (themeBtn) {
+        const storedTheme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+        const setTheme = (theme) => {
+          document.documentElement.classList.toggle("dark", theme === "dark");
+          localStorage.setItem("theme", theme);
+          themeBtn.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+          themeBtn.title = theme === "dark" ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ tối";
+        };
+
+        // Initial theme setup
+        if (storedTheme) {
+          setTheme(storedTheme);
+        } else {
+          setTheme(prefersDark ? "dark" : "light");
+        }
+
+        // Toggle theme on button click
+        themeBtn.addEventListener("click", () => {
+          const currentTheme = localStorage.getItem("theme");
+          setTheme(currentTheme === "light" ? "dark" : "light");
+        });
       }
     </script>
-    
-    <!-- Twitter Widget Script -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  <script is:inline>
+      const themeBtn = document.getElementById("theme-btn");
+      if (themeBtn) {
+        const storedTheme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+        const setTheme = (theme) => {
+          document.documentElement.classList.toggle("dark", theme === "dark");
+          localStorage.setItem("theme", theme);
+          themeBtn.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+          themeBtn.title = theme === "dark" ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ tối";
+        };
+
+        // Initial theme setup
+        if (storedTheme) {
+          setTheme(storedTheme);
+        } else {
+          setTheme(prefersDark ? "dark" : "light");
+        }
+
+        // Toggle theme on button click
+        themeBtn.addEventListener("click", () => {
+          const currentTheme = localStorage.getItem("theme");
+          setTheme(currentTheme === "light" ? "dark" : "light");
+        });
+      }
+    </script>
   </head>
   <body>
     <slot />

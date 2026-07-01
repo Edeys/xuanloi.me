@@ -28,7 +28,7 @@ const isActive = (path: string) => {
     href="#main-content"
     class="absolute -top-full left-16 z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
   >
-    Skip to content
+    Bỏ qua nội dung
   </a>
   <div
     id="nav-container"
@@ -69,7 +69,7 @@ const isActive = (path: string) => {
         >
           <li class="col-span-2">
             <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-              Posts
+              Bài viết
             </a>
           </li>
           <!-- <li class="col-span-2">
@@ -79,7 +79,7 @@ const isActive = (path: string) => {
           </li> -->
           <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-              About
+              Về tôi
             </a>
           </li>
           {
@@ -110,7 +110,7 @@ const isActive = (path: string) => {
                 { "[&>svg]:stroke-accent": isActive("/search") },
               ]}
               ariaLabel="search"
-              title="Search"
+              title="Tìm kiếm"
             >
               <IconSearch />
               <span class="sr-only">Search</span>
@@ -152,7 +152,7 @@ const isActive = (path: string) => {
       const openMenu = menuBtn.getAttribute("aria-expanded") === "true";
 
       menuBtn.setAttribute("aria-expanded", openMenu ? "false" : "true");
-      menuBtn.setAttribute("aria-label", openMenu ? "Open Menu" : "Close Menu");
+      menuBtn.setAttribute("aria-label", openMenu ? "Mở menu" : "Đóng menu");
 
       menuItems.classList.toggle("hidden");
       menuIcon.classList.toggle("hidden");

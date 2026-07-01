@@ -31,12 +31,12 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
-  desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
-  ogImage: "peter-avatar.jpg",
+  website: "https://xuanloi.me/",
+  author: "Xuân Lợi",
+  profile: "https://xuanloi.me/about",
+  desc: "Chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.",
+  title: "Xuân Lợi",
+  ogImage: "",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -45,12 +45,12 @@ export const SITE: Site = {
   showBackButton: false,
   editPost: {
     enabled: true,
-    text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    text: "Sửa trên GitHub",
+    url: "https://github.com/Edeys/xuanloi.me/edit/main/",
   },
-  dynamicOgImage: true,
-  lang: "en",
-  timezone: "America/Los_Angeles",
+  dynamicOgImage: false,
+  lang: "vi",
+  timezone: "Asia/Ho_Chi_Minh",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -60,27 +60,43 @@ export const SITE_DESCRIPTION = SITE.desc;
 export const NAV_LINKS: SocialLink[] = [
   {
     href: "/",
-    label: "Blog",
+    label: "Bài viết",
   },
   {
     href: "/about",
-    label: "About",
+    label: "Về tôi",
   },
 ];
 
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://www.youtube.com/@xuanloi_mkt",
+    label: "YouTube",
+  },
+  {
+    href: "https://www.facebook.com/xuanloi.me",
+    label: "Facebook cá nhân",
+  },
+  {
+    href: "https://www.facebook.com/daoxuanloi.me",
+    label: "Facebook Fanpage",
+  },
+  {
+    href: "tel:0348579065",
+    label: "Số điện thoại",
+  },
+  {
+    href: "https://zalo.me/0348579065",
+    label: "Zalo",
+  },
+  {
+    href: "https://github.com/Edeys",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
-    label: "Twitter",
-  },
-  {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
+    href: "mailto:xuanloi.lc@gmail.com",
+    label: "Email",
   },
   {
     href: "/rss.xml",
@@ -90,9 +106,13 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 // Icon map for social media
 export const ICON_MAP: Record<string, string> = {
+  YouTube: "youtube",
+  Facebook: "facebook",
+  "Facebook cá nhân": "facebook",
+  "Facebook Fanpage": "facebook",
+  "Số điện thoại": "phone",
+  Zalo: "zalo",
   GitHub: "github",
-  Twitter: "twitter",
-  BlueSky: "bsky",
-  RSS: "rss",
   Email: "mail",
+  RSS: "rss",
 };
