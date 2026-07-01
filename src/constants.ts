@@ -9,10 +9,38 @@ export const SOCIALS = [
     active: true,
   },
   {
+    name: "YouTube",
+    href: "https://www.youtube.com/@xuanloi_mkt",
+    linkTitle: ` ${SITE.title} trên YouTube`,
+    icon: "youtube",
+    active: true,
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/xuanloi.me",
+    linkTitle: `Facebook cá nhân của ${SITE.title}`,
+    icon: "facebook",
+    active: true,
+  },
+  {
+    name: "Fanpage",
+    href: "https://www.facebook.com/daoxuanloi.me",
+    linkTitle: `Fanpage ${SITE.title}`,
+    icon: "facebook",
+    active: true,
+  },
+  {
     name: "Mail",
     href: "mailto:xuanloi.lc@gmail.com",
     linkTitle: `Gửi email cho ${SITE.title}`,
     icon: "mail",
+    active: true,
+  },
+  {
+    name: "Phone & Zalo",
+    href: "tel:0348579065",
+    linkTitle: `Gọi điện hoặc nhắn Zalo cho ${SITE.title}: 034.857.9065`,
+    icon: "phone",
     active: true,
   },
 ] as const;

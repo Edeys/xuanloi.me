@@ -4,6 +4,19 @@ All notable website architecture changes to this project will be documented in t
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [Fork: xuanloi.me] - 2026-07-01
+
+### Changed
+- Forked from steipete/steipete.me
+- Stripped PWA (@vite-pwa/astro) integration
+- Removed 100+ English blog posts, kept 3 Vietnamese sample posts
+- Localized UI to Vietnamese (Header, Footer, Hero, About, nav)
+- Updated SITE config: title "Xuân Lợi", lang "vi", timezone Asia/Ho_Chi_Minh
+- Replaced social links (Twitter/X/BlueSky/LinkedIn) with YouTube/Facebook/Zalo/Phone
+- Updated Astro config: i18n vi locale, devToolbar disabled
+- Patched Vite 6 buildApp hook in static-build.js (must reapply on npm install)
+- Set up deployment: Nginx + Let's Encrypt on DigitalOcean (129.212.238.158)
+
 ## [Unreleased]
 
 ### Added

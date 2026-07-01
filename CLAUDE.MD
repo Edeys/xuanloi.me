@@ -6,7 +6,7 @@ This document contains important instructions and notes for Claude when working 
 
 ### NEVER CREATE BLOG POSTS WITHOUT CONSENT
 
-- **NEVER CREATE BLOG POSTS WITHOUT EXPLICIT CONSENT** from steipete
+- **NEVER CREATE BLOG POSTS WITHOUT EXPLICIT CONSENT** from the user (Xuân Lợi)
 - Do not write or propose new blog content unless specifically requested
 - Only help with editing or fixing existing posts when asked
 
@@ -46,7 +46,7 @@ npm run preview
 
 ### Project Structure
 
-- `/src/content/blog/` - Contains all blog posts in markdown format
+- `/src/content/blog/` - Contains all blog posts in markdown format, organized by year (e.g. `2026/`)
 - `/src/pages/` - Contains page templates and routing
 - `/src/components/` - Reusable UI components
 - `/src/layouts/` - Page layouts and templates
@@ -57,7 +57,7 @@ npm run preview
 1. **Adding a new blog post**:
 
    - Create a new markdown file in `/src/content/blog/`
-   - Include proper frontmatter (title, description, pubDate, etc.)
+   - Include proper frontmatter (title, description, pubDatetime, etc.)
    - Format dates in ISO-8601 format: `YYYY-MM-DDTHH:MM:SS+HH:MM`
    - Format tags as arrays: `tags: ["tag1", "tag2"]`
 
@@ -77,7 +77,7 @@ npm run preview
 5. **Fixing broken images**:
 
    - Blog posts reference images in the `/public/assets/img/` directory structure
-   - The original files can be found in `/temp-repos/steipete.com/assets/img/`
+   - The original files can be found in `/temp-repos/xuanloi.me/assets/img/`
    - Images must be copied to the matching public directory structure
    - Fixed images should be committed to the repository
    - Use `find` command to locate the original images
@@ -106,5 +106,42 @@ npm run preview
 
 - **Astro** (latest version) - Main framework
 - **TailwindCSS** - For styling
-- **React** - For interactive components (v18.2.0)
+- **React** - For interactive components (v19.x)
 - **MDX** - For enhanced markdown support
+
+## Workflow: "Yêu cầu → Live"
+
+Quy trình chuẩn khi a yêu cầu chỉnh sửa website:
+
+1. **A mô tả yêu cầu** — sửa cái gì, file nào, link gì, nội dung gì
+2. **Em xác nhận scope** — list file sẽ sửa/tạo, tóm tắt thay đổi, rủi ro. A confirm "OK làm" trước khi em sửa
+3. **Em sửa local + build verify** — `npm run build` phải OK mới qua bước sau
+4. **Em deploy luôn** — a không cần hỏi, deploy là bước mặc định của workflow. SCP `dist/` từ local lên `/var/www/xuanloi.me` qua SSH key `~/.ssh/do-9router`, sau đó reload nginx
+5. **Em verify** — curl/check xuanloi.me xác nhận site update
+6. **Commit history** — sau khi verify OK, em commit + push code lên GitHub (a chọn push hay không)
+
+### Nguyên tắc cứng
+
+- **Không tự ý** xoá, chạy lệnh phá hoại — luôn hỏi trước
+- **Không push** bất kỳ thứ gì nhạy cảm (key, password, token) lên repo, kể cả private
+- **Không sáng tạo** thêm feature ngoài yêu cầu
+- **Mỗi thay đổi** phải build OK trước khi deploy
+- **A có quyền rollback** — nếu a thấy site hỏng, em revert ngay
+
+### Deploy method
+
+- **Manual SCP** từ local: `rsync -avz --delete -e "ssh -i ~/.ssh/do-9router" dist/ root@129.212.238.158:/var/www/xuanloi.me/`
+- Sau đó SSH vào server chạy: `nginx -t && systemctl reload nginx`
+- Verify: `curl -sI https://xuanloi.me/`
+
+## Deployment Context
+
+- **Live site**: https://xuanloi.me (HTTPS, Let's Encrypt, www.xuanloi.me cũng serve)
+- **Server**: DigitalOcean droplet, Ubuntu 24.04, IP 129.212.238.158, user root
+- **Web root**: `/var/www/xuanloi.me` (Nginx serves static files)
+- **Nginx config**: `/etc/nginx/sites-enabled/xuanloi.me`
+- **SSL certs**: `/etc/letsencrypt/live/xuanloi.me/`
+- **Local source**: `D:\Dự Án Cá Nhân\xuanloi.me`
+- **Local SSH key**: `~/.ssh/do-9router` (chmod 600, server 1)
+- **Vite 6 patch**: `node_modules/astro/dist/core/build/static-build.js` — cần reapply sau mỗi `npm install`
+- **Repo**: https://github.com/Edeys/xuanloi.me (a quản lý visibility)

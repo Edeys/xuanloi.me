@@ -130,60 +130,35 @@ const structuredData = {
     <ClientRouter />
 
     <script is:inline>
-      const themeBtn = document.getElementById("theme-btn");
-      if (themeBtn) {
+      (function() {
         const storedTheme = localStorage.getItem("theme");
         const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = storedTheme || (prefersDark ? "dark" : "light");
+        document.documentElement.classList.toggle("dark", theme === "dark");
 
-        const setTheme = (theme) => {
-          document.documentElement.classList.toggle("dark", theme === "dark");
-          localStorage.setItem("theme", theme);
-          themeBtn.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
-          themeBtn.title = theme === "dark" ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ tối";
-        };
-
-        // Initial theme setup
-        if (storedTheme) {
-          setTheme(storedTheme);
-        } else {
-          setTheme(prefersDark ? "dark" : "light");
+        function attachThemeBtn() {
+          const themeBtn = document.getElementById("theme-btn");
+          if (!themeBtn) return;
+          const updateBtn = (t) => {
+            themeBtn.setAttribute("aria-label", t === "dark" ? "Switch to light mode" : "Switch to dark mode");
+            themeBtn.title = t === "dark" ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ tối";
+          };
+          updateBtn(theme);
+          themeBtn.addEventListener("click", () => {
+            const cur = localStorage.getItem("theme") || (document.documentElement.classList.contains("dark") ? "dark" : "light");
+            const next = cur === "light" ? "dark" : "light";
+            document.documentElement.classList.toggle("dark", next === "dark");
+            localStorage.setItem("theme", next);
+            updateBtn(next);
+          });
         }
-
-        // Toggle theme on button click
-        themeBtn.addEventListener("click", () => {
-          const currentTheme = localStorage.getItem("theme");
-          setTheme(currentTheme === "light" ? "dark" : "light");
-        });
-      }
-    </script>
-
-
-  <script is:inline>
-      const themeBtn = document.getElementById("theme-btn");
-      if (themeBtn) {
-        const storedTheme = localStorage.getItem("theme");
-        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-        const setTheme = (theme) => {
-          document.documentElement.classList.toggle("dark", theme === "dark");
-          localStorage.setItem("theme", theme);
-          themeBtn.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
-          themeBtn.title = theme === "dark" ? "Chuyển sang chế độ sáng" : "Chuyển sang chế độ tối";
-        };
-
-        // Initial theme setup
-        if (storedTheme) {
-          setTheme(storedTheme);
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", attachThemeBtn);
         } else {
-          setTheme(prefersDark ? "dark" : "light");
+          attachThemeBtn();
         }
-
-        // Toggle theme on button click
-        themeBtn.addEventListener("click", () => {
-          const currentTheme = localStorage.getItem("theme");
-          setTheme(currentTheme === "light" ? "dark" : "light");
-        });
-      }
+        document.addEventListener("astro:after-swap", attachThemeBtn);
+      })();
     </script>
   </head>
   <body>

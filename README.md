@@ -1,10 +1,10 @@
-# Peter Steinberger's Personal Website
+# Xuân Lợi - Personal Website
 
-This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on [Vercel](https://vercel.com).
+This is the source code for my personal website, built with [Astro](https://astro.build) and deployed on a DigitalOcean droplet via Nginx.
 
 ## About
 
-I'm Peter Steinberger, an iOS developer, entrepreneur, and open source contributor. This website hosts my personal blog and information about my work.
+Mình là Xuân Lợi. Blog cá nhân tiếng Việt về cuộc sống, marketing và những điều mình học được trên hành trình. Forked từ [steipete/steipete.me](https://github.com/steipete/steipete.me) — cảm ơn Peter Steinberger đã open-source codebase.
 
 ## Project Structure
 
@@ -23,7 +23,7 @@ I'm Peter Steinberger, an iOS developer, entrepreneur, and open source contribut
 │   ├── styles/          # Global styles and CSS
 │   └── utils/           # Utility functions
 ├── astro.config.mjs     # Astro configuration
-├── vercel.json          # Vercel deployment and CSP configuration
+├── vercel.json          # Redirect rules (also used for Vercel compatibility)
 ├── package.json         # Project dependencies and scripts
 ├── tailwind.config.mjs  # Tailwind CSS configuration
 └── LICENSE              # Dual license (CC BY 4.0 + MIT)
@@ -40,7 +40,7 @@ I'm Peter Steinberger, an iOS developer, entrepreneur, and open source contribut
 
 ## Deployment
 
-This site is set up for easy deployment on Vercel. Just connect your GitHub repository to Vercel, and it will automatically build and deploy the site when changes are pushed.
+This site is built with `npm run build` and deployed to a DigitalOcean droplet (Nginx serving static files in `/var/www/xuanloi.me`). See `XUANLOI_PROJECT_INFO.md` for full deploy workflow.
 
 ## License
 
