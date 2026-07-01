@@ -79,16 +79,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: "Facebook cá nhân",
   },
   {
-    href: "https://www.facebook.com/daoxuanloi.me",
-    label: "Facebook Fanpage",
-  },
-  {
     href: "tel:0348579065",
     label: "Số điện thoại",
-  },
-  {
-    href: "https://zalo.me/0348579065",
-    label: "Zalo",
   },
   {
     href: "https://github.com/Edeys",
@@ -109,9 +101,7 @@ export const ICON_MAP: Record<string, string> = {
   YouTube: "youtube",
   Facebook: "facebook",
   "Facebook cá nhân": "facebook",
-  "Facebook Fanpage": "facebook",
   "Số điện thoại": "phone",
-  Zalo: "zalo",
   GitHub: "github",
   Email: "mail",
   RSS: "rss",

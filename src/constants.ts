@@ -23,13 +23,6 @@ export const SOCIALS = [
     active: true,
   },
   {
-    name: "Fanpage",
-    href: "https://www.facebook.com/daoxuanloi.me",
-    linkTitle: `Fanpage ${SITE.title}`,
-    icon: "facebook",
-    active: true,
-  },
-  {
     name: "Mail",
     href: "mailto:xuanloi.lc@gmail.com",
     linkTitle: `Gửi email cho ${SITE.title}`,
@@ -37,9 +30,9 @@ export const SOCIALS = [
     active: true,
   },
   {
-    name: "Phone & Zalo",
+    name: "Phone",
     href: "tel:0348579065",
-    linkTitle: `Gọi điện hoặc nhắn Zalo cho ${SITE.title}: 034.857.9065`,
+    linkTitle: `Gọi điện cho ${SITE.title}: 034.857.9065`,
     icon: "phone",
     active: true,
   },
