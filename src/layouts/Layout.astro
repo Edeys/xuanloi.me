@@ -134,7 +134,7 @@ const structuredData = {
         const storedTheme = localStorage.getItem("theme");
         const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
         const theme = storedTheme || (prefersDark ? "dark" : "light");
-        document.documentElement.classList.toggle("dark", theme === "dark");
+        document.documentElement.setAttribute("data-theme", theme);
 
         function attachThemeBtn() {
           const themeBtn = document.getElementById("theme-btn");
@@ -145,9 +145,9 @@ const structuredData = {
           };
           updateBtn(theme);
           themeBtn.addEventListener("click", () => {
-            const cur = localStorage.getItem("theme") || (document.documentElement.classList.contains("dark") ? "dark" : "light");
+            const cur = document.documentElement.getAttribute("data-theme") || "light";
             const next = cur === "light" ? "dark" : "light";
-            document.documentElement.classList.toggle("dark", next === "dark");
+            document.documentElement.setAttribute("data-theme", next);
             localStorage.setItem("theme", next);
             updateBtn(next);
           });
