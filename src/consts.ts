@@ -79,8 +79,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: "Facebook cá nhân",
   },
   {
-    href: "tel:0348579065",
-    label: "Số điện thoại",
+    href: "https://zalo.me/0348579065",
+    label: "Zalo",
   },
   {
     href: "https://github.com/Edeys",

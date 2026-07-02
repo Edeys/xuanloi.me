@@ -30,9 +30,9 @@ export const SOCIALS = [
     active: true,
   },
   {
-    name: "Phone",
-    href: "tel:0348579065",
-    linkTitle: `Gọi điện cho ${SITE.title}: 034.857.9065`,
+    name: "Zalo",
+    href: "https://zalo.me/0348579065",
+    linkTitle: `Nhắn tin Zalo cho ${SITE.title}`,
     icon: "phone",
     active: true,
   },
