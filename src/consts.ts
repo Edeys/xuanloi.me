@@ -44,7 +44,7 @@ export const SITE: Site = {
   showArchives: false,
   showBackButton: false,
   editPost: {
-    enabled: true,
+    enabled: false,
     text: "Sửa trên GitHub",
     url: "https://github.com/Edeys/xuanloi.me/edit/main/",
   },

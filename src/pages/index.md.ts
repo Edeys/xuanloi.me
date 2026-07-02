@@ -1,26 +1,25 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = async () => {
-  const markdownContent = `# Peter Steinberger (@steipete)
+  const markdownContent = `# Xuân Lợi
 
-AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.
+Chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.
 
-## Navigation
+## Điều hướng
 
-- [About](/about.md)
-- [Recent Posts](/posts.md)
-- [Archives](/archives.md)
+- [Về tôi](/about.md)
+- [Bài viết mới](/posts.md)
 - [RSS Feed](/rss.xml)
 
-## Links
+## Liên kết
 
-- Twitter: [@steipete](https://twitter.com/steipete)
-- GitHub: [@steipete](https://github.com/steipete)
-- Email: steipete@gmail.com
+- YouTube: [@xuanloi_mkt](https://www.youtube.com/@xuanloi_mkt)
+- GitHub: [@Edeys](https://github.com/Edeys)
+- Email: xuanloi.lc@gmail.com
 
 ---
 
-*This is the markdown-only version of steipete.me. Visit [steipete.me](https://steipete.me) for the full experience.*`;
+*Đây là phiên bản markdown của xuanloi.me. Truy cập [xuanloi.me](https://xuanloi.me) để trải nghiệm đầy đủ.*`;
 
   return new Response(markdownContent, {
     status: 200,
