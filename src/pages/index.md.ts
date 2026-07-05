@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = async () => {
-  const markdownContent = `# Xuân Lợi
+  const markdownContent = `# Đào Xuân Lợi
 
 Chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.
 

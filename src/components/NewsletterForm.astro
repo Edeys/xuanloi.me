@@ -6,35 +6,35 @@ export interface Props {
 const { variant = "default" } = Astro.props;
 ---
 
-<div class={variant === 'default' ? 'newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg p-6 my-8' : 'newsletter-compact mt-6'}>
+<div
+  class={variant === 'default' ? 'newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-accent rounded-lg p-6 my-8' : 'newsletter-compact mt-6'}
+  id="newsletter-form"
+>
   {variant === 'default' && (
-    <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+    <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
       Bài viết mới, câu chuyện thực tế và những góc nhìn thú vị gửi thẳng vào email của bạn.
     </p>
   )}
 
-  <form
-    action="https://buttondown.com/api/emails/embed-subscribe/xuanloi"
-    method="post"
-    target="_blank"
-    class="flex flex-col sm:flex-row gap-3"
-  >
-    <input type="hidden" name="tag" value="xuanloi" />
+  <form id="subscribe-form" class="flex flex-col sm:flex-row gap-3">
     <input
       type="text"
-      name="name"
+      id="subscribe-name"
       placeholder="Tên của bạn"
-      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+      autocomplete="name"
+      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
     />
     <input
       type="email"
-      name="email"
+      id="subscribe-email"
       placeholder="Email của bạn"
       required
-      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+      autocomplete="email"
+      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
     />
     <button
       type="submit"
+      id="subscribe-btn"
       class="px-6 py-2 bg-accent rounded-md hover:bg-accent/90 transition-colors font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
       style="color: white;"
     >
@@ -42,12 +42,57 @@ const { variant = "default" } = Astro.props;
     </button>
   </form>
 
+  <div id="subscribe-msg" class="text-sm mt-3 hidden"></div>
+
   {variant === 'default' && (
     <p class="text-xs text-gray-500 dark:text-gray-400 mt-3">
       2 lần mỗi tháng, nội dung chất lượng, không quảng cáo.
     </p>
   )}
 </div>
+
+<script>
+  const form = document.getElementById("subscribe-form");
+  const msg = document.getElementById("subscribe-msg");
+  const btn = document.getElementById("subscribe-btn");
+
+  form?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const name = document.getElementById("subscribe-name").value;
+    const email = document.getElementById("subscribe-email").value;
+
+    if (!email) return;
+
+    btn.disabled = true;
+    btn.textContent = "Đang gửi...";
+    msg.classList.add("hidden");
+
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, name }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        msg.textContent = "Đăng ký thành công! Cảm ơn bạn.";
+        msg.className = "text-sm mt-3 text-green-600 dark:text-green-400";
+        form.reset();
+      } else {
+        throw new Error(data.error || "Có lỗi xảy ra");
+      }
+    } catch (err) {
+      msg.textContent = err.message || "Có lỗi xảy ra. Vui lòng thử lại.";
+      msg.className = "text-sm mt-3 text-red-600 dark:text-red-400";
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Đăng ký";
+      msg.classList.remove("hidden");
+    }
+  });
+</script>
 
 <style>
   @media (max-width: 640px) {

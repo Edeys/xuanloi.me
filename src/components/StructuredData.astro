@@ -16,14 +16,14 @@ if (type === "BlogPosting") {
     description: data.description,
     author: {
       "@type": "Person",
-      name: data.author || "Xuân Lợi",
+      name: data.author || "Đào Xuân Lợi",
       url: "https://xuanloi.me/about",
     },
     datePublished: data.pubDatetime.toISOString(),
     dateModified: data.modDatetime?.toISOString() || data.pubDatetime.toISOString(),
     publisher: {
       "@type": "Person",
-      name: "Xuân Lợi",
+      name: "Đào Xuân Lợi",
       logo: {
         "@type": "ImageObject",
         url: "https://xuanloi.me/og.png",
@@ -43,7 +43,7 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Xuân Lợi",
+    name: "Đào Xuân Lợi",
     url: "https://xuanloi.me",
     image: "https://xuanloi.me/og.png",
     sameAs: [
@@ -59,13 +59,13 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Xuân Lợi",
+    name: "Đào Xuân Lợi",
     url: "https://xuanloi.me",
     description:
       "Chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.",
     author: {
       "@type": "Person",
-      name: "Xuân Lợi",
+      name: "Đào Xuân Lợi",
     },
     potentialAction: {
       "@type": "SearchAction",

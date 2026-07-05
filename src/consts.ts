@@ -32,10 +32,10 @@ interface Site {
 // Site configuration
 export const SITE: Site = {
   website: "https://xuanloi.me/",
-  author: "Xuân Lợi",
+  author: "Đào Xuân Lợi",
   profile: "https://xuanloi.me/about",
   desc: "Chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.",
-  title: "Xuân Lợi",
+  title: "Đào Xuân Lợi",
   ogImage: "",
   lightAndDarkMode: true,
   postPerIndex: 10,

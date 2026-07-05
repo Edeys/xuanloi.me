@@ -1,4 +1,4 @@
-import { SITE } from "./consts";
+import { SITE } from "./consts.ts";
 
 export const SOCIALS = [
   {
