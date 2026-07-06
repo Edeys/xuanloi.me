@@ -161,6 +161,16 @@ const canonicalURL = new URL(canonicalPath, Astro.site).toString();
     </article>
 
     <NewsletterForm />
+
+    <button
+      id="back-to-top"
+      class="focus-outline py-1 whitespace-nowrap hover:opacity-75 flex items-center gap-1 my-6 mx-auto"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block rotate-90">
+        <path d="m9 18 6-6-6-6"/>
+      </svg>
+      <span>Lên đầu trang</span>
+    </button>
   </main>
 
   <Footer />
@@ -322,6 +332,15 @@ const canonicalURL = new URL(canonicalPath, Astro.site).toString();
       initializeTwitterWidgets();
     }
   }
+
+  /** Scrolls to top when back-to-top button clicked */
+  function backToTop() {
+    document.querySelector("#back-to-top")?.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+  backToTop();
+  document.addEventListener("astro:page-load", backToTop);
 
   // Run the embed processing
   document.addEventListener("DOMContentLoaded", processEmbeds);

@@ -44,6 +44,16 @@ const { variant = "default" } = Astro.props;
 
   <div id="subscribe-msg" class="text-sm mt-3 hidden"></div>
 
+  <!-- Success modal overlay -->
+  <div id="subscribe-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="mx-4 p-8 rounded-2xl shadow-2xl text-center max-w-sm w-full" style="background: #16a34a;">
+      <div class="text-white text-5xl mb-4">&#10003;</div>
+      <p class="text-white text-xl font-semibold">Đăng ký thành công!</p>
+      <p class="text-white/80 mt-2">Cảm ơn bạn đã đăng ký nhận tin.</p>
+      <button id="modal-close" class="mt-6 px-6 py-2 bg-white text-green-700 rounded-lg font-medium hover:bg-white/90 transition-colors">Đóng</button>
+    </div>
+  </div>
+
   {variant === 'default' && (
     <p class="text-xs text-gray-500 dark:text-gray-400 mt-3">
       2 lần mỗi tháng, nội dung chất lượng, không quảng cáo.
@@ -54,7 +64,24 @@ const { variant = "default" } = Astro.props;
 <script>
   const form = document.getElementById("subscribe-form");
   const msg = document.getElementById("subscribe-msg");
+  const modal = document.getElementById("subscribe-modal");
+  const modalClose = document.getElementById("modal-close");
   const btn = document.getElementById("subscribe-btn");
+
+  function showModal() {
+    modal.classList.remove("pointer-events-none");
+    modal.style.opacity = "1";
+  }
+
+  function hideModal() {
+    modal.style.opacity = "0";
+    modal.classList.add("pointer-events-none");
+  }
+
+  modalClose?.addEventListener("click", hideModal);
+  modal?.addEventListener("click", (e) => {
+    if (e.target === modal) hideModal();
+  });
 
   form?.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -77,6 +104,7 @@ const { variant = "default" } = Astro.props;
       const data = await res.json();
 
       if (data.success) {
+        showModal();
         msg.textContent = "Đăng ký thành công! Cảm ơn bạn.";
         msg.className = "text-sm mt-3 text-green-600 dark:text-green-400";
         form.reset();

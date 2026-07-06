@@ -7,7 +7,7 @@ import { SITE } from "@/consts";
 import Layout from "@/layouts/Layout.astro";
 import getPostsByGroupCondition from "@/utils/getPostsByGroupCondition";
 
-const posts = await getCollection("blog", ({ data }) => !data.draft);
+const posts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
 
 const months = [
   "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6",

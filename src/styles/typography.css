@@ -15,6 +15,12 @@
   .prose h2#table-of-contents {
     @apply mb-2;
   }
+  .prose h2 {
+    color: var(--accent) !important;
+  }
+  .prose h3 {
+    color: var(--accent) !important;
+  }
   .prose details {
     @apply inline-block cursor-pointer text-foreground select-none;
   }
@@ -23,6 +29,9 @@
   }
   .prose h2#table-of-contents + p {
     @apply hidden;
+  }
+  .prose hr {
+    border-color: var(--accent) !important;
   }
 
   /* ===== Code Blocks & Syntax Highlighting ===== */

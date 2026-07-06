@@ -142,6 +142,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     <TableOfContents />
 
     <article id="article" class="mx-auto prose mt-6 max-w-3xl">
+
       {
         heroImage && (
           <img
@@ -265,27 +266,6 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
   }
   updateScrollProgress();
 
-  /** Attaches links to headings in the document,
-   *  allowing sharing of sections easily */
-  function addHeadingLinks() {
-    const headings = Array.from(
-      document.querySelectorAll("h2, h3, h4, h5, h6"),
-    );
-    for (const heading of headings) {
-      heading.classList.add("group");
-      const link = document.createElement("a");
-      link.className =
-        "heading-link ml-2 opacity-0 group-hover:opacity-100 focus:opacity-100";
-      link.href = "#" + heading.id;
-
-      const span = document.createElement("span");
-      span.ariaHidden = "true";
-      span.innerText = "#";
-      link.appendChild(span);
-      heading.appendChild(link);
-    }
-  }
-  addHeadingLinks();
 
   /** Attaches copy buttons to code blocks in the document,
    * allowing users to copy code easily. */
@@ -510,5 +490,9 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     width: 100%;
     height: 100%;
     border: 0;
+  }
+
+  hr.border-dashed {
+    border-color: var(--accent) !important;
   }
 </style>

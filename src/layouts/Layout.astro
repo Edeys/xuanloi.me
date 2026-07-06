@@ -132,7 +132,8 @@ const structuredData = {
     <script is:inline>
       (function() {
         function applyTheme() {
-          const cur = localStorage.getItem("theme") || "dark";
+          const stored = localStorage.getItem("theme");
+          const cur = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
           document.documentElement.setAttribute("data-theme", cur);
           return cur;
         }
