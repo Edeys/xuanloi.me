@@ -1,21 +1,21 @@
 ---
-// Analytics component for Vercel Analytics and Speed Insights
+// Analytics: Google Analytics 4 + Microsoft Clarity
 ---
 
-<!-- Vercel Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-749CWEC7W0"></script>
 <script>
-  if (typeof window !== 'undefined' && import.meta.env.PROD) {
-    import('@vercel/analytics').then(({ inject }) => {
-      inject();
-    });
-  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-749CWEC7W0');
 </script>
 
-<!-- Vercel Speed Insights -->
+<!-- Microsoft Clarity -->
 <script>
-  if (typeof window !== 'undefined' && import.meta.env.PROD) {
-    import('@vercel/speed-insights').then(({ injectSpeedInsights }) => {
-      injectSpeedInsights();
-    });
-  }
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "xi0gyzzi7p");
 </script>
