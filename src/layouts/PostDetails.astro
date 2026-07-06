@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry, render } from "astro:content";
+import TableOfContents from "@/components/TableOfContents.astro";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import BackButton from "@/components/BackButton.astro";
@@ -137,6 +138,9 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       </div>
       <EditPost class="max-sm:hidden" {hideEditPost} {post} />
     </div>
+
+    <TableOfContents />
+
     <article id="article" class="mx-auto prose mt-6 max-w-3xl">
       {
         heroImage && (
