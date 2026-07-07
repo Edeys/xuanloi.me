@@ -5,7 +5,7 @@ pubDatetime: 2026-06-28T00:00:00+07:00
 tags: ["marketing", "huong-dan", "phat-trien-ban-than"]
 ---
 
-Năm 2019, mình — Xuân Lợi — bắt đầu học marketing số.
+Năm 2019, mình bắt đầu học marketing số.
 
 Cũng như bao người mới, mình mở Google search "marketing số là gì", đọc 5 bài viết đầu tiên, ghi chép cẩn thận: SEO, Facebook Ads, Google Ads, Email Marketing, Content Marketing. 5 kênh. Mình nghĩ chỉ cần học hết 5 thứ này là sẽ làm được marketing.
 

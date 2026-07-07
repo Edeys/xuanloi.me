@@ -15,7 +15,7 @@ Và hàng trăm lần, mình ngồi yên — không làm gì khác ngoài việc
 
 ## Sự thật không đáng vui
 
-Mình — Xuân Lợi — từng nghĩ vấn đề là do thiếu kỷ luật. Thiếu động lực. Thiếu mục tiêu rõ ràng.
+Mình từng nghĩ vấn đề là do thiếu kỷ luật. Thiếu động lực. Thiếu mục tiêu rõ ràng.
 
 Nhưng sau nhiều lần thất bại, mình nhận ra vấn đề sâu hơn thế: **chúng ta có một hệ thống phòng thủ bên trong, được thiết kế để giữ chúng ta yên trong vùng an toàn.**
 

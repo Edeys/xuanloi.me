@@ -5,7 +5,7 @@ pubDatetime: 2026-07-07T07:00:00+07:00
 tags: ["phat-trien-ban-than", "tu-duy", "cuoc-song"]
 ---
 
-Có một nghịch lý mình (Xuân Lợi) từng không hiểu.
+Có một nghịch lý mình từng không hiểu.
 
 Những quyết định quan trọng nhất đời — có nên bỏ việc, có nên chuyển ngành, có nên bắt đầu một thứ mới — thường bị trì hoãn lâu nhất. Không phải vì thiếu thông tin. Mà vì sợ.
 

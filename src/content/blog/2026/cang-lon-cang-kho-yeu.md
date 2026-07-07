@@ -58,7 +58,7 @@ Nhưng vấn đề thực sự không nằm ở người kia. Nó nằm ở ch�
 
 ## Vậy làm thế nào để thoát?
 
-Mình (Xuân Lợi) không phải chuyên gia tình yêu. Mình chỉ là người đã từng ở trong cái bẫy đó và đã tìm ra cách bước ra.
+Mình không phải chuyên gia tình yêu. Mình chỉ là người đã từng ở trong cái bẫy đó và đã tìm ra cách bước ra.
 
 Đây là 3 bước mình đã áp dụng và thấy hiệu quả.
 

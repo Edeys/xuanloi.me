@@ -5,7 +5,7 @@ pubDatetime: 2026-07-07T10:00:00+07:00
 tags: ["phat-trien-ban-than", "tu-duy", "su-nghiep", "cuoc-song"]
 ---
 
-Mình (Đào Xuân Lợi) từng tin rằng cuộc đời thay đổi nhờ câu trả lời.
+Mình từng tin rằng cuộc đời thay đổi nhờ câu trả lời.
 
 Tìm được việc tốt, kiếm được nhiều tiền, gặp được đúng người — đó là đáp án. Vấn đề là mình không có đáp án.
 

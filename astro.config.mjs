@@ -14,6 +14,9 @@ import { SITE } from "./src/config.ts";
 export default defineConfig({
   site: SITE.website,
   trailingSlash: "never",
+  build: {
+    inlineStylesheets: "always",
+  },
   devToolbar: {
     enabled: false,
   },

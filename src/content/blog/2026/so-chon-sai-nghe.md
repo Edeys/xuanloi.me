@@ -103,7 +103,7 @@ Mình thấy nhiều người trẻ dành cả tuổi 20 để lo lắng về vi
 
 Nhưng họ không dành 6 tháng để thử một thứ.
 
-Sau gần 10 năm và 4 lần chuyển ngành, mình — Đào Xuân Lợi — tin điều này: không có nghề nào là sai lầm cả. Chỉ có khoảng thời gian bạn ngồi yên không làm gì mới là sai lầm.
+Sau gần 10 năm và 4 lần chuyển ngành, mình tin điều này: không có nghề nào là sai lầm cả. Chỉ có khoảng thời gian bạn ngồi yên không làm gì mới là sai lầm.
 
 Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có câu trả lời đúng.
 
