@@ -156,6 +156,22 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       <Content />
     </article>
 
+    <!-- Author Bio -->
+    <div class="mt-10 rounded-xl border border-accent/20 bg-accent/5 p-6">
+      <div class="flex items-start gap-4">
+        <div class="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-accent/10 text-lg font-bold text-accent">
+          ĐL
+        </div>
+        <div class="min-w-0">
+          <p class="font-semibold text-foreground">Đào Xuân Lợi</p>
+          <p class="mt-1 text-sm leading-relaxed text-foreground/70">
+            Marketing, viết lách và những bài học trên hành trình tự do.
+            <a href="/about" class="text-accent hover:underline">Tìm hiểu thêm →</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <NewsletterForm />
 
     <hr class="my-8 border-dashed" />

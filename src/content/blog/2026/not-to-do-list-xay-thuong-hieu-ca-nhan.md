@@ -7,7 +7,7 @@ tags: ["thuong-hieu-ca-nhan", "chien-luoc-noi-dung", "trai-nghiem"]
 
 # Not-To-Do List của người tự xây thương hiệu cá nhân từ con số 0
 
-Hai tháng trước mình đăng 60 bài lên Facebook cá nhân. Có bài viết, có video ngắn, có bài chia sẻ ảnh — đều đặn mỗi ngày. Kết quả: 11 người theo dõi mới, 0 inbox hỏi thuê, và 1 cảm giác rất rõ ràng là mình đang tự huỷ mình bằng sự chăm chỉ.
+Hai tháng trước mình (Xuân Lợi) đăng 60 bài lên Facebook cá nhân. Có bài viết, có video ngắn, có bài chia sẻ ảnh — đều đặn mỗi ngày. Kết quả: 11 người theo dõi mới, 0 inbox hỏi thuê, và 1 cảm giác rất rõ ràng là mình đang tự huỷ mình bằng sự chăm chỉ.
 
 Mình ngồi trước màn hình tối đó, đọc lại 1 bài mình viết. Nó không tệ. Nó cũng không hay. Nó chỉ là một bài nữa trong 60 bài, và mình không thể nhớ nổi mình muốn nói gì khi viết nó.
 

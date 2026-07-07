@@ -7,7 +7,7 @@ tags: ["thuong-hieu-ca-nhan", "tu-duy", "chien-luoc-noi-dung"]
 
 # Tại sao người giỏi lại chính là người khó lên tiếng nhất
 
-Mình quan sát một hiện tượng lặp đi lặp lại ở rất nhiều người có chuyên môn thật: người càng giỏi, càng khó mở miệng. Họ làm tốt việc của mình trong nhiều năm, có khách hàng, có kết quả, nhưng khi được hỏi *"Anh chị có thể chia sẻ điều này lên mạng không?"* thì câu trả lời phổ biến nhất vẫn là *"Chưa đủ giỏi đâu"*.
+Mình (Đào Xuân Lợi) quan sát một hiện tượng lặp đi lặp lại ở rất nhiều người có chuyên môn thật: người càng giỏi, càng khó mở miệng. Họ làm tốt việc của mình trong nhiều năm, có khách hàng, có kết quả, nhưng khi được hỏi *"Anh chị có thể chia sẻ điều này lên mạng không?"* thì câu trả lời phổ biến nhất vẫn là *"Chưa đủ giỏi đâu"*.
 
 Bài này không phải để động viên ai. Nó là để mổ xẻ một sự thật khó chịu: chính cái giỏi của bạn đang là cái bẫy giữ bạn ở số 0 trên Internet. Khi đọc xong, bạn sẽ nhìn rõ 3 lớp rào cản thật (không phải "thiếu tự tin" như mọi người hay nói), và có trong tay một khung để bắt đầu mà không cần tự biến mình thành người khác.
 

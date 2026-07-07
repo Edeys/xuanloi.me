@@ -34,7 +34,7 @@ export const SITE: Site = {
   website: "https://xuanloi.me/",
   author: "Đào Xuân Lợi",
   profile: "https://xuanloi.me/about",
-  desc: "Chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.",
+  desc: "Đào Xuân Lợi chia sẻ về cuộc sống, marketing và những điều tôi học được trên hành trình của mình.",
   title: "Đào Xuân Lợi",
   ogImage: "",
   lightAndDarkMode: true,
@@ -48,7 +48,7 @@ export const SITE: Site = {
     text: "Sửa trên GitHub",
     url: "https://github.com/Edeys/xuanloi.me/edit/main/",
   },
-  dynamicOgImage: false,
+  dynamicOgImage: true,
   lang: "vi",
   timezone: "Asia/Ho_Chi_Minh",
 };

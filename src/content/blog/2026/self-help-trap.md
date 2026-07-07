@@ -5,7 +5,7 @@ pubDatetime: 2026-07-06T14:00:00+07:00
 tags: ["phat-trien-ban-than", "tam-ly", "nguoi-tre", "tu-duy"]
 ---
 
-Năm 2019, mình có một tủ sách self-help dày hơn bất kỳ thứ gì mình từng sở hữu.
+Năm 2019, mình — lúc ấy còn là một nhân viên marketing tên Xuân Lợi — có một tủ sách self-help dày hơn bất kỳ thứ gì mình từng sở hữu.
 
 7 Habits. Deep Work. Atomic Habits. The Power of Habit. Think and Grow Rich. How to Win Friends. Dịch thuật và tiếng Việt lẫn lộn. Mình đọc hết, gạch chân hết, ghi chép hết.
 

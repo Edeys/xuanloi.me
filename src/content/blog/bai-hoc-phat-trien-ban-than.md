@@ -5,7 +5,7 @@ pubDatetime: 2026-06-25T00:00:00+07:00
 tags: ["phat-trien-ban-than", "tu-duy", "cuoc-song"]
 ---
 
-Bài viết này là bài đầu tiên trên blog — viết khi mình mới bắt đầu, còn lộn xộn trong suy nghĩ. Mình viết lại nó để phản ánh đúng hơn những gì mình đã học được sau gần 5 năm.
+Bài viết này là bài đầu tiên trên blog của Đào Xuân Lợi — viết khi mình mới bắt đầu, còn lộn xộn trong suy nghĩ. Mình viết lại nó để phản ánh đúng hơn những gì mình đã học được sau gần 5 năm.
 
 ---
 
