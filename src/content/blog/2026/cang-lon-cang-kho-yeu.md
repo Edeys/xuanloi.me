@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: "Càng lớn càng khó yêu. Không phải vì bạn khó tính, mà vì bạn có quá nhiều lựa chọn"
 description: "Vì sao người trẻ 20-30 có nhiều lựa chọn hơn bao giờ hết, nhưng lại khó tìm được một mối quan hệ thật sự?"
 pubDatetime: 2026-07-05T10:00:00+07:00
@@ -109,8 +108,12 @@ Mình viết để bạn nhận ra một điều: lý do bạn khó yêu thời 
 App hẹn hò kiếm tiền từ việc bạn lướt, không phải từ việc bạn tìm được người yêu. Mạng xã hội kiếm tiền từ thời gian bạn ở trên đó, không phải từ hạnh phúc của bạn.
 
 Nhận ra được cái bẫy là bước đầu tiên.
-
+	
 Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa chọn đó.
+
+---
+
+*Bài viết này và [bài về sợ chọn sai nghề](/posts/so-chon-sai-nghe) cùng nói về một nỗi sợ — sợ chọn sai. Trong tình yêu cũng như sự nghiệp.*
 
 ---
 

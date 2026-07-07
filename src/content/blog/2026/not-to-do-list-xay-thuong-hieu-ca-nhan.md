@@ -1,8 +1,8 @@
 ---
 title: "Not-To-Do List của người tự xây thương hiệu cá nhân từ con số 0"
 description: "60 bài đăng, 11 follow, 0 inbox — và bài học về 8 điều nên dừng lại khi xây thương hiệu cá nhân từ con số 0."
-pubDatetime: 2026-07-04T00:00:00.000Z
-tags: ["thuong-hieu-ca-nhan", "personal-branding", "content-strategy", "trai-nghiem"]
+pubDatetime: 2026-07-04T07:00:00+07:00
+tags: ["thuong-hieu-ca-nhan", "chien-luoc-noi-dung", "trai-nghiem"]
 ---
 
 # Not-To-Do List của người tự xây thương hiệu cá nhân từ con số 0
@@ -184,4 +184,4 @@ Câu chuyện mình kể ở đầu — 60 bài, 11 follow, 0 inbox — không p
 
 ---
 
-*Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Nếu muốn theo dõi, có thể đăng ký qua [trang chủ](/) hoặc follow [YouTube](https://www.youtube.com/@xuanloi_mkt).*
+*Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc thêm [bài đầu tiên giải thích tại sao người giỏi lại khó lên tiếng](/posts/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat) nếu bạn muốn hiểu rõ hơn về 3 rào cản tâm lý.*
