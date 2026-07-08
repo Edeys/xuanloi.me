@@ -16,7 +16,7 @@ const months = [
 ];
 
 // Collect unique categories from posts
-const uniqueCategories = [...new Set(posts.map((p) => p.data.category).filter(Boolean))];
+const uniqueCategories = Object.keys(CATEGORY_MAP);
 ---
 
 <Layout title={`Bài viết | ${SITE.title}`} description="Tất cả bài viết blog về cuộc sống và marketing.">
@@ -36,10 +36,10 @@ const uniqueCategories = [...new Set(posts.map((p) => p.data.category).filter(Bo
           uniqueCategories.map((cat) => (
             <button
               data-filter="category"
-              data-value={slugifyStr(cat)}
+              data-value={cat}
               class="filter-pill px-3 py-1 text-sm rounded-full border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:border-accent hover:text-accent transition-colors"
             >
-              {CATEGORY_MAP[slugifyStr(cat)] || cat}
+              {CATEGORY_MAP[cat]}
             </button>
           ))
         }
