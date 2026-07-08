@@ -104,7 +104,7 @@ export const CATEGORY_MAP: Record<string, string> = {
   "thuong-hieu-ca-nhan": "Thương hiệu cá nhân",
   "su-nghiep": "Sự nghiệp",
   "cuoc-song": "Cuộc sống",
-  "nong-nghiep": "Nông nghiệp",
+  "nong-nghiep": "Nông nghiệp / Cà Phê",
 };
 
 // Icon map for social media
