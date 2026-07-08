@@ -2,6 +2,7 @@
 title: "Bài học từ hành trình phát triển bản thân — và 3 điều mình đã thay đổi cách nghĩ"
 description: "Mình từng nghĩ phát triển bản thân là đọc sách, học khóa học, nghe podcast. Sau 5 năm, mình nhận ra mình đã sai ngay từ định nghĩa."
 pubDatetime: 2026-06-25T00:00:00+07:00
+category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tu-duy", "cuoc-song"]
 ---
 

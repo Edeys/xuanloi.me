@@ -2,6 +2,7 @@
 title: "Not-To-Do List của người tự xây thương hiệu cá nhân từ con số 0"
 description: "60 bài đăng, 11 follow, 0 inbox — và bài học về 8 điều nên dừng lại khi xây thương hiệu cá nhân từ con số 0."
 pubDatetime: 2026-07-04T07:00:00+07:00
+category: "Thương hiệu cá nhân"
 tags: ["thuong-hieu-ca-nhan", "chien-luoc-noi-dung", "trai-nghiem"]
 ---
 

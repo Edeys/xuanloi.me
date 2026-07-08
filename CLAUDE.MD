@@ -127,6 +127,9 @@ Quy trình chuẩn khi a yêu cầu chỉnh sửa website:
 - **Không sáng tạo** thêm feature ngoài yêu cầu
 - **Mỗi thay đổi** phải build OK trước khi deploy
 - **A có quyền rollback** — nếu a thấy site hỏng, em revert ngay
+- **Avatar/ảnh cá nhân**: tuyệt đối KHÔNG tự ý xử lý ảnh (nén, crop, đổi nền, bo tròn). Nếu cần thay đổi avatar, chỉ dùng lại ảnh đã commit trong git history. Dùng `git show <commit>:public/assets/avatar_round.webp` để restore ảnh gốc. Nếu a đưa ảnh mới, phải để a tự xử lý và đưa đường dẫn, em chỉ copy vào project.
+- **PageSpeed tối ưu**: KHÔNG nén ảnh avatar hay ảnh đại diện cá nhân vì PageSpeed. Chỉ tối ưu code (CSS, JS, HTML, font), không động vào ảnh nhân vật chính.
+- **Đổi nội dung text**: đúng chính tả a yêu cầu, không suy luận hay tự sửa. Nếu đã deploy xong mà a yêu cầu sửa tiếp — sửa file, build, deploy lại. Không commit cho đến khi a OK hết.
 
 ### Deploy method
 

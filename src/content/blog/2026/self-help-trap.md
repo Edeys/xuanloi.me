@@ -2,6 +2,7 @@
 title: "Mình từng đọc 50 quyển self-help và nhận ra: mình chỉ đang trì hoãn bằng cách 'phát triển bản thân'"
 description: "Cái bẫy của người trẻ: càng đọc sách phát triển bản thân, càng ít hành động. Và cách thoát ra."
 pubDatetime: 2026-07-06T14:00:00+07:00
+category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tam-ly", "nguoi-tre", "tu-duy"]
 ---
 

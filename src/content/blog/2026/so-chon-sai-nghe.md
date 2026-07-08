@@ -2,6 +2,7 @@
 title: "Ở tuổi 23, mình từng sợ chọn sai nghề hơn là sợ thất nghiệp — và đó là sai lầm lớn nhất"
 description: "3 câu hỏi giúp mình thoát khỏi vòng lặp lo âu định hướng và bắt đầu đi đúng hướng."
 pubDatetime: 2026-07-06T10:00:00+07:00
+category: "Sự nghiệp"
 tags: ["su-nghiep", "nguoi-tre", "dinh-huong", "phat-trien-ban-than"]
 ---
 

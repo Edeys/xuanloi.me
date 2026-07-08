@@ -2,6 +2,7 @@
 title: "Tại sao người giỏi lại chính là người khó lên tiếng nhất"
 description: "Hơn 80% người có chuyên môn thật đều im lặng trên Internet. Bài này mổ xẻ 3 lớp rào cản thật và 1 khung để bắt đầu, không cần tự xưng chuyên gia."
 pubDatetime: 2026-07-04T07:00:00+07:00
+category: "Thương hiệu cá nhân"
 tags: ["thuong-hieu-ca-nhan", "tu-duy", "chien-luoc-noi-dung"]
 ---
 

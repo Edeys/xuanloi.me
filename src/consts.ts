@@ -96,6 +96,17 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ];
 
+// Category map: slug → display name
+export const CATEGORY_MAP: Record<string, string> = {
+  "phat-trien-ban-than": "Phát triển bản thân",
+  marketing: "Marketing",
+  "tam-ly-tinh-yeu": "Tâm lý & Tình yêu",
+  "thuong-hieu-ca-nhan": "Thương hiệu cá nhân",
+  "su-nghiep": "Sự nghiệp",
+  "cuoc-song": "Cuộc sống",
+  "nong-nghiep": "Nông nghiệp",
+};
+
 // Icon map for social media
 export const ICON_MAP: Record<string, string> = {
   YouTube: "youtube",
