@@ -31,6 +31,7 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
             src="/assets/avatar_round.webp"
             alt="Đào Xuân Lợi"
             class="w-40 h-40 rounded-full object-cover flex-shrink-0 border-4 border-accent transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
+            fetchpriority="high" loading="eager" decoding="sync"
           />
         </a>
         <div class="flex-1 sm:text-left">
