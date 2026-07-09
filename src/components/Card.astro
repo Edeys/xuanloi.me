@@ -9,9 +9,10 @@ import Datetime from "./Datetime.astro";
 export interface Props extends CollectionEntry<"blog"> {
   variant?: "h2" | "h3";
   showImage?: boolean;
+  dataCategory?: string;
 }
 
-const { variant = "h2", data, id, filePath, body, showImage = true } = Astro.props;
+const { variant = "h2", data, id, filePath, body, showImage = true, dataCategory } = Astro.props;
 
 const { title, description, pubDatetime, modDatetime, timezone, heroImage } = data;
 const readingTime = calculateReadingTime(body ?? "");
@@ -22,7 +23,7 @@ const headerProps = {
 };
 ---
 
-<li class="my-8">
+<li class="my-8 post-item" {...(dataCategory ? { "data-category": dataCategory } : {})}>
   <div>
     <a
       href={getPath(id, filePath)}

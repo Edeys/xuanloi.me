@@ -87,14 +87,9 @@ const uniqueCategories = Object.keys(CATEGORY_MAP);
                           );
                         })
                         .map((data) => {
-                          const catSlug = slugifyStr(data.data.category || "");
+                          const catSlug = Object.entries(CATEGORY_MAP).find(([, v]) => v === data.data.category)?.[0] || slugifyStr(data.data.category || "");
                           return (
-                            <li
-                              class="post-item"
-                              data-category={catSlug}
-                            >
-                              <Card {...data} />
-                            </li>
+                            <Card {...data} dataCategory={catSlug} />
                           );
                         })}
                     </ul>
