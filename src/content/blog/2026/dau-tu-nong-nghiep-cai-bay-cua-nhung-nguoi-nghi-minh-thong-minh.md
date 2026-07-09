@@ -1,5 +1,5 @@
 ---
-title: "Đầu tư nông nghiệp — cái bẫy của những người nghĩ mình thông minh"
+title: "Đầu tư đất nông nghiệp — cái bẫy của những người nghĩ mình thông minh"
 description: "Nhiều người mua đất nông nghiệp để chờ lên giá rồi lướt sóng — và thua. Bài học từ mảnh đất Dak Nia: nông nghiệp không vận hành như chứng khoán."
 pubDatetime: 2026-07-09T10:00:00+07:00
 category: "Nông nghiệp / Cà Phê"

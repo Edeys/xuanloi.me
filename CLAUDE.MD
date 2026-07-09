@@ -109,16 +109,76 @@ npm run preview
 - **React** - For interactive components (v19.x)
 - **MDX** - For enhanced markdown support
 
-## Workflow: "Yêu cầu → Live"
+## Workflow: "Yêu cầu → Live" (BẮT BUỘC)
 
-Quy trình chuẩn khi a yêu cầu chỉnh sửa website:
+**Đây là quy trình chuẩn, phải tuân theo 100% mỗi lần a yêu cầu thay đổi. Không bỏ qua bước nào.**
 
-1. **A mô tả yêu cầu** — sửa cái gì, file nào, link gì, nội dung gì
-2. **Em xác nhận scope** — list file sẽ sửa/tạo, tóm tắt thay đổi, rủi ro. A confirm "OK làm" trước khi em sửa
-3. **Em sửa local + build verify** — `npm run build` phải OK mới qua bước sau
-4. **Em deploy luôn** — a không cần hỏi, deploy là bước mặc định của workflow. SCP `dist/` từ local lên `/var/www/xuanloi.me` qua SSH key `~/.ssh/do-9router`, sau đó reload nginx
-5. **Em verify** — curl/check xuanloi.me xác nhận site update
-6. **Commit history** — sau khi verify OK, em commit + push code lên GitHub (a chọn push hay không)
+### Step 1: Nhận yêu cầu & xác nhận scope
+
+1. A mô tả yêu cầu (nội dung mới, sửa lỗi, cập nhật...)
+2. Em **BẮT BUỘC** confirm scope:
+   - List file sẽ tạo/sửa
+   - Tóm tắt thay đổi
+   - Rủi ro (nếu có)
+3. **Chờ a nói "OK"** hoặc "làm đi" trước khi động tay vào code
+
+### Step 2: Tạo/sửa file
+
+- Tạo/sửa file theo yêu cầu
+- Blog post mới: tạo file `.md` trong `src/content/blog/YYYY/`
+- Frontmatter đầy đủ: title, description, pubDatetime, category, tags, featured (nếu nổi bật)
+- **Kiểm tra `data-category`** trên `.post-item` — phải mapping đúng với CATEGORY_MAP key, KHÔNG dùng slugifyStr trực tiếp
+- **Kiểm tra category filter** — click filter xem có đúng số bài không
+
+### Step 3: Build verify
+
+```bash
+npm run build
+```
+
+- **Phải OK** (exit code 0) mới qua bước sau
+- Nếu lỗi: fix lỗi, build lại đến khi OK
+
+### Step 4: Deploy lên server (a ko cần hỏi, deploy là mặc định)
+
+```bash
+cd dist && scp -i ~/.ssh/do-9router -r * root@129.212.238.158:/var/www/xuanloi.me/
+ssh -i ~/.ssh/do-9router root@129.212.238.158 "nginx -t && systemctl reload nginx"
+```
+
+### Step 5: Verify live site
+
+- **BẮT BUỘC verify cả 2 trang**:
+  - `curl -s https://xuanloi.me/ | grep "từ khoá bài mới"` — kiểm tra homepage
+  - `curl -s https://xuanloi.me/posts/ | grep "từ khoá bài mới"` — kiểm tra trang /posts/
+  - `curl -s https://xuanloi.me/posts/ | grep "data-category"` — kiểm tra category gắn đúng
+- Kiểm tra link bài viết live: `curl -s https://xuanloi.me/posts/2026/...`
+- **Nếu đổi title**: verify cả title cũ và mới trên live site
+
+### Step 6: Commit + Push GitHub
+
+- Sau khi deploy + verify OK, hỏi a: "Giờ em commit + push lên GitHub nhé?"
+- Nếu a OK:
+  1. `git add` các file đã sửa/tạo (không add node_modules, dist/, .env)
+  2. `git commit -m "..."` với message rõ ràng (coi recent commits để theo style)
+  3. Dùng `gh auth token` trong remote URL nếu HTTPS bị firewall chặn
+  4. `git push`
+  5. Reset remote URL về sạch sau push
+
+### Step 7: Báo cáo kết quả
+- Thông báo cho a biết đã hoàn thành, tình trạng deploy, link live
+
+## Khi có lỗi phát sinh
+
+- **Build lỗi**: fix, build lại → deploy → verify
+- **Deploy lỗi**: báo a, sửa lỗi deploy → deploy lại → verify
+- **A yêu cầu sửa thêm sau deploy**: sửa file → build → deploy → verify. **Không commit cho đến khi a OK hết mọi thứ**
+
+### Quy tắc ĐẶC BIỆT cho bài viết mới
+
+1. **Sau khi tạo file blog post**: build → deploy → verify → commit/push
+2. **Nếu a yêu cầu sửa title/slug sau deploy**: sửa file → build → deploy → verify. **KHÔNG commit** nếu chưa có OK cuối từ a
+3. **File slug** (`ten-bai-viet.md`) khác với title hiển thị — nếu a yêu cầu đổi title thì chỉ đổi frontmatter `title`, không tự ý rename file slug
 
 ### Nguyên tắc cứng
 
@@ -130,12 +190,30 @@ Quy trình chuẩn khi a yêu cầu chỉnh sửa website:
 - **Avatar/ảnh cá nhân**: tuyệt đối KHÔNG tự ý xử lý ảnh (nén, crop, đổi nền, bo tròn). Nếu cần thay đổi avatar, chỉ dùng lại ảnh đã commit trong git history. Dùng `git show <commit>:public/assets/avatar_round.webp` để restore ảnh gốc. Nếu a đưa ảnh mới, phải để a tự xử lý và đưa đường dẫn, em chỉ copy vào project.
 - **PageSpeed tối ưu**: KHÔNG nén ảnh avatar hay ảnh đại diện cá nhân vì PageSpeed. Chỉ tối ưu code (CSS, JS, HTML, font), không động vào ảnh nhân vật chính.
 - **Đổi nội dung text**: đúng chính tả a yêu cầu, không suy luận hay tự sửa. Nếu đã deploy xong mà a yêu cầu sửa tiếp — sửa file, build, deploy lại. Không commit cho đến khi a OK hết.
+- **Verify đầy đủ**: build xong phải verify live site, không chỉ dựa vào build thành công
+- **Bài mới trên /posts/**: nếu bài không hiện trên /posts/ live → kiểm tra draft flag, kiểm tra file có trong dist không, kiểm tra browser cache
 
-### Deploy method
+### Deploy method (Windows - local)
 
-- **Manual SCP** từ local: `rsync -avz --delete -e "ssh -i ~/.ssh/do-9router" dist/ root@129.212.238.158:/var/www/xuanloi.me/`
-- Sau đó SSH vào server chạy: `nginx -t && systemctl reload nginx`
-- Verify: `curl -sI https://xuanloi.me/`
+Trên Windows, `rsync` không có sẵn. Dùng lệnh này:
+
+```bash
+cd dist && scp -i ~/.ssh/do-9router -r * root@129.212.238.158:/var/www/xuanloi.me/
+```
+
+Sau đó SSH reload nginx:
+
+```bash
+ssh -i ~/.ssh/do-9router root@129.212.238.158 "nginx -t && systemctl reload nginx"
+```
+
+Verify:
+
+```bash
+curl -sI https://xuanloi.me/
+# Kiểm tra HTTP status 200
+# Kiểm tra content thay đổi đã xuất hiện chưa
+```
 
 ## Deployment Context
 
