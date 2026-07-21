@@ -1,0 +1,24 @@
+---
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import { SITE } from "@/config";
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title={`500 Lỗi máy chủ | ${SITE.title}`} description="Trang lỗi nội bộ. Vui lòng thử lại sau.">
+  <Header />
+
+  <main id="main-content" class="mx-auto flex max-w-3xl flex-1 items-center justify-center">
+    <div class="mb-14 flex flex-col items-center justify-center">
+      <h1 class="text-9xl font-bold text-accent">500</h1>
+      <span aria-hidden="true">(╯°□°）╯︵ ┻━┻</span>
+      <p class="mt-4 text-2xl sm:text-3xl">Lỗi máy chủ nội bộ</p>
+      <LinkButton href="/" class="my-6 text-lg underline decoration-dashed underline-offset-8">
+        Về trang chủ
+      </LinkButton>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
