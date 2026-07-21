@@ -3,7 +3,7 @@ title: "17 câu hỏi từng thay đổi cuộc đời mình — và có thể t
 description: "9 câu hỏi đã thay đổi cách mình sống và làm việc trong gần 10 năm qua — về bản thân, sự nghiệp và cuộc sống."
 pubDatetime: 2026-07-07T10:00:00+07:00
 category: "Phát triển bản thân"
-tags: ["phat-trien-ban-than", "tu-duy", "su-nghiep", "cuoc-song"]
+tags: ["phat-trien-ban-than", "tu-duy", "thoi-gian"]
 ---
 
 Mình từng tin rằng cuộc đời thay đổi nhờ câu trả lời.

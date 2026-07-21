@@ -3,7 +3,7 @@ title: "23 Bản Nháp, 8 Tháng, 0 Bài Đăng"
 description: "23 bản nháp trong 8 tháng. Không cái nào được đăng. Đây là câu chuyện về lý do mình không dám bấm nút Publish — và điều thay đổi sau đó."
 pubDatetime: 2026-07-09T07:00:00+07:00
 category: "Phát triển bản thân"
-tags: ["phat-trien-ban-than", "viet-lach", "trai-nghiem", "vuot-qua-noi-so"]
+tags: ["phat-trien-ban-than", "noi-so", "hanh-trinh"]
 ---
 
 # 23 Bản Nháp, 8 Tháng, 0 Bài Đăng

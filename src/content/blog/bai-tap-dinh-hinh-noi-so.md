@@ -3,7 +3,7 @@ title: "Bài tập 'định hình nỗi sợ' — thứ giúp mình ra quyết �
 description: "3 bước viết ra nỗi sợ thay vì để nó lơ lửng trong đầu. Một bài tập đơn giản giúp mình vượt qua những quyết định khó nhất."
 pubDatetime: 2026-07-07T07:00:00+07:00
 category: "Phát triển bản thân"
-tags: ["phat-trien-ban-than", "tu-duy", "cuoc-song"]
+tags: []
 ---
 
 Có một nghịch lý mình từng không hiểu.

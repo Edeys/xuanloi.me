@@ -3,7 +3,7 @@ title: "Bài học từ hành trình phát triển bản thân — và 3 điều
 description: "Mình từng nghĩ phát triển bản thân là đọc sách, học khóa học, nghe podcast. Sau 5 năm, mình nhận ra mình đã sai ngay từ định nghĩa."
 pubDatetime: 2026-06-25T00:00:00+07:00
 category: "Phát triển bản thân"
-tags: ["phat-trien-ban-than", "tu-duy", "cuoc-song"]
+tags: ["phat-trien-ban-than", "bai-hoc", "hanh-trinh"]
 ---
 
 Bài viết này là bài đầu tiên trên blog của Đào Xuân Lợi — viết khi mình mới bắt đầu, còn lộn xộn trong suy nghĩ. Mình viết lại nó để phản ánh đúng hơn những gì mình đã học được sau gần 5 năm.

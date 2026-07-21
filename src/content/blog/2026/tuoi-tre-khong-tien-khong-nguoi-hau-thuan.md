@@ -3,7 +3,7 @@ title: "Tuổi trẻ không tiền, không người hậu thuẫn — chỉ còn
 description: "Tuổi trẻ không tiền, không người dẫn đường — chỉ còn thời gian. Đừng để 10 năm đẹp nhất trôi qua trong những lần chạy loạn. Chọn một nghề, học từ gốc."
 pubDatetime: 2026-07-12T10:00:00+07:00
 category: "Sự nghiệp"
-tags: ["tuoi-tre", "su-nghiep", "thoi-gian", "phat-trien-ban-than", "tu-duy", "bi-kich-cai-chung", "nghe-nghiep", "tuoi-20"]
+tags: ["thoi-gian", "su-nghiep", "phat-trien-ban-than"]
 ---
 
 Mở

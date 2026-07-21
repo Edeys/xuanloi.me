@@ -3,7 +3,7 @@ title: "Bắt đầu với marketing số: 3 thứ mình ước mình biết s�
 description: "Marketing số không phải là chạy quảng cáo hay viết bài đều đặn. Đây là 3 điều thực sự quan trọng mà không ai nói với người mới."
 pubDatetime: 2026-06-28T00:00:00+07:00
 category: "Marketing"
-tags: ["marketing", "huong-dan", "phat-trien-ban-than"]
+tags: ["marketing", "bai-hoc"]
 ---
 
 Năm 2019, mình bắt đầu học marketing số.

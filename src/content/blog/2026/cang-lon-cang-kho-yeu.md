@@ -3,7 +3,7 @@ title: "Càng lớn càng khó yêu. Không phải vì bạn khó tính, mà vì
 description: "Vì sao người trẻ 20-30 có nhiều lựa chọn hơn bao giờ hết, nhưng lại khó tìm được một mối quan hệ thật sự?"
 pubDatetime: 2026-07-05T10:00:00+07:00
 category: "Tâm lý & Tình yêu"
-tags: ["tam-ly", "tinh-yeu", "nguoi-tre", "phat-trien-ban-than"]
+tags: ["tam-ly", "tinh-yeu", "nguoi-tre"]
 ---
 
 Một tối cuối tuần, đứa em họ mới tốt nghiệp đại học qua nhà mình chơi.

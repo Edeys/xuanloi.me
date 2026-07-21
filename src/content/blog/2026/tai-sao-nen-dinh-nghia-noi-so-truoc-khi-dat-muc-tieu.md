@@ -3,7 +3,7 @@ title: "Tại sao nên định nghĩa nỗi sợ trước khi đặt mục tiêu
 description: "Bạn muốn bắt đầu làm content, muốn quay video, nhưng mãi chưa đăng được cái nào. Vấn đề không phải bạn lười. Đó là vì bạn chưa làm bài tập này."
 pubDatetime: 2026-07-18T08:00:00+07:00
 category: "Phát triển bản thân"
-tags: ["tu-duy", "noi-so", "hanh-trinh-so-0", "content-creation"]
+tags: ["tu-duy", "noi-so", "hanh-trinh", "bai-hoc"]
 ---
 
 Bạn có bao giờ làm cái này không?

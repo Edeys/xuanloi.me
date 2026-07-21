@@ -3,7 +3,7 @@ title: "Khoảnh khắc mình nhận ra: nếu cứ sống thế này, 5 năm n�
 description: "Không phải đau ốm gì to tát — chỉ là một buổi sáng không thể ngồi dậy. Và đó là hồi chuông cảnh tỉnh mình cần."
 pubDatetime: 2026-07-07T22:00:00+07:00
 category: "Cuộc sống"
-tags: ["trai-nghiem", "cuoc-song", "phat-trien-ban-than"]
+tags: ["suc-khoe", "cuoc-song", "bai-hoc"]
 ---
 
 Mình từng nghĩ sức khỏe là thứ mặc định.

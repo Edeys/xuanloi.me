@@ -3,7 +3,7 @@ title: "Tại sao muốn tiến lên mà không làm được? — 3 rào cản 
 description: "Bạn muốn phát triển, muốn giỏi hơn, muốn thu nhập cao hơn — nhưng không hiểu sao không làm được. Vấn đề không phải bạn lười. Đây là 3 rào cản thật và cách gỡ từng cái."
 pubDatetime: 2026-07-02T08:00:00+07:00
 category: "Phát triển bản thân"
-tags: ["phat-trien-ban-than", "tu-duy", "cuoc-song"]
+tags: ["phat-trien-ban-than", "tu-duy", "bai-hoc"]
 ---
 
 "Tôi muốn phát triển bản thân. Tôi muốn có thu nhập cao hơn. Tôi muốn trở nên giỏi giang."
