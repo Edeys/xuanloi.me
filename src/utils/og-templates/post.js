@@ -1,5 +1,102 @@
 import satori from "satori";
+// import { html } from "satori-html";
 import loadGoogleFonts from "../loadGoogleFont";
+
+/**
+ * Open Graph Image Template for Blog Posts
+ *
+ * This template generates social media preview cards for blog posts.
+ */
+
+// const markup = html`<div
+//       style={{
+//         background: "#fefbfb",
+//         width: "100%",
+//         height: "100%",
+//         display: "flex",
+//         alignItems: "center",
+//         justifyContent: "center",
+//       }}
+//     >
+//       <div
+//         style={{
+//           position: "absolute",
+//           top: "-1px",
+//           right: "-1px",
+//           border: "4px solid #000",
+//           background: "#ecebeb",
+//           opacity: "0.9",
+//           borderRadius: "4px",
+//           display: "flex",
+//           justifyContent: "center",
+//           margin: "2.5rem",
+//           width: "88%",
+//           height: "80%",
+//         }}
+//       />
+
+//       <div
+//         style={{
+//           border: "4px solid #000",
+//           background: "#fefbfb",
+//           borderRadius: "4px",
+//           display: "flex",
+//           justifyContent: "center",
+//           margin: "2rem",
+//           width: "88%",
+//           height: "80%",
+//         }}
+//       >
+//         <div
+//           style={{
+//             display: "flex",
+//             flexDirection: "column",
+//             justifyContent: "space-between",
+//             margin: "20px",
+//             width: "90%",
+//             height: "90%",
+//           }}
+//         >
+//           <p
+//             style={{
+//               fontSize: 72,
+//               fontWeight: "bold",
+//               maxHeight: "84%",
+//               overflow: "hidden",
+//             }}
+//           >
+//             {post.data.title}
+//           </p>
+//           <div
+//             style={{
+//               display: "flex",
+//               justifyContent: "space-between",
+//               width: "100%",
+//               marginBottom: "8px",
+//               fontSize: 28,
+//             }}
+//           >
+//             <span>
+//               by{" "}
+//               <span
+//                 style={{
+//                   color: "transparent",
+//                 }}
+//               >
+//                 "
+//               </span>
+//               <span style={{ overflow: "hidden", fontWeight: "bold" }}>
+//                 {post.data.author}
+//               </span>
+//             </span>
+
+//             <span style={{ overflow: "hidden", fontWeight: "bold" }}>
+//               {SITE.title}
+//             </span>
+//           </div>
+//         </div>
+//       </div>
+//     </div>`;
 
 export default async (post) => {
   return satori(
@@ -7,7 +104,7 @@ export default async (post) => {
       type: "div",
       props: {
         style: {
-          background: "#1a1b26",
+          background: "#fefbfb",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -22,10 +119,10 @@ export default async (post) => {
                 position: "absolute",
                 top: "-1px",
                 right: "-1px",
-                border: "3px solid #565f89",
-                background: "#24283b",
-                opacity: "0.8",
-                borderRadius: "12px",
+                border: "4px solid #000",
+                background: "#ecebeb",
+                opacity: "0.9",
+                borderRadius: "4px",
                 display: "flex",
                 justifyContent: "center",
                 margin: "2.5rem",
@@ -38,9 +135,9 @@ export default async (post) => {
             type: "div",
             props: {
               style: {
-                border: "3px solid #c0caf5",
-                background: "#1a1b26",
-                borderRadius: "12px",
+                border: "4px solid #000",
+                background: "#fefbfb",
+                borderRadius: "4px",
                 display: "flex",
                 justifyContent: "center",
                 margin: "2rem",
@@ -54,37 +151,21 @@ export default async (post) => {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
-                    margin: "24px",
+                    margin: "20px",
                     width: "90%",
                     height: "90%",
                   },
                   children: [
                     {
-                      type: "div",
+                      type: "p",
                       props: {
                         style: {
-                          display: "flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "flex-start",
-                          height: "85%",
-                          maxHeight: "85%",
+                          fontSize: 72,
+                          fontWeight: "bold",
+                          maxHeight: "84%",
                           overflow: "hidden",
                         },
-                        children: [
-                          {
-                            type: "p",
-                            props: {
-                              style: {
-                                fontSize: 72,
-                                fontWeight: "bold",
-                                color: "#c0caf5",
-                                lineHeight: 1.2,
-                              },
-                              children: post.data.title,
-                            },
-                          },
-                        ],
+                        children: post.data.title,
                       },
                     },
                     {
@@ -94,22 +175,39 @@ export default async (post) => {
                           display: "flex",
                           justifyContent: "space-between",
                           width: "100%",
-                          fontSize: 22,
-                          borderTop: "1px solid #565f89",
-                          paddingTop: "12px",
+                          marginBottom: "8px",
+                          fontSize: 28,
                         },
                         children: [
                           {
                             type: "span",
                             props: {
-                              style: { color: "#9aa5ce" },
-                              children: `by ${post.data.author}`,
+                              children: [
+                                "by ",
+                                {
+                                  type: "span",
+                                  props: {
+                                    style: { color: "transparent" },
+                                    children: '"',
+                                  },
+                                },
+                                {
+                                  type: "span",
+                                  props: {
+                                    style: {
+                                      overflow: "hidden",
+                                      fontWeight: "bold",
+                                    },
+                                    children: post.data.author,
+                                  },
+                                },
+                              ],
                             },
                           },
                           {
                             type: "span",
                             props: {
-                              style: { color: "#7aa2f7", fontWeight: "bold" },
+                              style: { overflow: "hidden", fontWeight: "bold" },
                               children: "xuanloi.me",
                             },
                           },
@@ -128,7 +226,7 @@ export default async (post) => {
       width: 1200,
       height: 630,
       embedFont: true,
-      fonts: await loadGoogleFonts(post.data.title + post.data.author + "xuanloi.me"),
+      fonts: await loadGoogleFonts(post.data.title + post.data.author + "xuanloi.me" + "bởi"),
     },
   );
 };
