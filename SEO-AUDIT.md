@@ -54,18 +54,34 @@ Ngưỡng đạt: **SEO ≥ 75 · AEO ≥ 70 · GEO ≥ 70**.
 
 Mỗi bài sửa theo thứ tự vá điểm của skill (mục E checklist): quick-answer đầu bài → FAQ → heading câu hỏi → internal link → ảnh/alt → meta/title/slug → freshness.
 
-**Đợt 1 (3 bài, gồm bài đạt + bài có tiềm năng nhất):**
-1. `vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat` — đã đạt, chỉ vá lỗi lẻ (ảnh, FAQ, slug) để giữ chuẩn
-2. `not-to-do-list-xay-thuong-hieu-ca-nhan` — dài nhất (12.4KB), chủ đề search được, AEO/GEO thấp
-3. `tuoi-tre-khong-tien-khong-nguoi-hau-thuan` — chủ đề có lượng tìm kiếm, điểm trung bình
+### Baseline GSC thật (90 ngày: 2026-05-08 → 2026-08-06)
 
-**Đợt 2 (4 bài):** `bat-dau-voi-marketing-so` (đạt 2/3), `8-thu-tot-hon-ca-mien-phi-trong-thoi-tri-tue-nhan-tao`, `17-cau-hoi-thay-doi-cuoc-doi`, `23-ban-nhap-8-thang-0-bai-dang`
+Dữ liệu kéo qua API (service account) — site mới, chưa có click nào, nhưng **5 bài đã xuất hiện ở trang 1 Google** (position ≤ 10). Đây là nhóm có tác động cao nhất: cải thiện điểm → cải thiện CTR/position ngay được.
 
-**Đợt 3 (5 bài):** `bai-hoc-phat-trien-ban-than`, `khoanh-khac-nhan-ra-suc-khoe-bi-hong`, `bai-tap-dinh-hinh-noi-so`, `dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh`, `cang-lon-cang-kho-yeu`
+| Trang | Clicks | Impressions | CTR | Position |
+|---|:--:|:--:|:--:|:--:|
+| `/posts/2026/so-chon-sai-nghe/` | 0 | 4 | 0% | 10.0 |
+| `/posts/2026/self-help-trap/` | 0 | 1 | 0% | **3.0** |
+| `/posts/2026/not-to-do-list-xay-thuong-hieu-ca-nhan/` | 0 | 1 | 0% | **4.0** |
+| `/posts/2026/17-cau-hoi-thay-doi-cuoc-doi/` | 0 | 1 | 0% | 5.0 |
+| `/posts/2026/cang-lon-cang-kho-yeu/` | 0 | 1 | 0% | 9.0 |
+| `/` (trang chủ) | 0 | 1 | 0% | 8.0 |
+| `/tags/phat-trien-ban-than/` | 0 | 1 | 0% | 3.0 |
 
-**Đợt 4 (4 bài còn lại):** `self-help-trap`, `so-chon-sai-nghe`, `tai-sao-muon-tien-len-mai-khong-lam-duoc`, `ty-phu-xe-om-chan-ly-ve-dat-nong-nghiep`, `dem-khong-ngu-vi-kich-ban-trong-dau`
+> ⚠️ Ghi nhận: GSC lưu cả 2 URL `/so-chon-sai-nghe` (không slash, 1 impression) và `/so-chon-sai-nghe/` (có slash, 4 impressions) — cần xử lý canonical/trailing slash để không phân tán tín hiệu.
 
-> ⚠️ Nên hoán đổi thứ tự nếu GSC cho thấy bài khác đang có traffic cao — ưu tiên bài có rank nhưng điểm thấp.
+**Đợt 1 (5 bài — theo dữ liệu GSC thật, tất cả đang ở trang 1):**
+1. `so-chon-sai-nghe` — nhiều impression nhất (4), SEO 48/AEO 36/GEO 39
+2. `self-help-trap` — position 3, SEO 48/AEO 56/GEO 57
+3. `not-to-do-list-xay-thuong-hieu-ca-nhan` — position 4, SEO 65/AEO 48/GEO 48
+4. `17-cau-hoi-thay-doi-cuoc-doi` — position 5, SEO 54/AEO 62/GEO 53
+5. `cang-lon-cang-kho-yeu` — position 9, SEO 48/AEO 62/GEO 57
+
+**Đợt 2 (4 bài):** `bat-dau-voi-marketing-so` (đạt 2/3), `8-thu-tot-hon-ca-mien-phi-trong-thoi-tri-tue-nhan-tao`, `23-ban-nhap-8-thang-0-bai-dang`, `vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat` (đã đạt, vá lỗi lẻ)
+
+**Đợt 3 (5 bài):** `bai-hoc-phat-trien-ban-than`, `khoanh-khac-nhan-ra-suc-khoe-bi-hong`, `bai-tap-dinh-hinh-noi-so`, `dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh`, `tuoi-tre-khong-tien-khong-nguoi-hau-thuan`
+
+**Đợt 4 (3 bài còn lại):** `tai-sao-muon-tien-len-mai-khong-lam-duoc`, `ty-phu-xe-om-chan-ly-ve-dat-nong-nghiep`, `dem-khong-ngu-vi-kich-ban-trong-dau`
 
 ## 4. Dự kiến điểm sau tối ưu
 
@@ -77,6 +93,8 @@ Với việc vá đúng 7 nhóm lỗi trên (bỏ qua `outbound`/`sources` theo 
 | AEO | 55 | 75–85 | ≥ 70 |
 | GEO | 49 | 65–75 | ≥ 70 (không chắc vì thiếu `sources` 12đ) |
 
-## 5. Baseline GSC cần xuất (chờ user)
+## 5. Baseline GSC
 
-Trước khi sửa bài nào, xuất từ Google Search Console (90 ngày, bộ lọc trang = `xuanloi.me/posts/*`): clicks, impressions, CTR, avg position theo từng URL → lưu thành `GSC-BASELINE.csv` để đối chiếu sau 2–8 tuần.
+Đã kéo qua API thành công (service account `gsc-reader`, scope webmasters.readonly) → `GSC-BASELINE.csv`. Site mới: 0 clicks, ~10 impressions tổng trong 90 ngày. Baseline này là mốc để đối chiếu sau 2–8 tuần (bài nào đạt điểm cao mà vẫn 0 click = vấn đề khác: CTR/title chưa hấp dẫn).
+
+Script: `node scripts/gsc-baseline.mjs --queries` (config: `scripts/gsc-config.json`, gitignored).
