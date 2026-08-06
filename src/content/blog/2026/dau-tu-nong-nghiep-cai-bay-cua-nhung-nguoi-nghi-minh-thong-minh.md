@@ -1,8 +1,7 @@
 ---
 title: "Đầu tư đất nông nghiệp: cái bẫy của kẻ nghĩ mình thông minh"
 description: "Đầu tư đất nông nghiệp không giống chứng khoán: mua chờ lên giá là công thức của 90% người thua. Bài học từ mảnh đất Dak Nia năm 2018."
-pubDatetime: 2026-07-09T10:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2024-10-01T00:00:00+07:00
 category: "Nông nghiệp / Cà Phê"
 tags: ["nong-nghiep", "dau-tu", "dat-nong-nghiep", "tay-nguyen", "dak-nong", "bai-hoc-kinh-doanh", "tu-duy", "ca-phe"]
 keyword: "đầu tư đất nông nghiệp"
@@ -103,8 +102,6 @@ Nếu câu trả lời là *"để làm"* — bạn đã hiểu đúng. Cây tr�
 - Đất bỏ hoang không sinh lời: nó chỉ là cục nợ khi thị trường đóng băng.
 - Cây trồng tạo dòng tiền đều đặn — đất không cần bán vẫn sinh lời.
 - Câu hỏi duy nhất: bạn mua đất để bán lại hay để làm?
-
-*Cập nhật lần cuối: 06/08/2026*
 
 Mình vẫn còn giữ mảnh đất ở Dak Nia. Chưa bán. Chưa có ý định bán. Nhưng mỗi lần lên thăm, nhìn cây cối xanh tốt, mình lại thấy yên tâm hơn bất kỳ cuốn sổ đỏ nào nằm trong két.
 

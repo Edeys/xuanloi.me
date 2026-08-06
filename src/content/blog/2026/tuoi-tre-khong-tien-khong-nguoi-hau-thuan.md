@@ -1,8 +1,7 @@
 ---
 title: "Tuổi trẻ không tiền, không người hậu thuẫn: chỉ còn thời gian"
 description: "Tuổi trẻ không tiền, không người dẫn đường — chỉ còn thời gian. Đừng để 10 năm đẹp nhất trôi qua trong những lần chạy loạn. Chọn một nghề, học từ gốc."
-pubDatetime: 2026-07-12T10:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2025-06-15T00:00:00+07:00
 category: "Sự nghiệp"
 tags: ["thoi-gian", "su-nghiep", "phat-trien-ban-than"]
 keyword: "tuổi trẻ không tiền"
@@ -125,8 +124,6 @@ Bạn chọn một ô, đặt toàn bộ thời gian của mình vào đó, đà
 - Bi kịch của cái chung: mỗi lần chạy theo cơ hội mới là một lần thả bò lên đồng cỏ tuổi trẻ.
 - Kiếm tiền để sống là đáng trọng — nhưng đừng quên xây một nghề thực thụ.
 - Chọn một nghề có đường dài, học từ gốc, đặt cược tập trung — đó là chiến lược tối ưu khi nguồn lực hạn chế.
-
-*Cập nhật lần cuối: 06/08/2026*
 
 Tuổi trẻ không tiền, không người hậu thuẫn — đó không phải là bất lợi. Đó là điểm xuất phát của rất nhiều người.
 

@@ -1,8 +1,7 @@
 ---
 title: "Đêm mình không ngủ được vì những kịch bản trong đầu"
 description: "Những kịch bản xấu mình tự dựng lúc 2 giờ sáng — nợ, đất, tương lai — chưa từng xảy ra. Câu chuyện về đáy và cách mình học cách không tin bộ phim của chính mình."
-pubDatetime: 2026-08-05T10:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2026-08-01T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["noi-so", "tu-duy", "tam-ly", "phat-trien-ban-than"]
 keyword: "kịch bản trong đầu"
@@ -155,8 +154,6 @@ Nghe đơn giản. Nhưng phải mất nhiều tháng mình mới làm được 
 - Không thể dừng nỗi sợ bằng lý trí — chỉ có thể đưa nó ra khỏi đầu bằng bút và giấy.
 - Đổi câu hỏi: từ "nếu xảy ra thì sao?" thành "nó đã xảy ra chưa?" và "mình làm được gì?"
 - Đáy không phải nơi bạn rơi xuống — đáy là lúc bạn tin vào những thứ mình tự bịa ra.
-
-*Cập nhật lần cuối: 06/08/2026*
 
 Mình không dám nói mình hết mất ngủ. Nói thật, vẫn còn những đêm.
 

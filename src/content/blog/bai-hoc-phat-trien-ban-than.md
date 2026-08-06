@@ -1,8 +1,7 @@
 ---
 title: "Phát triển bản thân: 3 bài học sau 5 năm"
 description: "Phát triển bản thân không phải biết thêm mà là bỏ bớt. Sau 5 năm đọc sách, học khóa học, mình nhận ra 3 điều thay đổi cách nghĩ về chính quá trình này."
-pubDatetime: 2026-06-25T00:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2015-07-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "bai-hoc", "hanh-trinh"]
 keyword: "phát triển bản thân"
@@ -76,7 +75,5 @@ Nếu không có câu trả lời, thì mọi cuốn sách, mọi khóa học, m
 - Kiên nhẫn là làm mỗi ngày dù không muốn, không phải ngồi đợi.
 - Sức khỏe là nền tảng — nó yếu thì mọi thứ xây trên đó đều đổ.
 - Mọi sách vở, khóa học chỉ có nghĩa khi tuần này bạn tốt hơn tuần trước.
-
-*Cập nhật lần cuối: 06/08/2026*
 
 *Bài này là bài đầu tiên trên blog, được viết lại sau gần 1 năm — vì mình đã thay đổi. Nếu bạn đang trên hành trình tương tự, có thể bài [tại sao muốn tiến lên mà không làm được](/posts/tai-sao-muon-tien-len-mai-khong-lam-duoc/) sẽ hữu ích — hoặc [bài về cái bẫy self-help](/posts/2026/self-help-trap/) nếu bạn đang đọc nhiều mà làm ít.*

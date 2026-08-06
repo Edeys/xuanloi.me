@@ -1,8 +1,7 @@
 ---
 title: "23 bản nháp, 8 tháng, 0 bài đăng"
 description: "23 bản nháp trong 8 tháng, không cái nào được đăng. Đây là câu chuyện về lý do mình không dám bấm nút Publish — và điều thay đổi sau đó."
-pubDatetime: 2026-07-09T07:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2024-01-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "noi-so", "hanh-trinh"]
 keyword: "bản nháp"
@@ -89,8 +88,6 @@ Nếu bạn đang có một folder đầy bản nháp chưa dám đăng, cách m
 - "Đủ hay" là vòng lặp không có điểm dừng — nó không phải cái đích.
 - Cái chết của người mới không phải thất bại, mà là không dám bắt đầu.
 - Bài đầu tiên đăng không cần hay nhất — chỉ cần bạn dám bấm nút Publish.
-
-*Cập nhật lần cuối: 06/08/2026*
 
 Có bao nhiêu người ở đây cũng có một folder "23 bản nháp" của riêng mình?
 

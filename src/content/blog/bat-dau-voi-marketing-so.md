@@ -1,8 +1,7 @@
 ---
 title: "Bắt đầu với marketing số: 3 thứ mình ước mình biết sớm hơn"
 description: "Marketing số không phải là chạy quảng cáo hay viết bài đều đặn. Đây là 3 điều thực sự quan trọng mà không ai nói với người mới."
-pubDatetime: 2026-06-28T00:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2016-04-01T00:00:00+07:00
 category: "Marketing"
 tags: ["marketing", "bai-hoc"]
 keyword: "marketing số"
@@ -94,7 +93,5 @@ Nếu trả lời được 2 câu đó, phần còn lại chỉ là kỹ thuật
 - 3 bẫy của người mới: học 5 kênh cùng lúc, chạy theo thuật toán, đo sai chỉ số.
 - Làm 1 kênh trong 6 tháng, nghe khách hàng 1 tháng, đo đúng doanh thu và chi phí.
 - Toàn bộ marketing rút gọn thành 2 câu hỏi: giúp ai, và họ có thấy mình không?
-
-*Cập nhật lần cuối: 06/08/2026*
 
 *Bài này nằm trong quá trình mình hệ thống lại những gì đã học về marketing và xây thương hiệu cá nhân. Anh em có thể đọc thêm [bài về personal branding](/posts/2026/not-to-do-list-xay-thuong-hieu-ca-nhan/) để thấy mình đã áp dụng marketing cho chính mình thế nào, và [9 câu hỏi thay đổi cuộc đời](/posts/2026/17-cau-hoi-thay-doi-cuoc-doi/) để tìm hướng đi trước khi học kỹ thuật.*

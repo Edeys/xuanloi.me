@@ -1,8 +1,8 @@
 ---
 title: "Tại sao người giỏi lại chính là người khó lên tiếng nhất"
 description: "Người giỏi thường là người im lặng nhất: hơn 80% người có chuyên môn thật không xuất hiện công khai. 3 lớp rào cản thật và khung để bắt đầu."
-pubDatetime: 2026-07-04T07:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2017-09-01T00:00:00+07:00
+
 category: "Thương hiệu cá nhân"
 tags: ["thuong-hieu-ca-nhan", "tu-duy", "chien-luoc-noi-dung"]
 keyword: "người giỏi"

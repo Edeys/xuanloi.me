@@ -1,8 +1,7 @@
 ---
 title: "Khoảnh khắc mình nhận ra sức khỏe đang hỏng"
 description: "Sức khỏe người trẻ dễ hỏng hơn bạn nghĩ: một buổi sáng không ngồi dậy được đã thay đổi cách mình sống. 3 thói quen nhỏ đã cứu mình."
-pubDatetime: 2026-07-07T22:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2022-08-15T00:00:00+07:00
 category: "Cuộc sống"
 tags: ["suc-khoe", "cuoc-song", "bai-hoc"]
 keyword: "sức khỏe"
@@ -89,8 +88,6 @@ Nhưng mình hết đau lưng. Ngủ ngon hơn. Tập trung tốt hơn. Và quan
 - "Nợ sức khỏe": mỗi lần thức khuya, ăn vội, bỏ tập là một khoản vay — cơ thể sẽ trình hóa đơn.
 - Sức khỏe là nền tảng: nó yếu thì việc, học, quan hệ đều sụp theo.
 - 3 thay đổi nhỏ đủ cứu bạn: ngủ trước 12h, đi bộ 20 phút, ăn một bữa tử tế.
-
-*Cập nhật lần cuối: 06/08/2026*
 
 Mình viết bài này không phải để kêu gọi bạn tập gym hay chạy bộ. Mình viết để nói: sức khỏe không phải thứ bạn cải thiện khi có thời gian. Nó là thứ bạn mất đi từng ngày nếu không chú ý.
 

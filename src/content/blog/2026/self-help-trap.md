@@ -1,8 +1,7 @@
 ---
 title: "Self-help và trì hoãn: bài học sau 50 quyển sách"
 description: "Càng đọc sách self-help, càng ít hành động — đó là hội chứng nghiện học. 3 câu hỏi giúp bạn đọc để làm thay vì đọc để trì hoãn."
-pubDatetime: 2026-07-06T14:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2020-07-01T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tam-ly", "nguoi-tre", "tu-duy"]
 keyword: "self-help"
@@ -121,8 +120,6 @@ Câu hỏi hơi ngạo nhưng rất hữu ích. Nó giúp mình nhận ra: phầ
 - Não bộ không phân biệt được học và làm — cảm giác thỏa mãn khi đọc là ảo.
 - Quy tắc mới: đọc 1 chương, dừng lại, làm theo — một quyển sách dùng 3 tháng còn hơn 3 ngày không áp dụng gì.
 - Trước khi đọc, hỏi: mình sẽ làm gì khác sau khi đọc quyển này?
-
-*Cập nhật lần cuối: 06/08/2026*
 
 Mình vẫn đọc self-help. Nhưng mỗi năm chỉ 4-5 quyển, thay vì 20-30 như trước.
 

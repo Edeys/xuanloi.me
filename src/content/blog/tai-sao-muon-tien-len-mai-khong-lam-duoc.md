@@ -1,8 +1,7 @@
 ---
 title: "Muốn tiến lên mà không làm được: 3 rào cản thật"
 description: "Muốn tiến lên mà không làm được không phải vì lười — mà vì 3 rào cản bên trong: sợ bị nhìn thấy thất bại, quá tải lựa chọn, bắt đầu quá lớn. Cách gỡ từng cái."
-pubDatetime: 2026-07-02T08:00:00+07:00
-modDatetime: 2026-08-06T00:00:00+07:00
+pubDatetime: 2016-12-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tu-duy", "bai-hoc"]
 keyword: "muốn tiến lên mà không làm được"
@@ -97,7 +96,5 @@ Sau 30 ngày, bạn sẽ có 30 câu. Đó là bằng chứng 100% bạn đã ti
 Bạn không cần một kế hoạch hoàn hảo. Bạn cần một bước nhỏ, ngay hôm nay. Một bước thôi. Rồi ngày mai thêm một bước.
 
 Bài viết này không phải để thuyết phục bạn. Nó là để nhắc bạn — cũng như nhắc chính mình — điều mà cả hai đều đã biết nhưng hay quên.
-
-*Cập nhật lần cuối: 06/08/2026*
 
 *Bài này liên quan đến bài [Mình từng đọc 50 quyển self-help](/posts/2026/self-help-trap/) — nếu bạn thấy mình ở trong vòng lặp "học mà không làm", bài đó sẽ nói thêm về cách thoát. Còn nếu bạn đang kẹt ở nỗi sợ quyết định, hãy thử [bài tập định hình nỗi sợ](/posts/bai-tap-dinh-hinh-noi-so/) — viết ra điều tồi tệ nhất thay vì để nó lơ lửng trong đầu.*
