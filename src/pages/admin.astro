@@ -1,0 +1,107 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout>
+  <main class="max-w-2xl mx-auto p-6 pt-12">
+    <h1 class="text-2xl font-bold mb-6">Tạo bài viết mới</h1>
+
+    <form id="post-form" class="flex flex-col gap-4">
+      <div>
+        <label class="block font-semibold mb-1">Tiêu đề</label>
+        <input
+          type="text"
+          name="title"
+          required
+          class="w-full p-2 border rounded"
+          placeholder="Nhập tiêu đề bài viết..."
+        />
+      </div>
+
+      <div>
+        <label class="block font-semibold mb-1">Mô tả ngắn</label>
+        <textarea
+          name="description"
+          required
+          rows="3"
+          class="w-full p-2 border rounded"
+          placeholder="Mô tả cho SEO..."
+        ></textarea>
+      </div>
+
+      <div>
+        <label class="block font-semibold mb-1">Ngày giờ xuất bản</label>
+        <input
+          type="datetime-local"
+          name="pubDatetime"
+          required
+          class="w-full p-2 border rounded"
+        />
+      </div>
+
+      <div>
+        <label class="block font-semibold mb-1">Tags (phân cách bằng dấu phẩy)</label>
+        <input
+          type="text"
+          name="tags"
+          class="w-full p-2 border rounded"
+          placeholder="marketing, suy nghĩ,..."
+        />
+      </div>
+
+      <div>
+        <label class="block font-semibold mb-1">Nội dung (Markdown)</label>
+        <textarea
+          name="body"
+          required
+          rows="12"
+          class="w-full p-2 border rounded font-mono"
+          placeholder="# Nội dung bài viết..."
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="px-4 py-2 bg-accent text-white rounded hover:opacity-90"
+      >
+        Tạo bài viết
+      </button>
+    </form>
+
+    <div id="result" class="mt-4 hidden"></div>
+
+    <script>
+      document.getElementById('post-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData);
+
+        const slug = data.title
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '');
+
+        const year = new Date(data.pubDatetime).getFullYear();
+        const datetime = new Date(data.pubDatetime).toISOString().replace(/\.\d{3}/, '');
+
+        const frontmatter = `---
+title: "${data.title}"
+description: "${data.description}"
+pubDatetime: ${datetime}+07:00
+tags: [${data.tags ? data.tags.split(',').map(t => '"' + t.trim() + '"').join(', ') : ''}]
+featured: false
+---
+
+${data.body}`;
+
+        const result = document.getElementById('result');
+        result.innerHTML = `
+          <h2 class="font-bold mb-2">File markdown cần tạo:</h2>
+          <p class="mb-2">Tạo file tại: <code>src/content/blog/${year}/${slug}.md</code></p>
+          <textarea class="w-full h-64 p-2 border rounded font-mono text-xs">${frontmatter}</textarea>
+        `;
+        result.classList.remove('hidden');
+      });
+    </script>
+  </main>
+</Layout>
