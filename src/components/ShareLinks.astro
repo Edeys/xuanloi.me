@@ -32,6 +32,22 @@ const iconMap = {
     {
       SHARE_LINKS.map((social) => {
         const IconComponent = iconMap[social.icon as keyof typeof iconMap];
+        if (social.icon === "mail") {
+          return (
+            <a
+              href="#"
+              class="group inline-block hover:text-accent p-3 sm:p-2 hover:rotate-6"
+              title={social.linkTitle}
+              data-share-url={URL}
+              onclick="event.preventDefault(); const el = this; el.href = 'mail' + 'to:?subject=' + encodeURIComponent('Xem bài viết này') + '&body=' + encodeURIComponent(el.dataset.shareUrl); window.location.href = el.href;"
+            >
+              {IconComponent && (
+                <IconComponent class="inline-block size-8 sm:size-6 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent" />
+              )}
+              <span class="sr-only">{social.linkTitle}</span>
+            </a>
+          );
+        }
         return (
           <LinkButton
             href={`${social.href + URL}`}
