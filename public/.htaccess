@@ -2,6 +2,10 @@
 # xuanloi.me - LiteSpeed/.htaccess hardening
 # =============================================
 
+# --- Custom error pages ---
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
 # --- Canonical host: redirect www -> non-www ---
 <IfModule mod_rewrite.c>
   RewriteEngine On
