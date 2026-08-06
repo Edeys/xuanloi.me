@@ -85,7 +85,7 @@ export default async () => {
                             type: "p",
                             props: {
                               style: { fontSize: 28 },
-                              children: SITE.desc,
+                              children: "Tôi viết về cuộc sống, marketing, đầu tư nông nghiệp và những điều tôi học được trên hành trình của mình.",
                             },
                           },
                         ],

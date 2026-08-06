@@ -42,3 +42,8 @@ AddType image/svg+xml .svg
   ExpiresByType text/css "access plus 7 days"
   ExpiresByType application/javascript "access plus 7 days"
 </IfModule>
+
+# --- OG images: short cache (regenerated every build) ---
+<FilesMatch "index\.png$">
+  Header set Cache-Control "public, max-age=3600"
+</FilesMatch>
