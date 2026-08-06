@@ -24,8 +24,6 @@ Và nó chưa từng có một cảnh tốt lành nào.
 
 ---
 
-## Vì sao mình không ngủ được?
-
 Hồi đó, mình đang có quá nhiều thứ treo lơ lửng.
 
 Những mối quan hệ quanh mình, mình không có thời gian dành để xây dựng. Chúng rạn nứt từng ngày.
@@ -80,8 +78,6 @@ Cái ngày mình sợ nhất, nó chưa từng đến. Nó chỉ tồn tại tro
 
 ---
 
-## Vì sao không thể dừng kịch bản trong đầu bằng lý trí?
-
 Mình bắt đầu để ý một thứ.
 
 Mỗi lần lo lắng, mình đều xem kịch bản đó là thật. Mình trả lời nó. Mình tức giận với nó. Mình sợ nó.
@@ -97,8 +93,6 @@ Tâm sự với bạn bè — họ bảo: "Mày nghĩ nhiều quá." Mình biế
 Mỗi cách đều thất bại. Vì mình đang cố thuyết phục nỗi sợ bằng lý trí. Mà nỗi sợ thì không bao giờ nghe lý trí.
 
 ---
-
-## Điều gì thực sự đã thay đổi?
 
 Rồi một đêm.
 
@@ -178,4 +172,4 @@ Kịch bản trong đầu không phải dự báo tương lai. Nó là sản ph�
 
 Và nỗi sợ, thì không bao giờ biết trước được ngày mai.
 
-*Đắk Nông, 2026 — Nếu bạn cũng có những kịch bản trong đầu lúc nửa đêm, bài [tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) dùng chung cách gỡ: viết ra giấy thay vì để lơ lửng. Còn nếu nỗi sợ khiến bạn không bắt đầu được gì, hãy đọc [muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/).*
+*Đắk Nông, 2026 — Nếu bạn cũng có những kịch bản trong đầu lúc nửa đêm, bài [tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) dùng chung cách gỡ: viết ra giấy thay vì để lơ lửng.*

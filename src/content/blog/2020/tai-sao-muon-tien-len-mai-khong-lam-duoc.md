@@ -16,7 +16,7 @@ Và hàng trăm lần, mình ngồi yên — không làm gì khác ngoài việc
 
 ---
 
-## Vì sao muốn tiến lên mà không làm được?
+## Sự thật không đáng vui
 
 Mình từng nghĩ vấn đề là do thiếu kỷ luật. Thiếu động lực. Thiếu mục tiêu rõ ràng.
 
@@ -26,7 +26,7 @@ Nó không phải kẻ thù. Nó là cơ chế sinh tồn. Nhưng trong thế gi
 
 ---
 
-## 3 rào cản thực sự nào ngăn bạn tiến lên?
+## 3 rào cản thực sự
 
 ### 1. Sợ thất bại — nhưng không phải kiểu bạn nghĩ
 
@@ -58,12 +58,6 @@ Mình học được điều này từ "Atomic Habits" — nhưng áp dụng th�
 
 ## 3 bước áp dụng ngay
 
-Cách áp dụng cụ thể:
-
-1. **Bỏ mục tiêu sang một bên** — nghĩ hôm nay mình sẽ làm gì trong 10 phút, thay vì "6 tháng nữa sẽ khác".
-2. **Đặt mục tiêu 15 phút, không hơn** — khi đã ngồi xuống, bạn thường làm thêm; nếu không, 15 phút vẫn là thắng.
-3. **Ghi lại 1 câu mỗi ngày** — "Hôm nay mình đã làm được [việc nhỏ]" — sau 30 ngày bạn có 30 câu là bằng chứng tiến lên.
-
 ### Bước 1: Bỏ mục tiêu sang một bên
 
 Đừng nghĩ đến "giỏi tiếng Anh" hay "6 tháng nữa sẽ khác". Hãy nghĩ: **hôm nay mình sẽ làm gì trong 10 phút?**
@@ -86,4 +80,4 @@ Viết đến đây, mình chợt nhớ lại bao nhiêu lần mình ngồi trư
 
 Bài viết này mình viết ra không phải để thuyết phục bạn. Nó là để nhắc bạn — cũng như nhắc chính mình — điều mà cả hai đều đã biết nhưng hay quên.
 
-*Bài này liên quan đến bài [Mình từng đọc 50 quyển self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình ở trong vòng lặp "học mà không làm", bài đó sẽ nói thêm về cách thoát. Còn nếu bạn đang kẹt ở nỗi sợ quyết định, hãy thử [bài tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) — viết ra điều tồi tệ nhất thay vì để nó lơ lửng trong đầu.*
+*Bài này liên quan đến bài [Mình từng đọc 50 quyển self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình ở trong vòng lặp "học mà không làm", bài đó sẽ nói thêm về cách thoát.*

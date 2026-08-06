@@ -20,7 +20,7 @@ Cho đến khi mình làm một bài tập đơn giản — thay vì cố gắng
 
 ---
 
-## Vì sao nỗi sợ lại khiến ta không dám quyết định?
+## Nghịch lý của nỗi sợ
 
 Khi bạn đứng trước một quyết định lớn, não bạn thường làm một việc: phóng đại rủi ro.
 
@@ -34,11 +34,7 @@ Một khi bạn ngồi xuống, cầm bút, và viết ra chi tiết "điều t�
 
 ## Bài tập 3 bước mình làm mỗi khi sợ một quyết định
 
-Mình không làm bài tập này hàng tháng. Mình chỉ làm nó khi đứng trước một quyết định lớn khiến mình trằn trọc hơn 3 đêm. Cách thực hiện:
-
-1. **Viết ra điều tồi tệ nhất có thể xảy ra** — cụ thể, chi tiết, không chung chung.
-2. **Liệt kê cách ngăn chặn hoặc khắc phục** — nếu nó xảy ra, bạn sửa thế nào?
-3. **Tính cái giá của việc không hành động** — không hành động thường đắt hơn hành động.
+Mình không làm bài tập này hàng tháng. Mình chỉ làm nó khi đứng trước một quyết định lớn khiến mình trằn trọc hơn 3 đêm.
 
 ### Bước 1: Viết ra điều tồi tệ nhất có thể xảy ra
 
@@ -83,7 +79,7 @@ Bạn sẽ thấy: **không hành động thường đắt hơn.**
 
 ---
 
-## Bài tập định hình nỗi sợ có khiến bạn liều lĩnh không?
+## Mình không nói hãy liều lĩnh
 
 Mình nói: hãy đối diện với nỗi sợ bằng bút và giấy, thay vì để nó lơ lửng trong đầu.
 
@@ -93,4 +89,4 @@ Không phải để bạn trở nên dũng cảm. Mà để bạn thấy: phần
 
 Mình vẫn còn cuốn sổ đó. Thỉnh thoảng gặp quyết định lớn, mình lại lật ra, viết viễn cảnh tệ nhất xuống — và bao giờ cũng thấy nó nhỏ lại sau vài dòng. Bạn thử đêm nay xem, khi mọi thứ yên tĩnh nhất. Cầm bút lên là được.
 
-*Bài này nối tiếp [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) — nếu bạn đang trong giai đoạn lo âu về sự nghiệp, bài đó sẽ giúp ích. Cũng đừng quên [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/) — câu hỏi "mình đang tránh điều gì" trong đó áp dụng trực tiếp cho bài tập này.*
+*Bài này nối tiếp [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) — nếu bạn đang trong giai đoạn lo âu về sự nghiệp, bài đó sẽ giúp ích.*

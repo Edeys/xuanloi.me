@@ -23,7 +23,7 @@ Mình nhìn nó và thấy mình của vài năm trước.
 
 ---
 
-## Vì sao càng lớn càng khó yêu?
+## Chuyện gì đang xảy ra với người trẻ hôm nay?
 
 Mình quan sát thấy một nghịch lý thú vị.
 
@@ -41,9 +41,9 @@ Nhưng trong tình yêu, nó đau hơn. Vì bạn không chỉ phí thời gian 
 
 ---
 
-## Hội chứng kệ hàng vô tận là gì?
+## "Hội chứng kệ hàng vô tận"
 
-Hội chứng kệ hàng vô tận là trạng thái bạn có quá nhiều lựa chọn đến mức không thể quyết định — và mình gọi hiện tượng này là **"Hội chứng kệ hàng vô tận"**.
+Mình gọi hiện tượng này là **"Hội chứng kệ hàng vô tận"** — trạng thái bạn có quá nhiều lựa chọn đến mức không thể quyết định.
 
 Bạn vào siêu thị, đứng trước kệ có 50 loại dầu gội. Bạn cầm lên, đọc thành phần, bỏ xuống. Cầm chai khác, ngửi thử, bỏ xuống. 15 phút sau, bạn mua chai quen thuộc vì không chịu nổi áp lực phải chọn.
 
@@ -59,15 +59,9 @@ Nhưng vấn đề thực sự không nằm ở người kia. Nó nằm ở ch�
 
 ---
 
-## Làm thế nào để thoát khỏi hội chứng kệ hàng vô tận?
+## Vậy làm thế nào để thoát?
 
-Mình không phải chuyên gia tình yêu. Mình chỉ là người đã từng ở trong cái bẫy đó và đã tìm ra cách bước ra.
-
-Đây là 3 bước mình đã áp dụng và thấy hiệu quả:
-
-1. **Viết ra 3 tiêu chí cốt lõi** — không phải 10, không phải 20, chỉ 3 điều thật sự quan trọng với bạn.
-2. **Tập trung vào một người trong 1-2 tháng** — không chia sự chú ý cho ai khác trong thời gian đó.
-3. **Chấp nhận rủi ro** — không chọn mới là lựa chọn tệ nhất, và sai cũng có nghĩa là bạn có thêm dữ liệu.
+Mình không phải chuyên gia tình yêu. Mình chỉ là người đã từng ở trong cái bẫy đó và đã tìm ra cách bước ra. Đây là 3 bước mình đã áp dụng và thấy hiệu quả.
 
 ### Bước 1: Phân biệt "đủ tốt" và "hoàn hảo"
 
@@ -108,17 +102,13 @@ Nếu bạn không chọn ai, bạn không có dữ liệu. Một năm sau, bạ
 
 ---
 
-Mình viết bài này không phải để khuyên bạn phải yêu ai hay cưới ai gấp.
-
-Mình viết để bạn nhận ra một điều: lý do bạn khó yêu thời nay không phải vì bạn có vấn đề. Mà vì bạn đang ở trong một hệ thống được thiết kế để khiến bạn không bao giờ hài lòng.
+Mình viết bài này không phải để khuyên bạn phải yêu ai hay cưới ai gấp. Mình viết để bạn nhận ra một điều: lý do bạn khó yêu thời nay không phải vì bạn có vấn đề. Mà vì bạn đang ở trong một hệ thống được thiết kế để khiến bạn không bao giờ hài lòng.
 
 App hẹn hò kiếm tiền từ việc bạn lướt, không phải từ việc bạn tìm được người yêu. Mạng xã hội kiếm tiền từ thời gian bạn ở trên đó, không phải từ hạnh phúc của bạn.
 
-Nhận ra được cái bẫy là bước đầu tiên.
+Nhận ra được cái bẫy là bước đầu tiên. Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa chọn đó. Mình chỉ mong bạn đừng để những ngón tay lướt trên app thay thế trái tim mình. Người thật không hiện ra từ một danh sách tiêu chuẩn hoàn hảo đâu.
 
-Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa chọn đó. Mình viết bài này không phải để khuyên bạn phải yêu ai hay cưới ai gấp — mình chỉ mong bạn đừng để những ngón tay lướt trên app thay thế trái tim mình. Người thật không hiện ra từ một danh sách tiêu chuẩn hoàn hảo đâu.
-
-*Bài viết này và [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) cùng nói về một nỗi sợ — sợ chọn sai. Trong tình yêu cũng như sự nghiệp. Nếu bạn muốn hiểu vì sao câu hỏi quyết định chất lượng cuộc sống, hãy đọc thêm [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/).*
+*Cùng một nỗi sợ — sợ chọn sai — mình viết về nó ở [bài chọn sai nghề](/posts/2022/so-chon-sai-nghe/), trong tình yêu cũng như sự nghiệp.*
 
 ---
 

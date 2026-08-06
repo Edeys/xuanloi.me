@@ -62,7 +62,7 @@ Mình nhớ lần đầu tham dự một buổi hội thảo về tài chính c�
 
 Vì vậy, Embodiment là những trải nghiệm mà AI không thể mang lại: ánh sáng, âm thanh, cảm giác chạm vào.
 
-## 7. Bảo trợ: vì sao người ta trả tiền cho thứ vốn miễn phí?
+## 7. Bảo trợ
 
 Bạn có bao giờ ủng hộ một YouTuber, một blogger, hay một nhà sáng tạo chỉ vì muốn họ tiếp tục làm việc mình đang làm?
 
@@ -78,7 +78,7 @@ SEO, thuật toán đề xuất, danh sách "top"… là những công cụ giú
 
 Nguyên tắc này cũng đúng ngoài đời: đặt mình đúng nơi – một nhóm, một cộng đồng, một kênh phù hợp – sẽ giúp bạn được người khác nhìn thấy, và từ đó mở ra cơ hội mới.
 
-## Vì sao trí tuệ nhân tạo không thể thay thế 8 giá trị này?
+## Kết luận
 
 AI có thể tạo ra bản sao nhanh, rẻ và vô hạn. Nhưng nó không thể:
 
@@ -91,12 +91,6 @@ AI có thể tạo ra bản sao nhanh, rẻ và vô hạn. Nhưng nó không th�
 - Nhận được sự ủng hộ từ những con người thật, không chỉ từ các chỉ số (Patronage)
 - Nổi bật giữa biển nội dung (Findability)
 
-Bạn có thể áp dụng 8 "generatives" này trong công việc, trong các mối quan hệ, trong cách quản lý tài chính… Cách áp dụng cụ thể:
-
-1. **Chọn một việc bạn làm mà AI không thể sao chép** — đối chiếu nó với 8 generatives để biết mình đang đứng ở đâu.
-2. **Tăng cường yếu tố đó trong công việc hàng ngày** — bắt đầu từng yếu tố một, thay vì tham cả 8.
-3. **Mỗi quý, tự hỏi: "AI có làm được việc này không?"** — nếu câu trả lời là có, hãy thay đổi ngay.
-
 Tất cả chỉ cần một câu hỏi: "AI có làm được việc này không? Và nếu không, mình có thể làm gì để tạo ra giá trị không thể sao chép?"
 
-Nếu bạn đã có sẵn một trong 8 thứ này, hãy cho mình biết. Nếu chưa, bạn có thể bắt đầu, từng chút một, thắp sáng từng yếu tố – và nhìn thấy mình dần trở nên không thể thay thế, ngay cả trong thời đại AI. Mình cũng viết về [bài học sau 50 quyển self-help](/posts/2022/self-help-trap/) — về sự khác biệt giữa đọc để học và đọc để làm — và [cách bắt đầu với marketing số](/posts/2020/bat-dau-voi-marketing-so/) nếu bạn muốn tìm hướng đi thực tế.
+Nếu bạn đã có sẵn một trong 8 thứ này, hãy cho mình biết. Nếu chưa, bạn có thể bắt đầu, từng chút một, thắp sáng từng yếu tố – và nhìn thấy mình dần trở nên không thể thay thế, ngay cả trong thời đại AI.

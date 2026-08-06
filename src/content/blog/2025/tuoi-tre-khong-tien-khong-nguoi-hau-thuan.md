@@ -128,4 +128,4 @@ Chọn một nghề. Học từ gốc. Làm dài hạn.
 
 Đó là bài học duy nhất còn đúng sau tất cả những biến động của thị trường.
 
-*Nếu bạn đang phân vân chọn nghề, hãy đọc [bài về 3 câu hỏi thoát vòng lặp định hướng](/posts/2022/so-chon-sai-nghe/) — và nếu bạn có chút vốn muốn đầu tư, bài [đầu tư đất nông nghiệp](/posts/2025/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/) giải thích vì sao lướt sóng thường thua.*
+*Nếu bạn đang phân vân chọn nghề, hãy đọc [bài về 3 câu hỏi thoát vòng lặp định hướng](/posts/2022/so-chon-sai-nghe/).*

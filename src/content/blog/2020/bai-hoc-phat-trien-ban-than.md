@@ -69,4 +69,4 @@ Nếu không có câu trả lời, thì mọi cuốn sách, mọi khóa học, m
 
 Câu hỏi đó mình tự hỏi mình mỗi cuối tuần. Có tuần mình trả lời được, có tuần mình im lặng — và những tuần im lặng ấy, mình biết mình đang lừa dối bản thân bằng đống sách vở. Nên mình viết bài này như một lời nhắc, cho chính mình trước, rồi mới đến ai đó đang đọc.
 
-*Bài này là bài đầu tiên trên blog, được viết lại sau gần 1 năm — vì mình đã thay đổi. Nếu bạn đang trên hành trình tương tự, có thể bài [tại sao muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/) sẽ hữu ích — hoặc [bài về cái bẫy self-help](/posts/2022/self-help-trap/) nếu bạn đang đọc nhiều mà làm ít.*
+*Bài này là bài đầu tiên trên blog, được viết lại sau gần 1 năm — vì mình đã thay đổi. Nếu bạn đang trên hành trình tương tự, có thể bài [tại sao muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/) sẽ hữu ích.*

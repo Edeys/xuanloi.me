@@ -16,7 +16,7 @@ Kết quả: 3 tháng sau, mình biết định nghĩa của 5 thứ đó, nhưn
 
 ---
 
-## Vì sao người mới học marketing số lại dễ mắc kẹt?
+## Cái bẫy của người mới học marketing
 
 Sau gần 6 năm làm marketing thực tế — từ chạy quảng cáo cho shop nhỏ, làm content cho công ty phần mềm, đến xây kênh cho chính mình — mình nhận ra một điều:
 
@@ -62,10 +62,6 @@ Thay vì mở dashboard 10 lần/ngày, mình chuyển sang mở 1 lần/tuần.
 
 Nếu bây giờ có một người hỏi mình "bắt đầu marketing số thế nào?", mình sẽ nói 3 bước này:
 
-1. **Chọn 1 kênh duy nhất** — kênh nào mà khách hàng của bạn đang ở đó. Nếu bán cho người trẻ, là TikTok/Instagram. Nếu bán cho doanh nghiệp, là LinkedIn/Email.
-2. **Dành 1 tháng để nghe khách hàng** — trước khi làm bất kỳ chiến dịch nào, nói chuyện với 10 khách hàng tiềm năng, hỏi vấn đề của họ, ghi âm lại và nghe lại.
-3. **Làm 1 thứ duy nhất, đo 1 chỉ số duy nhất** — một chiến dịch, một kênh, đo doanh thu và chi phí, không đo gì khác trong 3 tháng đầu.
-
 **Bước 1: Chọn 1 kênh duy nhất.** Kênh nào mà khách hàng của bạn đang ở đó. Nếu bán cho người trẻ, là TikTok/Instagram. Nếu bán cho doanh nghiệp, là LinkedIn/Email.
 
 **Bước 2: Dành 1 tháng để nghe khách hàng.** Trước khi làm bất kỳ chiến dịch nào, hãy nói chuyện với 10 khách hàng tiềm năng. Hỏi họ vấn đề của họ. Ghi âm lại. Nghe lại.
@@ -83,10 +79,6 @@ Sau gần 6 năm, mình rút gọn toàn bộ marketing số vào 2 câu hỏi:
 
 Nếu trả lời được 2 câu đó, phần còn lại chỉ là kỹ thuật. Và kỹ thuật có thể học — nhưng hướng đi thì phải tự tìm.
 
----
-
----
-
 Nếu có ai đó đang đọc đến đây mà đang mông lung như mình hồi năm 2019, mình chỉ muốn nói một điều: đừng cố học hết 5 kênh cùng lúc. Chọn một kênh, làm 6 tháng, nghe khách hàng của mình nhiều hơn nghe bất kỳ ai trên mạng. Marketing không khó như người ta vẽ ra — nó chỉ cần bạn dừng lại và hỏi đúng câu hỏi: mình đang giúp ai, và họ có thấy mình không?
 
-*Bài này nằm trong quá trình mình hệ thống lại những gì đã học về marketing và xây thương hiệu cá nhân. Anh em có thể đọc thêm [bài về personal branding](/posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/) để thấy mình đã áp dụng marketing cho chính mình thế nào, và [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/) để tìm hướng đi trước khi học kỹ thuật.*
+*Bài này nằm trong quá trình mình hệ thống lại những gì đã học về marketing và xây thương hiệu cá nhân — đọc thêm [bài về personal branding](/posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/) để thấy mình đã áp dụng nó cho chính mình thế nào.*

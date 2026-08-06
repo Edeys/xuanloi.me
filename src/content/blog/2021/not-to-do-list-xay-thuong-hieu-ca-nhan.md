@@ -16,15 +16,11 @@ Lúc đó mình mới nhận ra: mình đã chép sai bài tập.
 
 Không phải bài viết sai. Cái sai là mình làm theo danh sách "nên làm" của người khác — người có đội ngũ, có ngân sách, có 5 năm kinh nghiệm trước khi họ đăng bài đầu tiên. Và mình, một người không có gì ngoài laptop và một bộ óc đầy nghi ngờ, cứ thế lao đầu làm theo.
 
-Bài này là danh sách những thứ mình đã làm, đã sai, và đã dừng lại. Nó không phải "lời khuyên". Nó là bản ghi chép thực tế về 8 cái bẫy mà ai đang xây thương hiệu cá nhân từ con số 0 đều có thể rơi vào. Quy trình mình đang dùng:
-
-1. **Chọn một câu hỏi cụ thể của một người cụ thể** — không phải "hôm nay đăng gì".
-2. **Viết một bài dài có cấu trúc trả lời câu hỏi đó** — khoảng 2.500-4.000 từ.
-3. **Đăng khi đủ 90%, không sửa quá 3 chỗ** — ngày thứ 7 kể từ bản đầu, đăng dù thế nào.
+Bài này là danh sách những thứ mình đã làm, đã sai, và đã dừng lại. Nó không phải "lời khuyên". Nó là bản ghi chép thực tế về 8 cái bẫy mà ai đang xây thương hiệu cá nhân từ con số 0 đều có thể rơi vào.
 
 ---
 
-## 1. Có nên đăng đều đặn mỗi ngày không?
+## 1. Đừng đăng đều đặn mỗi ngày
 
 Buổi sáng mình mở Facebook, viết 1 bài. Buổi trưa đăng thêm 1 bài ngắn. Buổi tối, 1 video quay vội. Mỗi ngày 2-3 bài, 60 bài trong 2 tháng.
 
@@ -86,7 +82,7 @@ Khi có người cụ thể trong đầu, giọng của bạn tự xuất hiện
 
 ---
 
-## 4. Đừng viết cho "ai cũng" — nên viết cho ai?
+## 4. Đừng viết cho "ai cũng"
 
 Mình từng viết 1 bài tên "10 lỗi thường gặp khi làm marketing".
 
@@ -139,7 +135,7 @@ Mình đo 3 chỉ số này mỗi tháng. Sau 6 tháng, follow mình vẫn nhỏ
 
 ---
 
-## 7. Xây thương hiệu cá nhân có cần mở nhiều kênh cùng lúc không?
+## 7. Đừng mở nhiều kênh cùng lúc
 
 Mình từng có một cái bảng trong Notion: blog, YouTube, podcast, LinkedIn, Twitter, Facebook cá nhân, Facebook fanpage, TikTok. 8 dòng. Mỗi dòng có mục tiêu, lịch đăng, nội dung.
 
@@ -157,7 +153,7 @@ Mình chọn blog. 1 bài dài mỗi tuần. Cắt ngắn thành 1-2 Facebook po
 
 ---
 
-## 8. Tại sao không nên so sánh tốc độ với người khác?
+## 8. Đừng so sánh tốc độ với người khác
 
 Một buổi tối mình mở YouTube, thấy 1 kênh 9 tháng đã 100.000 sub. Mình tắt laptop, không viết gì thêm tối đó.
 
@@ -189,4 +185,4 @@ Câu chuyện mình kể ở đầu — 60 bài, 11 follow, 0 inbox — không p
 
 Nếu bạn đang đọc đến đây, mình chỉ muốn nhắn bạn một câu: đừng dùng danh sách này như một thứ phải làm hết. Hãy chọn đúng 1 điều bạn đang mắc nhất, bỏ nó trong 30 ngày, rồi quay lại đọc tiếp. Mình vẫn đang làm vậy với 3 điều còn dang dở của chính mình đây.
 
-*Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc thêm [bài đầu tiên giải thích tại sao người giỏi lại khó lên tiếng](/posts/2021/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/) nếu bạn muốn hiểu rõ hơn về 3 rào cản tâm lý. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2022/so-chon-sai-nghe/) dùng chung 3 câu hỏi hành động để thoát vòng lặp trì hoãn.*
+*Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** — đọc thêm [bài đầu tiên giải thích tại sao người giỏi lại khó lên tiếng](/posts/2021/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/).*

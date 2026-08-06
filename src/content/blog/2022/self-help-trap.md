@@ -30,9 +30,9 @@ Nhưng mình nhận ra một sự thật khó nghe: mình không đọc để th
 
 ---
 
-## Hội chứng nghiện học là gì?
+## "Hội chứng nghiện học"
 
-Hội chứng nghiện học là cái bẫy bạn tiêu thụ kiến thức như một hình thức giải trí, và nhầm tưởng việc tiêu thụ với việc phát triển. Mình gọi nó là **"Hội chứng nghiện học"**.
+Mình gọi cái bẫy này là **"Hội chứng nghiện học"** — bạn tiêu thụ kiến thức như một hình thức giải trí, và nhầm tưởng việc tiêu thụ với việc phát triển.
 
 Dấu hiệu nhận biết:
 - Bạn đọc xong một quyển sách, thấy hay, đóng lại, và không làm gì khác
@@ -45,7 +45,7 @@ Nghe quen không? Nếu có, bạn đang ở trong vòng lặp giống mình t�
 
 ---
 
-## Vì sao "học nhiều" lại trở thành cái bẫy?
+## Tại sao "học nhiều" lại trở thành cái bẫy?
 
 Vì não bộ của bạn không phân biệt được giữa việc **học** và việc **làm**.
 
@@ -60,7 +60,6 @@ Vì đọc sách về thói quen không phải là xây thói quen. Cũng như �
 ---
 
 ## Điều gì thực sự thay đổi cuộc đời mình?
-
 Mình không bỏ sách hoàn toàn. Nhưng mình thay đổi cách dùng chúng.
 
 **Thay vì đọc để "học", mình đọc để "làm".**
@@ -90,11 +89,7 @@ Câu đó hơi đau, nhưng đúng.
 
 ## 3 câu hỏi trước khi đọc quyển sách tiếp theo
 
-Mình tự hỏi 3 điều này trước khi mua hay đọc bất kỳ quyển sách self-help nào. Cách áp dụng cụ thể:
-
-1. **Hỏi "mình sẽ làm gì khác sau khi đọc quyển này?"** — nếu câu trả lời là "chưa biết" hoặc "có thêm kiến thức", đừng đọc.
-2. **Chọn một hành động duy nhất sẽ áp dụng** — cụ thể, đo lường được, thực hiện trong 30 ngày.
-3. **Hỏi "nếu không đọc quyển này, mình có mất gì không?"** — nếu không mất gì, đọc quyển khác hoặc làm việc khác.
+Mình tự hỏi 3 điều này trước khi mua hay đọc bất kỳ quyển sách self-help nào.
 
 **1. Mình sẽ làm gì khác sau khi đọc quyển này?**
 
@@ -120,7 +115,7 @@ Và mình thấy mình thay đổi nhiều hơn trong 1 năm ít đọc so với
 
 Nếu chưa có câu trả lời — thì hãy đóng sách lại, và bắt đầu làm một việc gì đó trước đã. Mình đã mất 50 quyển sách để học được bài này, mong bạn đừng mất nhiều như vậy.
 
-*Bài này nói cùng một vấn đề với [bài về 3 rào cản khiến bạn muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/) — mời bạn đọc thêm. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2022/so-chon-sai-nghe/) cũng chia sẻ cách thoát vòng lặp "chuẩn bị" tương tự.*
+*Bài này nói cùng một vấn đề với [bài về 3 rào cản khiến bạn muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/).*
 
 ---
 

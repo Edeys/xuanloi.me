@@ -213,4 +213,4 @@ Nếu bạn đang ở một trong 3 lớp rào cản mà mình vừa nêu, hãy 
 
 ---
 
-*Bài viết này là bài đầu tiên trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc tiếp [bài về Not-To-Do List khi xây thương hiệu cá nhân](/posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/) — mình viết nó như một phần tiếp theo của bài này. Nếu muốn theo dõi, có thể đăng ký nhận bài mới qua [trang chủ](/) hoặc follow mình trên [YouTube](https://www.youtube.com/@xuanloi_mkt).*
+*Bài viết này là bài đầu tiên trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc tiếp [bài về Not-To-Do List khi xây thương hiệu cá nhân](/posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/).*

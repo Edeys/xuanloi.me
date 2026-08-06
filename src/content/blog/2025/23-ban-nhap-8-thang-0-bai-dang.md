@@ -32,8 +32,6 @@ Không lần nào mình tới được cái nút "Publish."
 
 ---
 
-## Vì sao 23 bản nháp không bao giờ được đăng?
-
 Hồi đó mình nghĩ vấn đề là kỹ năng viết. Mình viết dở, nên không dám đăng. Cần viết hay hơn, trau chuốt hơn, đúng chuẩn hơn.
 
 Bây giờ nhìn lại, 23 bản nháp kia không phải tại mình viết dở. Tại mình đang đợi một thứ không bao giờ tới: cảm giác sẵn sàng.
@@ -60,8 +58,6 @@ Cái chết của người mới không phải là thất bại. Là không dám
 
 ---
 
-## Điều gì thực sự đã thay đổi?
-
 Điều thay đổi với mình không phải là kỹ năng viết. Mà là định nghĩa lại thế nào là "sẵn sàng."
 
 Bài blog đầu tiên mình thực sự đăng không phải bài hay nhất trong số 23 bản nháp. Nó là bài mình dám bấm nút Publish nhất.
@@ -70,13 +66,7 @@ Nó vẫn còn nhiều chỗ mình thấy chưa ưng. Nhưng nó được đăng
 
 Có một câu mình đọc đâu đó: "Nobody reads your first draft except you." Mình đã mất 8 tháng để hiểu câu đó không phải là lời an ủi. Nó là sự thật.
 
-## Cách thoát khỏi vòng lặp bản nháp
-
-Nếu bạn đang có một folder đầy bản nháp chưa dám đăng, cách mình áp dụng:
-
-1. **Viết bản đầu mà không hỏi "cái này có đáng đọc không"** — câu đầu tiên viết ra lúc hứng thú là câu hay nhất.
-2. **Sửa tối đa 3 lần rồi dừng** — sửa lần thứ ba trở đi, bài không còn là của bạn nữa.
-3. **Bấm Publish dù chưa ưng** — vì không ai đọc bản nháp đầu của bạn ngoài chính bạn, và đăng lên mới có dữ liệu để học.
+Nếu bạn đang có một folder đầy bản nháp chưa dám đăng, hãy viết bản đầu mà không hỏi "cái này có đáng đọc không" — câu đầu tiên viết ra lúc hứng thú là câu hay nhất. Sửa tối đa 3 lần rồi dừng, vì sửa lần thứ ba trở đi, bài không còn là của bạn nữa. Rồi bấm Publish dù chưa ưng — vì không ai đọc bản nháp đầu của bạn ngoài chính bạn, và đăng lên mới có dữ liệu để học.
 
 Có bao nhiêu người ở đây cũng có một folder "23 bản nháp" của riêng mình?
 
@@ -84,4 +74,4 @@ Một bài viết, một video, hay một dự án nào đó đang để dành c
 
 Còn nếu bạn đang đọc tới đây và đang có một bản nháp chưa dám đăng — thì bài blog này cũng chỉ là một bản nháp trước khi nó được đăng thôi. Điểm khác biệt duy nhất là mình bấm nút lần này.
 
-*Mình từng viết về [cách thoát vòng lặp "chuẩn bị" khi chọn nghề](/posts/2022/so-chon-sai-nghe/) — nỗi sợ ngồi yên không thử cũng giống hệt nỗi sợ bản nháp này. Và nếu bạn thấy mình đang "học mà không hành", bài [cái bẫy self-help](/posts/2022/self-help-trap/) sẽ giải thích vì sao.*
+*Mình từng viết về [cách thoát vòng lặp "chuẩn bị" khi chọn nghề](/posts/2022/so-chon-sai-nghe/) — nỗi sợ ngồi yên không thử cũng giống hệt nỗi sợ bản nháp này.*

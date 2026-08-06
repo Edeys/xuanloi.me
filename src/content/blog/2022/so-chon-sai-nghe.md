@@ -26,7 +26,7 @@ Không phải vì nó không quan trọng. Mà vì nó khiến bạn ngồi yên
 
 ---
 
-## Vì sao sợ chọn sai nghề khiến bạn mắc kẹt?
+## 3 cái bẫy khiến người trẻ mắc kẹt trong định hướng
 
 Mình thấy hầu hết người trẻ tuổi 20-30 đều mắc ít nhất một trong ba cái bẫy này. Có người mắc cả ba.
 
@@ -60,9 +60,9 @@ Nhưng bạn quên mất một điều: bạn đang so sánh bên trong hỗn đ
 
 ---
 
-## Vòng lặp chuẩn bị là gì?
+## "Vòng lặp chuẩn bị"
 
-Vòng lặp chuẩn bị là trạng thái bạn luôn cảm thấy chưa sẵn sàng để bắt đầu — và mình gọi nó là **"Vòng lặp chuẩn bị"**.
+Mình gọi trạng thái này là **"Vòng lặp chuẩn bị"** — bạn luôn cảm thấy chưa sẵn sàng để bắt đầu.
 
 Cần học thêm một khóa nữa. Cần có thêm một năm kinh nghiệm. Cần "cảm thấy tự tin" trước đã. Cần có một kế hoạch hoàn hảo.
 
@@ -72,13 +72,9 @@ Mình đã ở trong vòng lặp này suốt 2 năm sau khi tốt nghiệp. Cho 
 
 ---
 
-## Làm sao thoát khỏi vòng lặp chuẩn bị?
+## 3 câu hỏi giúp mình thoát khỏi vòng lặp
 
-Thay vì hỏi "mình hợp nghề gì", mình chuyển sang hỏi 3 câu khác. Câu nào cũng ép mình phải hành động, chứ không phải suy nghĩ. Cách áp dụng cụ thể:
-
-1. **Hỏi "trong 6 tháng tới, mình muốn học kỹ năng gì?"** — chọn một kỹ năng duy nhất và dành trọn 6 tháng để thành thạo nó.
-2. **Hỏi "nếu không sợ thất bại, mình sẽ làm gì?"** — viết câu trả lời ra giấy, gỡ bỏ rào cản tâm lý lớn nhất.
-3. **Hỏi "nếu làm 5 năm và thất bại, mình có hối hận không?"** — dùng câu trả lời làm tấm lọc cuối trước khi quyết định.
+Thay vì hỏi "mình hợp nghề gì", mình chuyển sang hỏi 3 câu khác. Câu nào cũng ép mình phải hành động, chứ không phải suy nghĩ.
 
 ### Câu hỏi 1: "Trong 6 tháng tới, mình muốn học kỹ năng gì?"
 
@@ -112,13 +108,9 @@ Nhưng họ không dành 6 tháng để thử một thứ.
 
 Sau gần 10 năm và 4 lần chuyển ngành, mình tin điều này: không có nghề nào là sai lầm cả. Chỉ có khoảng thời gian bạn ngồi yên không làm gì mới là sai lầm.
 
-Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có câu trả lời đúng.
+Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có câu trả lời đúng. Mình chỉ ước hồi 23 tuổi có ai đó nói với mình câu này sớm hơn: bạn không cần biết mình hợp nghề gì, bạn chỉ cần thử một thứ và xem mình có muốn làm tiếp không.
 
----
-
-Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có câu trả lời đúng. Mình viết bài này lúc đã qua bao nhiêu lần chuyển ngành, và mình chỉ ước hồi 23 tuổi có ai đó nói với mình câu này sớm hơn: bạn không cần biết mình hợp nghề gì, bạn chỉ cần thử một thứ và xem mình có muốn làm tiếp không.
-
-Mình viết bài này cùng ngày với [bài về cái bẫy self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình đang "học mà không hành", bài đó sẽ bổ sung cho bài này. Còn nếu nỗi sợ của bạn là "không biết mình sợ gì", hãy thử [bài tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) — nó giúp mình ra quyết định dễ dàng hơn bất kỳ cuốn sách self-help nào.
+Mình viết bài này cùng ngày với [bài về cái bẫy self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình đang "học mà không hành", bài đó sẽ bổ sung cho bài này.
 
 **Câu hỏi cho bạn:**
 Trong 3 câu hỏi trên, bạn đang mắc kẹt ở câu nào nhất?

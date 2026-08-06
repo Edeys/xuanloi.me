@@ -42,7 +42,7 @@ Bạn mình nghe xong, cãi: "Nhưng mấy ông kia giàu lên từ đất mà?"
 
 ---
 
-## Thứ mà người ta thường bỏ qua — và vì sao?
+## Thứ mà người ta thường bỏ qua
 
 Những tỷ phú xe ôm trong bài viết hôm trước mình kể — họ mua đất Đắk Lắk năm 2000, trồng cà phê, mỗi vụ thu hoạch ra ngoài này mua cả căn nhà ở chợ. Họ không bán đất. Họ sống bằng dòng tiền từ sản phẩm trên đất.
 
@@ -94,4 +94,4 @@ Nếu câu trả lời là *"để làm"* — bạn đã hiểu đúng. Cây tr�
 
 Mình vẫn còn giữ mảnh đất ở Dak Nia. Chưa bán. Chưa có ý định bán. Nhưng mỗi lần lên thăm, nhìn cây cối xanh tốt, mình lại thấy yên tâm hơn bất kỳ cuốn sổ đỏ nào nằm trong két. Nếu bạn hỏi mình có nên mua đất không, mình chỉ hỏi lại một câu: bạn mua để bán lại, hay để làm? Câu trả lời của bạn sẽ nói cho bạn biết tất cả.
 
-*Đắk Nông, 2026 — Bạn đang cân nhắc dùng tiền nhàn rỗi đầu tư đất? Mình từng viết về [nông nghiệp có phải nghề đường dài](/posts/2025/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/) — và vì sao chọn một nghề học từ gốc lại thắng mọi chiêu lướt sóng. Còn nếu bạn đang chần chừ không dám quyết định, bài [tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) giúp đưa mọi quyết định khó về đúng kích thước.*
+*Đắk Nông, 2026 — Bạn đang cân nhắc dùng tiền nhàn rỗi đầu tư đất? Mình từng viết về [nông nghiệp có phải nghề đường dài](/posts/2025/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/) — và vì sao chọn một nghề học từ gốc lại thắng mọi chiêu lướt sóng.*

@@ -54,7 +54,7 @@ Người ta không hiểu cái gàn dở — có tiền tỉ mà còn đi giành
 
 ---
 
-## Bài học nào về đất nông nghiệp từ câu chuyện tỷ phú xe ôm?
+## Bài học về đất nông nghiệp từ câu chuyện tỷ phú xe ôm
 
 Câu chuyện của bác tài như một thước phim quay chậm, bất ngờ đưa mình về với hành trình của chính mình.
 
@@ -72,15 +72,7 @@ Giá cà phê có lúc lên, lúc xuống. Nhưng mảnh đất đó vẫn ở �
 
 Mình thầm cảm ơn mảnh đất Tây Nguyên. Cảm ơn Đắk Nông đã cho mình một nơi để học, để làm, để trưởng thành.
 
----
-
-## Vì sao đất nông nghiệp lại tạo ra tỷ phú?
-
-Mình nhận ra ba thứ mà những tỷ phú xe ôm làm đúng — và mình cũng áp dụng cho mảnh đất của mình:
-
-1. **Mua khi mọi người bỏ cuộc** — họ mua đất Đắk Lắk thời giá cà phê sụp đổ, khi người trong vùng còn bảo họ dở hơi.
-2. **Trồng cây trên đất ngay** — đất chỉ sinh lời khi có sản xuất, cây trồng tạo dòng tiền đều đặn mỗi mùa.
-3. **Không bán đất** — họ giữ đất qua mọi thăng trầm và sống bằng nông sản, mỗi mùa thu hoạch đủ tiền mua một căn nhà ở chợ.
+Nhìn lại, mình nhận ra ba thứ mà những tỷ phú xe ôm làm đúng — và mình cũng áp dụng cho mảnh đất của mình. Họ mua khi mọi người bỏ cuộc: mua đất Đắk Lắk thời giá cà phê sụp đổ, khi người trong vùng còn bảo họ dở hơi. Họ trồng cây trên đất ngay — đất chỉ sinh lời khi có sản xuất, cây trồng tạo dòng tiền đều đặn mỗi mùa. Và họ không bán đất — giữ nó qua mọi thăng trầm và sống bằng nông sản, mỗi mùa thu hoạch đủ tiền mua một căn nhà ở chợ.
 
 Chuyến xe ra sân bay hôm đó kết thúc. Câu chuyện "tỷ phú xe ôm" mà bác tài kể cứ đọng lại trong mình suốt chuyến bay về.
 

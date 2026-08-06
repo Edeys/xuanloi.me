@@ -22,10 +22,6 @@ Không phải "có nên bỏ việc không", mà là "ở lại thì mất gì, 
 
 ---
 
-## Câu hỏi thay đổi cuộc đời là gì?
-
-Câu hỏi thay đổi cuộc đời là câu hỏi buộc bạn lựa chọn thay vì tìm kiếm. Thay vì "làm sao để giàu", nó hỏi "mình sẵn sàng hy sinh điều gì để giàu?". Thay vì "có nên bỏ việc không", nó hỏi "ở lại thì mất gì, đi thì được gì?".
-
 ## Tại sao câu hỏi quan trọng hơn câu trả lời?
 
 Bạn có thể lên Google search bất kỳ câu trả lời nào. Cách kiếm tiền online. Cách xin việc. Cách tỏ tình. Đầy.
@@ -101,16 +97,10 @@ Không phải để an phận. Mà để nhắc mình đừng quên những th�
 
 ---
 
-## Cách áp dụng 9 câu hỏi này vào cuộc sống
-
-Mình không hỏi cả 9 câu cùng lúc. Cách áp dụng cụ thể:
-
-1. **Chọn một câu hỏi duy nhất cho tuần này** — đừng hỏi hết, hỏi một câu bạn đang tránh nhất.
-2. **Dành 15 phút viết câu trả lời thật** — không viết cho đẹp, viết cho đúng, ghi ra giấy hoặc ghi âm.
-3. **Sau 6 tháng, đối chiếu câu trả lời với cuộc sống hiện tại** — bạn thấy khác, tức là câu hỏi đã làm việc của nó.
+Mình không hỏi cả 9 câu cùng lúc. Mỗi tuần mình chọn một câu duy nhất — thường là câu mình đang tránh nhất — dành 15 phút viết câu trả lời thật, không viết cho đẹp, viết cho đúng. Ghi ra giấy hoặc ghi âm.
 
 Mình tin: nếu bạn dành 15 phút mỗi tuần để trả lời một trong những câu hỏi này, cuộc đời bạn sẽ khác sau 6 tháng.
 
 Không phải vì bạn tìm được câu trả lời đúng. Mà vì bạn đã dừng lại để hỏi — điều mà hầu hết mọi người không làm. Mình không dám nói mình trả lời được hết 9 câu. Nhưng mỗi tuần mình chọn một câu, viết vài dòng, và đủ để mình thấy đường đi rõ hơn một chút. Bạn thử một tuần xem sao.
 
-Có thể bạn cũng muốn đọc [bài về 3 câu hỏi giúp thoát khỏi vòng lặp lo âu định hướng](/posts/2022/so-chon-sai-nghe/) — mình viết nó trước bài này, và hai bài này bổ sung cho nhau nhiều hơn mình nghĩ. Còn nếu bạn thấy mình đang "học mà không hành", [bài về cái bẫy self-help](/posts/2022/self-help-trap/) sẽ giải thích vì sao bạn trì hoãn bằng cách phát triển bản thân.
+Có thể bạn cũng muốn đọc [bài về 3 câu hỏi giúp thoát khỏi vòng lặp lo âu định hướng](/posts/2022/so-chon-sai-nghe/) — mình viết nó trước bài này, và hai bài này bổ sung cho nhau nhiều hơn mình nghĩ.
