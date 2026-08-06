@@ -1,7 +1,7 @@
 ---
 title: "Not-To-Do List xây thương hiệu cá nhân từ con số 0"
 description: "60 bài đăng, 11 follow, 0 inbox: 8 điều nên dừng khi xây thương hiệu cá nhân từ con số 0, kèm cách gỡ từng cái bẫy đã kiểm chứng."
-pubDatetime: 2018-05-15T00:00:00+07:00
+pubDatetime: 2021-09-15T00:00:00+07:00
 category: "Thương hiệu cá nhân"
 tags: ["thuong-hieu-ca-nhan", "chien-luoc-noi-dung", "trai-nghiem"]
 keyword: "thương hiệu cá nhân"
@@ -199,4 +199,4 @@ Câu chuyện mình kể ở đầu — 60 bài, 11 follow, 0 inbox — không p
 - Đừng mở 8 kênh — làm 1 kênh trong 6 tháng, có nhịp rồi mới thêm.
 - Mỗi tháng, chỉ so sánh với chính mình tháng trước.
 
-*Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc thêm [bài đầu tiên giải thích tại sao người giỏi lại khó lên tiếng](/posts/2026/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/) nếu bạn muốn hiểu rõ hơn về 3 rào cản tâm lý. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2026/so-chon-sai-nghe/) dùng chung 3 câu hỏi hành động để thoát vòng lặp trì hoãn.*
+*Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc thêm [bài đầu tiên giải thích tại sao người giỏi lại khó lên tiếng](/posts/2021/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/) nếu bạn muốn hiểu rõ hơn về 3 rào cản tâm lý. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2022/so-chon-sai-nghe/) dùng chung 3 câu hỏi hành động để thoát vòng lặp trì hoãn.*

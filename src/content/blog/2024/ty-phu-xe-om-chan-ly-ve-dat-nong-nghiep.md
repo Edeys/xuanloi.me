@@ -1,7 +1,7 @@
 ---
 title: "Tỷ phú xe ôm — Chân lý về đất nông nghiệp"
 description: "Tỷ phú xe ôm ở Bắc Ninh dạy mình chân lý về đất nông nghiệp: mua rẻ thời khủng hoảng, trồng cây tạo dòng tiền, không bán đất mà sống bằng nông sản."
-pubDatetime: 2023-05-01T00:00:00+07:00
+pubDatetime: 2024-08-15T00:00:00+07:00
 category: "Nông nghiệp / Cà Phê"
 tags: ["nong-nghiep", "dat-nong-nghiep", "dak-nong", "tay-nguyen", "dau-tu", "cau-chuyen", "ca-phe", "bai-hoc-kinh-doanh"]
 keyword: "đất nông nghiệp"
@@ -101,4 +101,4 @@ Câu chuyện về những tỷ phú chân đất ở Bắc Ninh sẽ mãi là m
 
 Và hành trình của mình chắc cũng chỉ mới bắt đầu.
 
-*Đắk Nông, 2026 — Nếu bạn đang nghĩ đến chuyện mua đất chờ lên giá, đọc thêm [bài về cái bẫy đầu tư đất nông nghiệp](/posts/2026/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/) trước khi quyết định.*
+*Đắk Nông, 2026 — Nếu bạn đang nghĩ đến chuyện mua đất chờ lên giá, đọc thêm [bài về cái bẫy đầu tư đất nông nghiệp](/posts/2025/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/) trước khi quyết định.*

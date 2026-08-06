@@ -1,7 +1,7 @@
 ---
 title: "Càng lớn càng khó yêu — không phải do bạn khó tính"
 description: "Càng lớn càng khó yêu không phải vì bạn khó tính — mà vì quá nhiều lựa chọn. Hội chứng kệ hàng vô tận là gì và 3 bước để thoát ra."
-pubDatetime: 2019-02-01T00:00:00+07:00
+pubDatetime: 2022-02-15T00:00:00+07:00
 category: "Tâm lý & Tình yêu"
 tags: ["tam-ly", "tinh-yeu", "nguoi-tre"]
 keyword: "càng lớn càng khó yêu"
@@ -129,7 +129,7 @@ Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa ch�
 - Viết 3 tiêu chí cốt lõi, tập trung một người trong 1-2 tháng, và chấp nhận rủi ro.
 - Không chọn cũng là một lựa chọn — và nó thường là lựa chọn tệ nhất.
 
-*Bài viết này và [bài về sợ chọn sai nghề](/posts/2026/so-chon-sai-nghe/) cùng nói về một nỗi sợ — sợ chọn sai. Trong tình yêu cũng như sự nghiệp. Nếu bạn muốn hiểu vì sao câu hỏi quyết định chất lượng cuộc sống, hãy đọc thêm [9 câu hỏi thay đổi cuộc đời](/posts/2026/17-cau-hoi-thay-doi-cuoc-doi/).*
+*Bài viết này và [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) cùng nói về một nỗi sợ — sợ chọn sai. Trong tình yêu cũng như sự nghiệp. Nếu bạn muốn hiểu vì sao câu hỏi quyết định chất lượng cuộc sống, hãy đọc thêm [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/).*
 
 ---
 

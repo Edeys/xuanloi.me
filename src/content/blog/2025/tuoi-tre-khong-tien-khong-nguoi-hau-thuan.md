@@ -1,7 +1,7 @@
 ---
 title: "Tuổi trẻ không tiền, không người hậu thuẫn: chỉ còn thời gian"
 description: "Tuổi trẻ không tiền, không người dẫn đường — chỉ còn thời gian. Đừng để 10 năm đẹp nhất trôi qua trong những lần chạy loạn. Chọn một nghề, học từ gốc."
-pubDatetime: 2025-06-15T00:00:00+07:00
+pubDatetime: 2025-11-15T00:00:00+07:00
 category: "Sự nghiệp"
 tags: ["thoi-gian", "su-nghiep", "phat-trien-ban-than"]
 keyword: "tuổi trẻ không tiền"
@@ -137,4 +137,4 @@ Chọn một nghề. Học từ gốc. Làm dài hạn.
 
 Đó là bài học duy nhất còn đúng sau tất cả những biến động của thị trường.
 
-*Nếu bạn đang phân vân chọn nghề, hãy đọc [bài về 3 câu hỏi thoát vòng lặp định hướng](/posts/2026/so-chon-sai-nghe/) — và nếu bạn có chút vốn muốn đầu tư, bài [đầu tư đất nông nghiệp](/posts/2026/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/) giải thích vì sao lướt sóng thường thua.*
+*Nếu bạn đang phân vân chọn nghề, hãy đọc [bài về 3 câu hỏi thoát vòng lặp định hướng](/posts/2022/so-chon-sai-nghe/) — và nếu bạn có chút vốn muốn đầu tư, bài [đầu tư đất nông nghiệp](/posts/2025/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/) giải thích vì sao lướt sóng thường thua.*

@@ -1,7 +1,7 @@
 ---
 title: "Khoảnh khắc mình nhận ra sức khỏe đang hỏng"
 description: "Sức khỏe người trẻ dễ hỏng hơn bạn nghĩ: một buổi sáng không ngồi dậy được đã thay đổi cách mình sống. 3 thói quen nhỏ đã cứu mình."
-pubDatetime: 2022-08-15T00:00:00+07:00
+pubDatetime: 2024-03-15T00:00:00+07:00
 category: "Cuộc sống"
 tags: ["suc-khoe", "cuoc-song", "bai-hoc"]
 keyword: "sức khỏe"
@@ -91,4 +91,4 @@ Nhưng mình hết đau lưng. Ngủ ngon hơn. Tập trung tốt hơn. Và quan
 
 Mình viết bài này không phải để kêu gọi bạn tập gym hay chạy bộ. Mình viết để nói: sức khỏe không phải thứ bạn cải thiện khi có thời gian. Nó là thứ bạn mất đi từng ngày nếu không chú ý.
 
-Và nó không đợi bạn sẵn sàng đâu. Nếu bạn cũng từng trải qua cảm giác này, bài [phát triển bản thân: 3 bài học sau 5 năm](/posts/bai-hoc-phat-trien-ban-than/) có một kết luận giống hệt: sức khỏe không phải phần phụ, nó là nền tảng. Còn nếu bạn đang đợi "sẵn sàng" để thay đổi, bài [23 bản nháp, 8 tháng, 0 bài đăng](/posts/2026/23-ban-nhap-8-thang-0-bai-dang/) giải thích vì sao cảm giác đó không bao giờ tới.
+Và nó không đợi bạn sẵn sàng đâu. Nếu bạn cũng từng trải qua cảm giác này, bài [phát triển bản thân: 3 bài học sau 5 năm](/posts/2020/bai-hoc-phat-trien-ban-than/) có một kết luận giống hệt: sức khỏe không phải phần phụ, nó là nền tảng. Còn nếu bạn đang đợi "sẵn sàng" để thay đổi, bài [23 bản nháp, 8 tháng, 0 bài đăng](/posts/2025/23-ban-nhap-8-thang-0-bai-dang/) giải thích vì sao cảm giác đó không bao giờ tới.

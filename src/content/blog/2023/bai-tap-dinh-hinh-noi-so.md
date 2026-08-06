@@ -1,7 +1,7 @@
 ---
 title: "Bài tập định hình nỗi sợ: cách ra quyết định dễ hơn"
 description: "Bài tập định hình nỗi sợ: 3 bước viết ra điều tồi tệ nhất thay vì để nó lơ lửng trong đầu — thứ giúp mình vượt qua những quyết định khó nhất."
-pubDatetime: 2021-03-15T00:00:00+07:00
+pubDatetime: 2023-05-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "bai-hoc", "hanh-trinh"]
 keyword: "định hình nỗi sợ"
@@ -102,4 +102,4 @@ Không phải để bạn trở nên dũng cảm. Mà để bạn thấy: phần
 - Rủi ro không hành động (mất 1-2 năm cuộc đời) thường đắt hơn rủi ro hành động (khó khăn 3-6 tháng).
 - Nỗi sợ trong đầu to hơn ngoài đời thực gấp 10 lần.
 
-*Bài này nối tiếp [bài về sợ chọn sai nghề](/posts/2026/so-chon-sai-nghe/) — nếu bạn đang trong giai đoạn lo âu về sự nghiệp, bài đó sẽ giúp ích. Cũng đừng quên [9 câu hỏi thay đổi cuộc đời](/posts/2026/17-cau-hoi-thay-doi-cuoc-doi/) — câu hỏi "mình đang tránh điều gì" trong đó áp dụng trực tiếp cho bài tập này.*
+*Bài này nối tiếp [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) — nếu bạn đang trong giai đoạn lo âu về sự nghiệp, bài đó sẽ giúp ích. Cũng đừng quên [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/) — câu hỏi "mình đang tránh điều gì" trong đó áp dụng trực tiếp cho bài tập này.*

@@ -1,7 +1,7 @@
 ---
 title: "Đầu tư đất nông nghiệp: cái bẫy của kẻ nghĩ mình thông minh"
 description: "Đầu tư đất nông nghiệp không giống chứng khoán: mua chờ lên giá là công thức của 90% người thua. Bài học từ mảnh đất Dak Nia năm 2018."
-pubDatetime: 2024-10-01T00:00:00+07:00
+pubDatetime: 2025-06-15T00:00:00+07:00
 category: "Nông nghiệp / Cà Phê"
 tags: ["nong-nghiep", "dau-tu", "dat-nong-nghiep", "tay-nguyen", "dak-nong", "bai-hoc-kinh-doanh", "tu-duy", "ca-phe"]
 keyword: "đầu tư đất nông nghiệp"
@@ -105,4 +105,4 @@ Nếu câu trả lời là *"để làm"* — bạn đã hiểu đúng. Cây tr�
 
 Mình vẫn còn giữ mảnh đất ở Dak Nia. Chưa bán. Chưa có ý định bán. Nhưng mỗi lần lên thăm, nhìn cây cối xanh tốt, mình lại thấy yên tâm hơn bất kỳ cuốn sổ đỏ nào nằm trong két.
 
-*Đắk Nông, 2026 — Bạn đang cân nhắc dùng tiền nhàn rỗi đầu tư đất? Mình từng viết về [nông nghiệp có phải nghề đường dài](/posts/2026/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/) — và vì sao chọn một nghề học từ gốc lại thắng mọi chiêu lướt sóng. Còn nếu bạn đang chần chừ không dám quyết định, bài [tập định hình nỗi sợ](/posts/bai-tap-dinh-hinh-noi-so/) giúp đưa mọi quyết định khó về đúng kích thước.*
+*Đắk Nông, 2026 — Bạn đang cân nhắc dùng tiền nhàn rỗi đầu tư đất? Mình từng viết về [nông nghiệp có phải nghề đường dài](/posts/2025/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/) — và vì sao chọn một nghề học từ gốc lại thắng mọi chiêu lướt sóng. Còn nếu bạn đang chần chừ không dám quyết định, bài [tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) giúp đưa mọi quyết định khó về đúng kích thước.*

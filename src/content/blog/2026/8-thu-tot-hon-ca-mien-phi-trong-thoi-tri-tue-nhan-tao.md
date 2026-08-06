@@ -1,7 +1,7 @@
 ---
 title: "8 thứ tốt hơn cả miễn phí trong thời trí tuệ nhân tạo"
 description: "8 giá trị trí tuệ nhân tạo không thể sao chép: tính tức thời, cá nhân hóa, diễn giải, chân thực, tiện truy cập, trải nghiệm vật lý, bảo trợ và khả năng được tìm thấy."
-pubDatetime: 2026-03-01T00:00:00+07:00
+pubDatetime: 2026-04-15T00:00:00+07:00
 category: "Sự nghiệp"
 tags: ["tri-tu-nhan-tao", "gia-tri", "thoi-gian", "tinh-ngay", "ca-nhan-hoa", "dien-giai", "chan-thuc", "tien-truy-cap", "trai-nghiem", "bao-tro", "kha-nang-duoc-tim-thay"]
 keyword: "trí tuệ nhân tạo"
@@ -107,4 +107,4 @@ Tất cả chỉ cần một câu hỏi: "AI có làm được việc này khôn
 - Nguồn cảm hứng: bài essay "Better Than Free" của Kevin Kelly — khi mọi thứ miễn phí, thứ không thể sao chép mới đáng giá.
 - Mỗi yếu tố đều có thể bắt đầu từng chút một — chọn một, làm tới, rồi hỏi lại sau mỗi quý.
 
-Nếu bạn đã có sẵn một trong 8 thứ này, hãy cho mình biết. Nếu chưa, bạn có thể bắt đầu, từng chút một, thắp sáng từng yếu tố – và nhìn thấy mình dần trở nên không thể thay thế, ngay cả trong thời đại AI. Mình cũng viết về [bài học sau 50 quyển self-help](/posts/2026/self-help-trap/) — về sự khác biệt giữa đọc để học và đọc để làm — và [cách bắt đầu với marketing số](/posts/bat-dau-voi-marketing-so/) nếu bạn muốn tìm hướng đi thực tế.
+Nếu bạn đã có sẵn một trong 8 thứ này, hãy cho mình biết. Nếu chưa, bạn có thể bắt đầu, từng chút một, thắp sáng từng yếu tố – và nhìn thấy mình dần trở nên không thể thay thế, ngay cả trong thời đại AI. Mình cũng viết về [bài học sau 50 quyển self-help](/posts/2022/self-help-trap/) — về sự khác biệt giữa đọc để học và đọc để làm — và [cách bắt đầu với marketing số](/posts/2020/bat-dau-voi-marketing-so/) nếu bạn muốn tìm hướng đi thực tế.

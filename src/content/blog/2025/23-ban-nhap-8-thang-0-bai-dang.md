@@ -1,7 +1,7 @@
 ---
 title: "23 bản nháp, 8 tháng, 0 bài đăng"
 description: "23 bản nháp trong 8 tháng, không cái nào được đăng. Đây là câu chuyện về lý do mình không dám bấm nút Publish — và điều thay đổi sau đó."
-pubDatetime: 2024-01-15T00:00:00+07:00
+pubDatetime: 2025-01-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "noi-so", "hanh-trinh"]
 keyword: "bản nháp"
@@ -97,4 +97,4 @@ Còn nếu bạn đang đọc tới đây và đang có một bản nháp chưa 
 
 Điểm khác biệt duy nhất là mình bấm nút lần này.
 
-*Mình từng viết về [cách thoát vòng lặp "chuẩn bị" khi chọn nghề](/posts/2026/so-chon-sai-nghe/) — nỗi sợ ngồi yên không thử cũng giống hệt nỗi sợ bản nháp này. Và nếu bạn thấy mình đang "học mà không hành", bài [cái bẫy self-help](/posts/2026/self-help-trap/) sẽ giải thích vì sao.*
+*Mình từng viết về [cách thoát vòng lặp "chuẩn bị" khi chọn nghề](/posts/2022/so-chon-sai-nghe/) — nỗi sợ ngồi yên không thử cũng giống hệt nỗi sợ bản nháp này. Và nếu bạn thấy mình đang "học mà không hành", bài [cái bẫy self-help](/posts/2022/self-help-trap/) sẽ giải thích vì sao.*

@@ -1,7 +1,7 @@
 ---
 title: "Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23"
 description: "Chọn sai nghề không đáng sợ bằng ngồi yên không thử. 3 câu hỏi giúp mình thoát vòng lặp lo âu định hướng sau 4 lần chuyển ngành."
-pubDatetime: 2019-10-15T00:00:00+07:00
+pubDatetime: 2022-07-15T00:00:00+07:00
 category: "Sự nghiệp"
 tags: ["su-nghiep", "nguoi-tre", "dinh-huong", "phat-trien-ban-than"]
 keyword: "chọn sai nghề"
@@ -125,7 +125,7 @@ Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có 
 - Thay vì hỏi "mình hợp nghề gì", hãy hỏi "6 tháng tới mình muốn học gì?" và bắt đầu thử.
 - Tuổi 20 là thời gian thu thập dữ liệu, không phải để có câu trả lời đúng.
 
-Mình viết bài này cùng ngày với [bài về cái bẫy self-help](/posts/2026/self-help-trap/) — nếu bạn thấy mình đang "học mà không hành", bài đó sẽ bổ sung cho bài này. Còn nếu nỗi sợ của bạn là "không biết mình sợ gì", hãy thử [bài tập định hình nỗi sợ](/posts/bai-tap-dinh-hinh-noi-so/) — nó giúp mình ra quyết định dễ dàng hơn bất kỳ cuốn sách self-help nào.
+Mình viết bài này cùng ngày với [bài về cái bẫy self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình đang "học mà không hành", bài đó sẽ bổ sung cho bài này. Còn nếu nỗi sợ của bạn là "không biết mình sợ gì", hãy thử [bài tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) — nó giúp mình ra quyết định dễ dàng hơn bất kỳ cuốn sách self-help nào.
 
 **Câu hỏi cho bạn:**
 Trong 3 câu hỏi trên, bạn đang mắc kẹt ở câu nào nhất?

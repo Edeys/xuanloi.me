@@ -51,7 +51,7 @@ export default defineConfig({
         if (page.includes("/admin") || page.includes("/search")) return false;
 
         // Exclude pagination pages (duplicate content)
-        if (page.match(/\/page\/\d+\/?$/)) return false;
+        if (page.match(/\/page\/\d+\/?$/) || page.match(/\/posts\/\d+\/?$/)) return false;
 
         return true;
       },

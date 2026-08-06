@@ -1,7 +1,7 @@
 ---
 title: "Tại sao người giỏi lại chính là người khó lên tiếng nhất"
 description: "Người giỏi thường là người im lặng nhất: hơn 80% người có chuyên môn thật không xuất hiện công khai. 3 lớp rào cản thật và khung để bắt đầu."
-pubDatetime: 2017-09-01T00:00:00+07:00
+pubDatetime: 2021-04-15T00:00:00+07:00
 
 category: "Thương hiệu cá nhân"
 tags: ["thuong-hieu-ca-nhan", "tu-duy", "chien-luoc-noi-dung"]
@@ -221,4 +221,4 @@ Nếu bạn đang ở một trong 3 lớp rào cản mà mình vừa nêu, hãy 
 
 ---
 
-*Bài viết này là bài đầu tiên trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc tiếp [bài về Not-To-Do List khi xây thương hiệu cá nhân](/posts/2026/not-to-do-list-xay-thuong-hieu-ca-nhan/) — mình viết nó như một phần tiếp theo của bài này. Nếu muốn theo dõi, có thể đăng ký nhận bài mới qua [trang chủ](/) hoặc follow mình trên [YouTube](https://www.youtube.com/@xuanloi_mkt).*
+*Bài viết này là bài đầu tiên trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc tiếp [bài về Not-To-Do List khi xây thương hiệu cá nhân](/posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/) — mình viết nó như một phần tiếp theo của bài này. Nếu muốn theo dõi, có thể đăng ký nhận bài mới qua [trang chủ](/) hoặc follow mình trên [YouTube](https://www.youtube.com/@xuanloi_mkt).*

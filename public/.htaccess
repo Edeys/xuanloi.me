@@ -11,6 +11,23 @@ ErrorDocument 500 /500.html
   RewriteEngine On
   RewriteCond %{HTTP_HOST} ^www\.xuanloi\.me$ [NC]
   RewriteRule ^(.*)$ https://xuanloi.me/$1 [L,R=301]
+
+  # --- 301 redirects: old post URLs -> year-based URLs (2026-08-06 restructure) ---
+  RewriteRule ^posts/bai-hoc-phat-trien-ban-than/?$ /posts/2020/bai-hoc-phat-trien-ban-than/ [L,R=301]
+  RewriteRule ^posts/bat-dau-voi-marketing-so/?$ /posts/2020/bat-dau-voi-marketing-so/ [L,R=301]
+  RewriteRule ^posts/tai-sao-muon-tien-len-mai-khong-lam-duoc/?$ /posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/ [L,R=301]
+  RewriteRule ^posts/2026/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/?$ /posts/2021/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/ [L,R=301]
+  RewriteRule ^posts/2026/not-to-do-list-xay-thuong-hieu-ca-nhan/?$ /posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/ [L,R=301]
+  RewriteRule ^posts/2026/cang-lon-cang-kho-yeu/?$ /posts/2022/cang-lon-cang-kho-yeu/ [L,R=301]
+  RewriteRule ^posts/2026/so-chon-sai-nghe/?$ /posts/2022/so-chon-sai-nghe/ [L,R=301]
+  RewriteRule ^posts/2026/self-help-trap/?$ /posts/2022/self-help-trap/ [L,R=301]
+  RewriteRule ^posts/bai-tap-dinh-hinh-noi-so/?$ /posts/2023/bai-tap-dinh-hinh-noi-so/ [L,R=301]
+  RewriteRule ^posts/2026/17-cau-hoi-thay-doi-cuoc-doi/?$ /posts/2023/17-cau-hoi-thay-doi-cuoc-doi/ [L,R=301]
+  RewriteRule ^posts/khoanh-khac-nhan-ra-suc-khoe-bi-hong/?$ /posts/2024/khoanh-khac-nhan-ra-suc-khoe-bi-hong/ [L,R=301]
+  RewriteRule ^posts/2026/ty-phu-xe-om-chan-ly-ve-dat-nong-nghiep/?$ /posts/2024/ty-phu-xe-om-chan-ly-ve-dat-nong-nghiep/ [L,R=301]
+  RewriteRule ^posts/2026/23-ban-nhap-8-thang-0-bai-dang/?$ /posts/2025/23-ban-nhap-8-thang-0-bai-dang/ [L,R=301]
+  RewriteRule ^posts/2026/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/?$ /posts/2025/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/ [L,R=301]
+  RewriteRule ^posts/2026/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/?$ /posts/2025/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/ [L,R=301]
 </IfModule>
 
 # --- Security headers (origin level) ---

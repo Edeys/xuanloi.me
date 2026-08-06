@@ -1,7 +1,7 @@
 ---
 title: "9 câu hỏi thay đổi cuộc đời mình trong 10 năm"
 description: "9 câu hỏi thay đổi cuộc đời mình về bản thân, sự nghiệp và cuộc sống — dành 15 phút mỗi tuần trả lời một câu, cuộc đời bạn sẽ khác sau 6 tháng."
-pubDatetime: 2021-12-01T00:00:00+07:00
+pubDatetime: 2023-10-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tu-duy", "thoi-gian"]
 keyword: "câu hỏi thay đổi cuộc đời"
@@ -124,4 +124,4 @@ Không phải vì bạn tìm được câu trả lời đúng. Mà vì bạn đ�
 - 9 câu hỏi chia 3 nhóm: bản thân, sự nghiệp, cuộc sống. Chọn 1 câu mỗi tuần, trả lời 15 phút.
 - Sau 6 tháng, cuộc đời khác không phải vì bạn có đáp án, mà vì bạn đã dừng lại để hỏi.
 
-Có thể bạn cũng muốn đọc [bài về 3 câu hỏi giúp thoát khỏi vòng lặp lo âu định hướng](/posts/2026/so-chon-sai-nghe/) — mình viết nó trước bài này, và hai bài này bổ sung cho nhau nhiều hơn mình nghĩ. Còn nếu bạn thấy mình đang "học mà không hành", [bài về cái bẫy self-help](/posts/2026/self-help-trap/) sẽ giải thích vì sao bạn trì hoãn bằng cách phát triển bản thân.
+Có thể bạn cũng muốn đọc [bài về 3 câu hỏi giúp thoát khỏi vòng lặp lo âu định hướng](/posts/2022/so-chon-sai-nghe/) — mình viết nó trước bài này, và hai bài này bổ sung cho nhau nhiều hơn mình nghĩ. Còn nếu bạn thấy mình đang "học mà không hành", [bài về cái bẫy self-help](/posts/2022/self-help-trap/) sẽ giải thích vì sao bạn trì hoãn bằng cách phát triển bản thân.

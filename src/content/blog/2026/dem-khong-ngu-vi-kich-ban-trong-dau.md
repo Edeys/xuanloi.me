@@ -187,4 +187,4 @@ Kịch bản trong đầu không phải dự báo tương lai. Nó là sản ph�
 
 Và nỗi sợ, thì không bao giờ biết trước được ngày mai.
 
-*Đắk Nông, 2026 — Nếu bạn cũng có những kịch bản trong đầu lúc nửa đêm, bài [tập định hình nỗi sợ](/posts/bai-tap-dinh-hinh-noi-so/) dùng chung cách gỡ: viết ra giấy thay vì để lơ lửng. Còn nếu nỗi sợ khiến bạn không bắt đầu được gì, hãy đọc [muốn tiến lên mà không làm được](/posts/tai-sao-muon-tien-len-mai-khong-lam-duoc/).*
+*Đắk Nông, 2026 — Nếu bạn cũng có những kịch bản trong đầu lúc nửa đêm, bài [tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) dùng chung cách gỡ: viết ra giấy thay vì để lơ lửng. Còn nếu nỗi sợ khiến bạn không bắt đầu được gì, hãy đọc [muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/).*

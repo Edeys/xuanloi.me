@@ -1,7 +1,7 @@
 ---
 title: "Self-help và trì hoãn: bài học sau 50 quyển sách"
 description: "Càng đọc sách self-help, càng ít hành động — đó là hội chứng nghiện học. 3 câu hỏi giúp bạn đọc để làm thay vì đọc để trì hoãn."
-pubDatetime: 2020-07-01T00:00:00+07:00
+pubDatetime: 2022-12-15T00:00:00+07:00
 category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tam-ly", "nguoi-tre", "tu-duy"]
 keyword: "self-help"
@@ -131,7 +131,7 @@ Có thể bạn cũng vậy. Không cần dừng đọc. Chỉ cần hỏi mình
 
 Nếu chưa có câu trả lời — thì hãy đóng sách lại, và bắt đầu làm một việc gì đó trước đã.
 
-*Bài này nói cùng một vấn đề với [bài về 3 rào cản khiến bạn muốn tiến lên mà không làm được](/posts/tai-sao-muon-tien-len-mai-khong-lam-duoc/) — mời bạn đọc thêm. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2026/so-chon-sai-nghe/) cũng chia sẻ cách thoát vòng lặp "chuẩn bị" tương tự.*
+*Bài này nói cùng một vấn đề với [bài về 3 rào cản khiến bạn muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/) — mời bạn đọc thêm. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2022/so-chon-sai-nghe/) cũng chia sẻ cách thoát vòng lặp "chuẩn bị" tương tự.*
 
 ---
 
