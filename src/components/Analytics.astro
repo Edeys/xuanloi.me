@@ -39,8 +39,9 @@
     })(window, document, "clarity", "script", "xi0gyzzi7p");
   }
 
-  // Load analytics only on first user interaction (scroll/click/tap)
-  // to avoid impacting LCP and Core Web Vitals
+  // Load analytics ONLY on first REAL user interaction (scroll/click/tap).
+  // No timers, no idle callbacks, no mousemove (fires spuriously): interaction-based
+  // loading is Google's recommended pattern and keeps trackers off measured load.
   var loaded = false;
   function loadOnce() {
     if (loaded) return;
@@ -49,15 +50,10 @@
     document.removeEventListener('scroll', loadOnce);
     document.removeEventListener('click', loadOnce);
     document.removeEventListener('touchstart', loadOnce);
-    document.removeEventListener('mousemove', loadOnce);
   }
-  document.addEventListener('scroll', loadOnce, { once: true });
+  document.addEventListener('scroll', loadOnce, { once: true, passive: true });
   document.addEventListener('click', loadOnce, { once: true });
-  document.addEventListener('touchstart', loadOnce, { once: true });
-  document.addEventListener('mousemove', loadOnce, { once: true });
-  // Fallback: load after 12 seconds if no interaction
-  // (kept long so tracking scripts never block initial render / Core Web Vitals)
-  setTimeout(loadOnce, 12000);
+  document.addEventListener('touchstart', loadOnce, { once: true, passive: true });
 })();
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=809535550765663&ev=PageView&noscript=1"/></noscript>

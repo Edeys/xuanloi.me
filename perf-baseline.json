@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-08-06T16:26:14.363Z",
+  "bundleTotal": 112439,
+  "bundleFiles": 3,
+  "thresholds": {
+    "psiPerformance": 85,
+    "lcpMs": 3000,
+    "cls": 0.1,
+    "tbtMs": 300
+  }
+}

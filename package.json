@@ -18,6 +18,8 @@
     "format:check": "oxfmt --check \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.mjs\" \"src/**/*.js\" astro.config.mjs package.json",
     "check": "pnpm run format:check && pnpm run lint",
     "check:fix": "pnpm run format && pnpm run lint:fix",
+    "perf:check": "node scripts/perf-guard.mjs --psi",
+    "perf:baseline": "node scripts/perf-guard.mjs --baseline",
     "prepare": "husky"
   },
   "dependencies": {

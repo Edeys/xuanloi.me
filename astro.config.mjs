@@ -2,7 +2,6 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap, { ChangeFreqEnum } from "@astrojs/sitemap";
-import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
@@ -111,7 +110,6 @@ export default defineConfig({
         return item;
       },
     }),
-    react(),
   ],
   vite: {
     resolve: {
