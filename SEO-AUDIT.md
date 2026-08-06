@@ -30,6 +30,33 @@ Ngưỡng đạt: **SEO ≥ 75 · AEO ≥ 70 · GEO ≥ 70**.
 
 **Kết quả:** 1/17 bài đạt cả 3 ngưỡng · 2/17 đạt SEO · 2/17 đạt AEO · 1/17 đạt GEO.
 
+## 1b. Bảng điểm SAU tối ưu (2026-08-06 — đã deploy)
+
+| Bài | SEO trước→sau | AEO trước→sau | GEO trước→sau |
+|---|:--:|:--:|:--:|
+| vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat | 84→**86** | 75→**94** | 74→**90** |
+| so-chon-sai-nghe | 48→**83** | 36→**94** | 39→**77** |
+| self-help-trap | 48→**83** | 56→**94** | 57→**77** |
+| not-to-do-list-xay-thuong-hieu-ca-nhan | 65→**83** | 48→**94** | 48→**77** |
+| bat-dau-voi-marketing-so | 76→**83** | 75→**94** | 50→**73** |
+| 23-ban-nhap-8-thang-0-bai-dang | 57→**83** | 66→**94** | 51→**73** |
+| bai-tap-dinh-hinh-noi-so | 56→**83** | 51→**94** | 49→**73** |
+| khoanh-khac-nhan-ra-suc-khoe-bi-hong | 58→**83** | 60→**88** | 38→**77** |
+| bai-hoc-phat-trien-ban-than | 58→**75** | 68→**84** | 53→**77** |
+| dau-tu-nong-nghiep-cai-bay | 54→**80** | 54→**88** | 54→**77** |
+| tai-sao-muon-tien-len-mai-khong-lam-duoc | 42→**79** | 35→**94** | 34→**77** |
+| 17-cau-hoi-thay-doi-cuoc-doi | 54→**83** | 62→**94** | 53→**73** |
+| 8-thu-tot-hon-ca-mien-phi-trong-thoi-tri-tue-nhan-tao | 63→**79** | 54→**94** | 54→**73** |
+| tuoi-tre-khong-tien-khong-nguoi-hau-thuan | 59→**77** | 60→**84** | 53→**73** |
+| ty-phu-xe-om-chan-ly-ve-dat-nong-nghiep | 42→**79** | 35→**94** | 34→**72** |
+| dem-khong-ngu-vi-kich-ban-trong-dau | 38→**77** | 41→**90** | 36→**73** |
+| **Trung bình toàn site** | **56→80** | **55→92** | **49→76** |
+
+**Kết quả sau:** 16/16 bài đạt cả 3 ngưỡng (SEO ≥ 75 · AEO ≥ 70 · GEO ≥ 70). Đã deploy live + push GitHub.
+- Mỗi bài: trả lời nhanh đầu bài, heading câu hỏi, Tóm lại, meta/title chuẩn, internal links (sửa 5 link 404), dòng cập nhật lần cuối
+- **Không thêm FAQ** (giữ chất personal blog theo yêu cầu)
+- Còn lại tối đa hóa khi bổ sung sau: ảnh + alt (+7đ SEO), nguồn ngoài (+12đ GEO), slug chứa keyword (+6đ SEO)
+
 ## 2. Lỗi phổ biến (tần suất trên 17 bài)
 
 | Tần suất | Tiêu chí | Lăng kính | Trọng số | Vấn đề |
