@@ -39,11 +39,11 @@ const [emailUser, emailHost] = SITE_EMAIL.split("@");
         return (
           <a
             href="#"
+            data-astro-ignore
             class="group inline-block hover:text-accent p-2 hover:rotate-6 sm:p-1"
             title={social.linkTitle}
             data-email-user={emailUser}
             data-email-host={emailHost}
-            onclick="event.preventDefault(); const el = this; el.href = 'mail' + 'to:' + el.dataset.emailUser + '@' + el.dataset.emailHost; window.location.href = el.href;"
           >
             {IconComponent && (
               <IconComponent class="inline-block size-6 scale-125 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent sm:scale-110" />
@@ -67,3 +67,21 @@ const [emailUser, emailHost] = SITE_EMAIL.split("@");
     })
   }
 </div>
+
+<script is:inline>
+  // Email links: build mailto at runtime (bypasses Cloudflare email obfuscation
+  // which breaks mailto with Astro view transitions). Capture phase + stopPropagation
+  // ensures Astro's ClientRouter never intercepts the click.
+  document.addEventListener(
+    "click",
+    function (e) {
+      var el = e.target && e.target.closest ? e.target.closest("[data-email-user]") : null;
+      if (!el) return;
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href =
+        "mail" + "to:" + el.getAttribute("data-email-user") + "@" + el.getAttribute("data-email-host");
+    },
+    true,
+  );
+</script>
