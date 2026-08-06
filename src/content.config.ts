@@ -26,6 +26,14 @@ const blog = defineCollection({
       // Additional fields from existing posts
       source: z.string().optional(),
       AIDescription: z.boolean().optional(),
+      faq: z
+        .array(
+          z.object({
+            question: z.string(),
+            answer: z.string(),
+          }),
+        )
+        .optional(),
     }),
 });
 
