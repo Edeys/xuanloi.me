@@ -60,6 +60,10 @@ src/content/temp/
 # cPanel credentials (DO NOT COMMIT)
 scripts/deploy-config.json
 
+# Google credentials (DO NOT COMMIT)
+scripts/gsc-config.json
+scripts/gsc-*.json
+
 # Deploy artifacts (local only)
 /deploy*.zip
 
