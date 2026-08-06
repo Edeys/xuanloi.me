@@ -55,8 +55,9 @@
   document.addEventListener('click', loadOnce, { once: true });
   document.addEventListener('touchstart', loadOnce, { once: true });
   document.addEventListener('mousemove', loadOnce, { once: true });
-  // Fallback: load after 4 seconds if no interaction
-  setTimeout(loadOnce, 4000);
+  // Fallback: load after 12 seconds if no interaction
+  // (kept long so tracking scripts never block initial render / Core Web Vitals)
+  setTimeout(loadOnce, 12000);
 })();
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=809535550765663&ev=PageView&noscript=1"/></noscript>

@@ -2,6 +2,13 @@
 # xuanloi.me - LiteSpeed/.htaccess hardening
 # =============================================
 
+# --- Canonical host: redirect www -> non-www ---
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.xuanloi\.me$ [NC]
+  RewriteRule ^(.*)$ https://xuanloi.me/$1 [L,R=301]
+</IfModule>
+
 # --- Security headers (origin level) ---
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
