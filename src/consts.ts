@@ -1,4 +1,4 @@
-// Place any global data in this file.
+﻿// Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 interface SocialLink {
@@ -87,7 +87,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: "GitHub",
   },
   {
-    href: "mailto:xuanloi.lc@gmail.com",
+    href: "mailto:xuanloi.me@gmail.com",
     label: "Email",
   },
   {

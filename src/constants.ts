@@ -1,4 +1,4 @@
-import { SITE } from "./consts.ts";
+﻿import { SITE } from "./consts.ts";
 
 export const SOCIALS = [
   {
@@ -24,7 +24,7 @@ export const SOCIALS = [
   },
   {
     name: "Mail",
-    href: "mailto:xuanloi.lc@gmail.com",
+    href: "mailto:xuanloi.me@gmail.com",
     linkTitle: `Gửi email cho ${SITE.title}`,
     icon: "mail",
     active: true,

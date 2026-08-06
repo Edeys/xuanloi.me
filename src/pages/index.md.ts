@@ -1,4 +1,4 @@
-import type { APIRoute } from "astro";
+﻿import type { APIRoute } from "astro";
 
 export const GET: APIRoute = async () => {
   const markdownContent = `# Đào Xuân Lợi
@@ -15,7 +15,7 @@ Chia sẻ về cuộc sống, marketing và những điều tôi học được 
 
 - YouTube: [@xuanloi_mkt](https://www.youtube.com/@xuanloi_mkt)
 - GitHub: [@Edeys](https://github.com/Edeys)
-- Email: xuanloi.lc@gmail.com
+- Email: xuanloi.me@gmail.com
 
 ---
 
