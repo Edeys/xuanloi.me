@@ -113,6 +113,11 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       readingTime
     }} 
   />
+  {
+    post.data.faq && post.data.faq.length > 0 && (
+      <StructuredData type="FAQPage" data={{ questions: post.data.faq }} />
+    )
+  }
   <Header />
   <BackButton />
   <main

@@ -19,6 +19,14 @@ const blog = defineCollection({
     timezone: z.string().optional(),
     source: z.string().optional(),
     AIDescription: z.boolean().optional(),
+    faq: z
+      .array(
+        z.object({
+          question: z.string(),
+          answer: z.string(),
+        }),
+      )
+      .optional(),
   }),
 });
 

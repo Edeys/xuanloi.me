@@ -1,6 +1,6 @@
 ﻿---
 export interface Props {
-  type: "BlogPosting" | "BreadcrumbList" | "Person" | "WebSite";
+  type: "BlogPosting" | "BreadcrumbList" | "Person" | "WebSite" | "FAQPage";
   data: any;
 }
 
@@ -48,6 +48,19 @@ if (type === "BlogPosting") {
         item: data.url,
       },
     ],
+  };
+} else if (type === "FAQPage") {
+  structuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: (data.questions || []).map((q: { question: string; answer: string }) => ({
+      "@type": "Question",
+      name: q.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: q.answer,
+      },
+    })),
   };
 } else if (type === "Person") {
   structuredData = {
