@@ -7,15 +7,6 @@ category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tu-duy", "thoi-gian"]
 keyword: "câu hỏi thay đổi cuộc đời"
 locale: "vi"
-faq:
-  - question: "Câu hỏi thay đổi cuộc đời là gì?"
-    answer: "Câu hỏi thay đổi cuộc đời là câu hỏi buộc bạn lựa chọn thay vì tìm kiếm. Thay vì 'làm sao để giàu', nó hỏi 'mình sẵn sàng hy sinh điều gì để giàu?'. Câu hỏi quyết định chất lượng cuộc sống hơn bất kỳ câu trả lời nào."
-  - question: "Làm sao để áp dụng những câu hỏi này vào cuộc sống?"
-    answer: "Chọn một câu hỏi mỗi tuần, dành 15 phút viết câu trả lời thật, rồi so sánh cuộc sống của bạn sau 6 tháng. Không cần 17 câu — chỉ cần một câu đúng và bạn thực sự trả lời nó."
-  - question: "Nên hỏi câu nào khi đang mất định hướng?"
-    answer: "Hãy hỏi: 'Nếu không ai biết mình làm gì, mình vẫn làm không?' và 'Nếu hôm nay là ngày cuối cùng mình được sống khỏe mạnh, mình sẽ làm gì?'. Hai câu này lọc bỏ áp lực xã hội và đưa bạn về điều thật sự quan trọng."
-  - question: "Tại sao câu hỏi quan trọng hơn câu trả lời?"
-    answer: "Vì bạn có thể search bất kỳ câu trả lời nào trên Google, nhưng không ai search giùm bạn câu hỏi đúng. Câu hỏi sai dẫn đến câu trả lời sai, dù câu trả lời đó có hay đến đâu."
 ---
 
 **Trả lời nhanh:** Câu hỏi thay đổi cuộc đời quyết định chất lượng sống hơn bất kỳ câu trả lời nào — nhưng không phải ai cũng biết hỏi. Đây là 9 câu hỏi đã thay đổi cách mình sống và làm việc trong gần 10 năm, chia làm 3 nhóm: bản thân, sự nghiệp, cuộc sống.
@@ -124,26 +115,6 @@ Mình không hỏi cả 9 câu cùng lúc. Cách áp dụng cụ thể:
 Mình tin: nếu bạn dành 15 phút mỗi tuần để trả lời một trong những câu hỏi này, cuộc đời bạn sẽ khác sau 6 tháng.
 
 Không phải vì bạn tìm được câu trả lời đúng. Mà vì bạn đã dừng lại để hỏi — điều mà hầu hết mọi người không làm.
-
----
-
-## FAQ
-
-### Câu hỏi thay đổi cuộc đời là gì?
-
-Câu hỏi thay đổi cuộc đời là câu hỏi buộc bạn lựa chọn thay vì tìm kiếm. Thay vì "làm sao để giàu", nó hỏi "mình sẵn sàng hy sinh điều gì để giàu?". Câu hỏi quyết định chất lượng cuộc sống hơn bất kỳ câu trả lời nào.
-
-### Làm sao để áp dụng những câu hỏi này vào cuộc sống?
-
-Chọn một câu hỏi mỗi tuần, dành 15 phút viết câu trả lời thật, rồi so sánh cuộc sống của bạn sau 6 tháng. Không cần 17 câu — chỉ cần một câu đúng và bạn thực sự trả lời nó.
-
-### Nên hỏi câu nào khi đang mất định hướng?
-
-Hãy hỏi: "Nếu không ai biết mình làm gì, mình vẫn làm không?" và "Nếu hôm nay là ngày cuối cùng mình được sống khỏe mạnh, mình sẽ làm gì?". Hai câu này lọc bỏ áp lực xã hội và đưa bạn về điều thật sự quan trọng.
-
-### Tại sao câu hỏi quan trọng hơn câu trả lời?
-
-Vì bạn có thể search bất kỳ câu trả lời nào trên Google, nhưng không ai search giùm bạn câu hỏi đúng. Câu hỏi sai dẫn đến câu trả lời sai, dù câu trả lời đó có hay đến đâu.
 
 ---
 

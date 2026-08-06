@@ -7,17 +7,6 @@ category: "Thương hiệu cá nhân"
 tags: ["thuong-hieu-ca-nhan", "chien-luoc-noi-dung", "trai-nghiem"]
 keyword: "thương hiệu cá nhân"
 locale: "vi"
-faq:
-  - question: "Xây thương hiệu cá nhân từ con số 0 nên đăng bao nhiêu bài mỗi tuần?"
-    answer: "Một bài dài có cấu trúc mỗi tuần là đủ, trả lời một câu hỏi cụ thể của một người cụ thể. Nếu tuần nào không có câu hỏi nào, nghỉ tuần đó. Đăng ít hơn nhưng quan trọng hơn vẫn tốt hơn đăng nhiều mà vô nghĩa."
-  - question: "Nên đo chỉ số nào khi mới xây thương hiệu cá nhân?"
-    answer: "Đừng đo số follow. Đo ba thứ: số inbox hỏi thuê mỗi tháng, số comment sâu, và số người tự chia sẻ bài của bạn. Sau 6 tháng đo đúng chỉ số, inbox của mình tăng gấp 3 dù follow vẫn nhỏ."
-  - question: "Có nên đầu tư mic, đèn, thiết bị trước khi bắt đầu không?"
-    answer: "Không. Mua sắm là hình thức trì hoãn an toàn nhất. Hãy dùng điện thoại, tai nghe đi kèm, đèn bàn. Chỉ nâng cấp sau khi có phản hồi thật — và hoá ra thứ cần nâng cấp không phải thiết bị mà là nội dung."
-  - question: "Khi nào nên mở thêm kênh mới?"
-    answer: "Chọn một kênh duy nhất, làm trong 6 tháng. Khi kênh đó có nhịp đều và tín hiệu phản hồi, mới thêm kênh thứ hai. Tám kênh cùng lúc là tám công việc — một người làm không nổi."
-  - question: "Xây thương hiệu cá nhân từ con số 0 nên bắt đầu từ đâu?"
-    answer: "Bắt đầu từ ba thứ: một kênh duy nhất, một người đọc cụ thể, và một vấn đề duy nhất bạn giải quyết cho người đó. Viết như đang nói với một người thật, có tên, có khuôn mặt."
 ---
 
 **Trả lời nhanh:** Xây thương hiệu cá nhân là quá trình để một nhóm người cụ thể nhận ra bạn qua đúng vấn đề bạn giải quyết — không phải chuyện đăng bài mỗi ngày. Sau 60 bài chỉ được 11 follow, mình rút ra 8 điều nên dừng ngay, và cách gỡ từng cái.
@@ -200,30 +189,6 @@ Bài viết này là lời nhắc cho chính mình, trước khi nó là lời n
 Bỏ được 1 trong 8 thứ trên, bạn sẽ có thêm 1 tháng mỗi năm. Bỏ được 3 thứ, bạn sẽ có thêm 1 quý.
 
 Câu chuyện mình kể ở đầu — 60 bài, 11 follow, 0 inbox — không phải để khoe sự chăm chỉ. Mà để nói: mình đã từng tin rằng chỉ cần chăm chỉ là đủ. Mình sai. Và mình viết bài này để ít nhất 1 người khỏi sai giống mình.
-
----
-
-## FAQ
-
-### Xây thương hiệu cá nhân từ con số 0 nên đăng bao nhiêu bài mỗi tuần?
-
-Một bài dài có cấu trúc mỗi tuần là đủ, trả lời một câu hỏi cụ thể của một người cụ thể. Nếu tuần nào không có câu hỏi nào, nghỉ tuần đó. Đăng ít hơn nhưng quan trọng hơn vẫn tốt hơn đăng nhiều mà vô nghĩa.
-
-### Nên đo chỉ số nào khi mới xây thương hiệu cá nhân?
-
-Đừng đo số follow. Đo ba thứ: số inbox hỏi thuê mỗi tháng, số comment sâu, và số người tự chia sẻ bài của bạn. Sau 6 tháng đo đúng chỉ số, inbox của mình tăng gấp 3 dù follow vẫn nhỏ.
-
-### Có nên đầu tư mic, đèn, thiết bị trước khi bắt đầu không?
-
-Không. Mua sắm là hình thức trì hoãn an toàn nhất. Hãy dùng điện thoại, tai nghe đi kèm, đèn bàn. Chỉ nâng cấp sau khi có phản hồi thật — và hoá ra thứ cần nâng cấp không phải thiết bị mà là nội dung.
-
-### Khi nào nên mở thêm kênh mới?
-
-Chọn một kênh duy nhất, làm trong 6 tháng. Khi kênh đó có nhịp đều và tín hiệu phản hồi, mới thêm kênh thứ hai. Tám kênh cùng lúc là tám công việc — một người làm không nổi.
-
-### Xây thương hiệu cá nhân từ con số 0 nên bắt đầu từ đâu?
-
-Bắt đầu từ ba thứ: một kênh duy nhất, một người đọc cụ thể, và một vấn đề duy nhất bạn giải quyết cho người đó. Viết như đang nói với một người thật, có tên, có khuôn mặt.
 
 ---
 

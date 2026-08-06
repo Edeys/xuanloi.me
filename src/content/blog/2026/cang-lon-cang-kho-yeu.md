@@ -7,15 +7,6 @@ category: "Tâm lý & Tình yêu"
 tags: ["tam-ly", "tinh-yeu", "nguoi-tre"]
 keyword: "càng lớn càng khó yêu"
 locale: "vi"
-faq:
-  - question: "Càng lớn càng khó yêu có phải do bản thân có vấn đề không?"
-    answer: "Không. Đó là hội chứng kệ hàng vô tận: bạn có quá nhiều lựa chọn nên càng căng thẳng và so sánh người thật với một tưởng tượng ghép từ nhiều profile khác nhau. Hầu hết người trẻ 20-30 đều mắc phải."
-  - question: "Làm sao để thoát khỏi vòng lặp quẹo app hẹn hò?"
-    answer: "Ba bước: viết ra 3 tiêu chí cốt lõi thật sự quan trọng, tập trung tìm hiểu một người trong 1-2 tháng thay vì nói chuyện với nhiều người cùng lúc, và chấp nhận rủi ro — vì không chọn mới là lựa chọn tệ nhất."
-  - question: "Nên chọn người theo tiêu chí nào?"
-    answer: "Chỉ 3 điều thật sự quan trọng với bạn, ví dụ: trung thực, có chính kiến, tôn trọng không gian riêng. Mọi thứ khác như ngoại hình, thu nhập, sở thích đều là bonus — có thì tốt, không có thì vẫn ổn."
-  - question: "Có nên nói chuyện với nhiều người cùng lúc không?"
-    answer: "Không. Đó là sai lầm lớn nhất của người trẻ: bạn không bao giờ cho ai đủ thời gian và sự chú ý. Hãy chọn một người có tiềm năng và dành 1-2 tháng tìm hiểu nghiêm túc."
 ---
 
 **Trả lời nhanh:** Càng lớn càng khó yêu không phải vì bạn khó tính, mà vì bạn có quá nhiều lựa chọn và so sánh người thật với tưởng tượng ghép từ 50 profile. Cách thoát: viết ra 3 tiêu chí cốt lõi, tập trung vào một người, và chấp nhận rủi ro.
@@ -129,26 +120,6 @@ App hẹn hò kiếm tiền từ việc bạn lướt, không phải từ việc
 Nhận ra được cái bẫy là bước đầu tiên.
 
 Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa chọn đó.
-
----
-
-## FAQ
-
-### Càng lớn càng khó yêu có phải do bản thân có vấn đề không?
-
-Không. Đó là hội chứng kệ hàng vô tận: bạn có quá nhiều lựa chọn nên càng căng thẳng và so sánh người thật với một tưởng tượng ghép từ nhiều profile khác nhau. Hầu hết người trẻ 20-30 đều mắc phải.
-
-### Làm sao để thoát khỏi vòng lặp quẹo app hẹn hò?
-
-Ba bước: viết ra 3 tiêu chí cốt lõi thật sự quan trọng, tập trung tìm hiểu một người trong 1-2 tháng thay vì nói chuyện với nhiều người cùng lúc, và chấp nhận rủi ro — vì không chọn mới là lựa chọn tệ nhất.
-
-### Nên chọn người theo tiêu chí nào?
-
-Chỉ 3 điều thật sự quan trọng với bạn, ví dụ: trung thực, có chính kiến, tôn trọng không gian riêng. Mọi thứ khác như ngoại hình, thu nhập, sở thích đều là bonus — có thì tốt, không có thì vẫn ổn.
-
-### Có nên nói chuyện với nhiều người cùng lúc không?
-
-Không. Đó là sai lầm lớn nhất của người trẻ: bạn không bao giờ cho ai đủ thời gian và sự chú ý. Hãy chọn một người có tiềm năng và dành 1-2 tháng tìm hiểu nghiêm túc.
 
 ---
 

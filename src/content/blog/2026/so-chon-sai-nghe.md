@@ -7,15 +7,6 @@ category: "Sự nghiệp"
 tags: ["su-nghiep", "nguoi-tre", "dinh-huong", "phat-trien-ban-than"]
 keyword: "chọn sai nghề"
 locale: "vi"
-faq:
-  - question: "Sợ chọn sai nghề có bình thường không?"
-    answer: "Rất bình thường. Mình từng sợ chọn sai nghề hơn cả thất nghiệp, và hầu hết người trẻ 20-30 tuổi đều mắc ít nhất một trong ba cái bẫy: sợ chọn sai nên không chọn, ảo tưởng đam mê sẽ đến, và so sánh với người khác trên mạng."
-  - question: "Chọn sai nghề rồi có nên chuyển ngành không?"
-    answer: "Có, nếu bạn đã thử và có dữ liệu thật. Mình đã chuyển 4 lần — từ bán hàng, dạy tiếng Anh, marketing phần mềm đến nông nghiệp — và không lần nào là sai lầm. Chỉ có khoảng thời gian ngồi yên không làm gì mới là sai lầm."
-  - question: "Làm sao biết mình đang chọn đúng nghề?"
-    answer: "Bạn không thể biết trước khi thử. Câu hỏi đúng là: 6 tháng tới mình muốn học kỹ năng gì? Nếu sau 6 tháng thử mà bạn vẫn muốn làm tiếp, đó là dấu hiệu tốt nhất."
-  - question: "Nên hỏi câu gì khi đang phân vân nghề nghiệp?"
-    answer: "Ba câu: '6 tháng tới mình muốn học kỹ năng gì?', 'Nếu không sợ thất bại, mình sẽ làm gì?', và 'Nếu làm 5 năm và thất bại, mình có hối hận không?'."
 ---
 
 **Trả lời nhanh:** Chọn sai nghề không phải sai lầm — ngồi yên không thử mới là sai lầm. Sau 4 lần chuyển ngành từ bán hàng, dạy tiếng Anh, marketing đến nông nghiệp, mình tin câu hỏi đúng không phải "mình hợp nghề gì" mà là "6 tháng tới mình muốn học gì?".
@@ -125,26 +116,6 @@ Nhưng họ không dành 6 tháng để thử một thứ.
 Sau gần 10 năm và 4 lần chuyển ngành, mình tin điều này: không có nghề nào là sai lầm cả. Chỉ có khoảng thời gian bạn ngồi yên không làm gì mới là sai lầm.
 
 Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có câu trả lời đúng.
-
----
-
-## FAQ
-
-### Sợ chọn sai nghề có bình thường không?
-
-Rất bình thường. Mình từng sợ chọn sai nghề hơn cả thất nghiệp, và hầu hết người trẻ 20-30 tuổi đều mắc ít nhất một trong ba cái bẫy: sợ chọn sai nên không chọn, ảo tưởng đam mê sẽ đến, và so sánh với người khác trên mạng.
-
-### Chọn sai nghề rồi có nên chuyển ngành không?
-
-Có, nếu bạn đã thử và có dữ liệu thật. Mình đã chuyển 4 lần — từ bán hàng, dạy tiếng Anh, marketing phần mềm đến nông nghiệp — và không lần nào là sai lầm. Chỉ có khoảng thời gian ngồi yên không làm gì mới là sai lầm.
-
-### Làm sao biết mình đang chọn đúng nghề?
-
-Bạn không thể biết trước khi thử. Câu hỏi đúng là: 6 tháng tới mình muốn học kỹ năng gì? Nếu sau 6 tháng thử mà bạn vẫn muốn làm tiếp, đó là dấu hiệu tốt nhất.
-
-### Nên hỏi câu gì khi đang phân vân nghề nghiệp?
-
-Ba câu: "6 tháng tới mình muốn học kỹ năng gì?", "Nếu không sợ thất bại, mình sẽ làm gì?", và "Nếu làm 5 năm và thất bại, mình có hối hận không?".
 
 ---
 

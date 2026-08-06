@@ -7,15 +7,6 @@ category: "Phát triển bản thân"
 tags: ["phat-trien-ban-than", "tam-ly", "nguoi-tre", "tu-duy"]
 keyword: "self-help"
 locale: "vi"
-faq:
-  - question: "Self-help có thực sự hiệu quả không?"
-    answer: "Có, nhưng chỉ khi bạn áp dụng. Đọc 50 quyển mà không thay đổi gì là trì hoãn; đọc 10 quyển và thay đổi 10 điều mới là hiệu quả."
-  - question: "Làm sao biết mình đang trì hoãn bằng việc đọc sách?"
-    answer: "Dấu hiệu rõ nhất: đọc xong một quyển, thấy hay, đóng lại và không làm gì khác; mua thêm 3 quyển mới trước khi áp dụng quyển cũ; thích nói 'mình mới đọc được một concept hay' hơn là 'mình mới thử nghiệm được một điều'."
-  - question: "Nên đọc bao nhiêu quyển self-help một năm?"
-    answer: "Không có con số chuẩn, nhưng mình chuyển từ 20-30 quyển xuống còn 4-5 quyển mỗi năm — và thay đổi nhiều hơn trong 1 năm ít đọc so với 3 năm đọc ngấu nghiến."
-  - question: "Trước khi đọc sách self-help nên hỏi gì?"
-    answer: "Ba câu: mình sẽ làm gì khác sau khi đọc quyển này? Có một hành động duy nhất mình sẽ áp dụng không? Nếu không đọc quyển này, mình có mất gì không?"
 ---
 
 **Trả lời nhanh:** Self-help trở thành trì hoãn khi bạn đọc để có cảm giác tiến bộ thay vì để thay đổi. Sau 50 quyển sách gần như không áp dụng gì, mình đổi quy tắc: đọc 1 chương, dừng lại, làm theo — thay vì đọc hết rồi cất lên kệ.
@@ -121,26 +112,6 @@ Ví dụ sau khi đọc Atomic Habits: mình sẽ áp dụng "habit stacking" �
 **3. Nếu không đọc quyển này, mình có mất gì không?**
 
 Câu hỏi hơi ngạo nhưng rất hữu ích. Nó giúp mình nhận ra: phần lớn sách self-help lặp lại cùng một ý, chỉ khác cách kể. Bạn không cần đọc tất cả. Bạn chỉ cần đọc một vài quyển thật sự tốt, rồi áp dụng.
-
----
-
-## FAQ
-
-### Self-help có thực sự hiệu quả không?
-
-Có, nhưng chỉ khi bạn áp dụng. Đọc 50 quyển mà không thay đổi gì là trì hoãn; đọc 10 quyển và thay đổi 10 điều mới là hiệu quả.
-
-### Làm sao biết mình đang trì hoãn bằng việc đọc sách?
-
-Dấu hiệu rõ nhất: đọc xong một quyển, thấy hay, đóng lại và không làm gì khác; mua thêm 3 quyển mới trước khi áp dụng quyển cũ; thích nói "mình mới đọc được một concept hay" hơn là "mình mới thử nghiệm được một điều".
-
-### Nên đọc bao nhiêu quyển self-help một năm?
-
-Không có con số chuẩn, nhưng mình chuyển từ 20-30 quyển xuống còn 4-5 quyển mỗi năm — và thay đổi nhiều hơn trong 1 năm ít đọc so với 3 năm đọc ngấu nghiến.
-
-### Trước khi đọc sách self-help nên hỏi gì?
-
-Ba câu: mình sẽ làm gì khác sau khi đọc quyển này? Có một hành động duy nhất mình sẽ áp dụng không? Nếu không đọc quyển này, mình có mất gì không?
 
 ---
 
