@@ -1,0 +1,74 @@
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# Vercel
+.vercel/
+
+# Temporary directories used for importing posts
+temp-*/
+src/content/temp/
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# jetbrains setting folder
+.idea/
+
+# Root stale build artifacts (local only - these are dups from dist)
+/404.html
+/500.html
+/about.md
+/archives.md
+/index.html
+/index.md
+/posts.md
+/rss.xml
+/sitemap-0.xml
+/sitemap-index.xml
+/robots.txt
+/toggle-theme.js
+/og.png
+/favicon.svg
+/site.webmanifest
+/game-audio.mp3
+
+# cPanel credentials (DO NOT COMMIT)
+scripts/deploy-config.json
+
+# Deploy artifacts (local only)
+/deploy*.zip
+
+# Claude worktrees (duplicate of the repo)
+.claude/
+
+# Astro backup
+.astro.bak/
+
+# Temp test dirs
+/_min-test/
+

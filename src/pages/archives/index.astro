@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content";
+import Card from "@/components/Card.astro";
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import { SITE } from "@/config";
+import Layout from "@/layouts/Layout.astro";
+import getPostsByGroupCondition from "@/utils/getPostsByGroupCondition";
+
+// Redirect to 404 page if `showArchives` config is false
+if (!SITE.showArchives) {
+  return Astro.redirect("/404");
+}
+
+const posts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
+
+const months = [
+  "Tháng 1", "Tháng 2", "Tháng 3",
+  "Tháng 4", "Tháng 5", "Tháng 6",
+  "Tháng 7", "Tháng 8", "Tháng 9",
+  "Tháng 10", "Tháng 11", "Tháng 12",
+];
+---
+
+<Layout title={`Lưu trữ | ${SITE.title}`}>
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-3xl px-4 pb-4">
+    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">Lưu trữ</h1>
+    <p class="mt-2 mb-6 italic">Xem tất cả bài viết theo năm và tháng</p>
+    {
+      Object.entries(
+        getPostsByGroupCondition(posts, (post) =>
+          post.data.pubDatetime.getFullYear(),
+        ),
+      )
+        .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+        .map(([year, yearGroup]) => (
+          <div class="mb-8">
+            <h2 class="text-2xl font-bold mb-6 border-b border-accent pb-2">
+              {year}
+              <sup class="text-sm ml-1">{yearGroup.length}</sup>
+            </h2>
+            {Object.entries(
+              getPostsByGroupCondition(
+                yearGroup,
+                (post) => post.data.pubDatetime.getMonth() + 1,
+              ),
+            )
+              .sort(([monthA], [monthB]) => Number(monthB) - Number(monthA))
+              .map(([month, monthGroup]) => (
+                <div class="mt-8">
+                  <h3 class="text-xl font-bold mb-4">
+                    {months[Number(month) - 1]}
+                    <sup class="text-sm ml-1">{monthGroup.length}</sup>
+                  </h3>
+                  <ul>
+                    {monthGroup
+                      .sort(
+                        (a, b) =>
+                          Math.floor(
+                            new Date(b.data.pubDatetime).getTime() / 1000,
+                          ) -
+                          Math.floor(
+                            new Date(a.data.pubDatetime).getTime() / 1000,
+                          ),
+                      )
+                      .map((data) => (
+                        <Card {...data} />
+                      ))}
+                  </ul>
+                </div>
+              ))}
+          </div>
+        ))
+    }
+  </main>
+  <Footer />
+</Layout>

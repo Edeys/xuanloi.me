@@ -1,0 +1,198 @@
+---
+import { getCollection } from "astro:content";
+import { slugifyStr } from "@/utils/slugify";
+import Card from "@/components/Card.astro";
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import { SITE, CATEGORY_MAP } from "@/consts";
+import Layout from "@/layouts/Layout.astro";
+import getPostsByGroupCondition from "@/utils/getPostsByGroupCondition";
+
+const posts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
+
+const months = [
+  "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6",
+  "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12",
+];
+
+// Collect unique categories from posts
+const uniqueCategories = Object.keys(CATEGORY_MAP);
+---
+
+<Layout title={`Bài viết | ${SITE.title}`} description="Tất cả bài viết blog về cuộc sống và marketing.">
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-3xl px-4 pb-4">
+    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">Tất cả bài viết</h1>
+
+    <!-- Filter bar -->
+    <div id="filters" class="mt-4 mb-6">
+      <!-- Category filter -->
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-sm font-medium text-gray-500 dark:text-gray-400 mr-1">Danh mục:</span>
+        <button data-filter="category" data-value="" class="filter-pill active px-3 py-1 text-sm rounded-full border border-accent text-accent bg-accent/10 hover:bg-accent/20 transition-colors">
+          Tất cả
+        </button>
+        {
+          uniqueCategories.map((cat) => (
+            <button
+              data-filter="category"
+              data-value={cat}
+              class="filter-pill px-3 py-1 text-sm rounded-full border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:border-accent hover:text-accent transition-colors"
+            >
+              {CATEGORY_MAP[cat]}
+            </button>
+          ))
+        }
+      </div>
+
+    </div>
+
+    <!-- Posts grouped by year/month -->
+    <div id="posts-container">
+      {
+        Object.entries(
+          getPostsByGroupCondition(posts, (post) => {
+            const pubDate = post.data.pubDatetime || new Date();
+            return new Date(pubDate).getFullYear();
+          }),
+        )
+          .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+          .map(([year, yearGroup]) => (
+            <div class="mb-8 year-group" data-year={year}>
+              <h2 class="text-2xl font-bold mb-6 border-b border-accent pb-2">
+                {year}
+                <sup class="text-sm ml-1 year-count">{yearGroup.length}</sup>
+              </h2>
+              {Object.entries(
+                getPostsByGroupCondition(yearGroup, (post) => {
+                  const pubDate = post.data.pubDatetime || new Date();
+                  return new Date(pubDate).getMonth() + 1;
+                }),
+              )
+                .sort(([monthA], [monthB]) => Number(monthB) - Number(monthA))
+                .map(([month, monthGroup]) => (
+                  <div class="mt-8 month-group" data-year={year} data-month={month}>
+                    <h3 class="text-xl font-bold mb-4">
+                      {months[Number(month) - 1]}
+                      <sup class="text-sm ml-1 month-count">{monthGroup.length}</sup>
+                    </h3>
+                    <ul>
+                      {monthGroup
+                        .sort((a, b) => {
+                          const aDate = a.data.pubDatetime || new Date();
+                          const bDate = b.data.pubDatetime || new Date();
+                          return (
+                            Math.floor(new Date(bDate).getTime() / 1000) -
+                            Math.floor(new Date(aDate).getTime() / 1000)
+                          );
+                        })
+                        .map((data) => {
+                          const catSlug = Object.entries(CATEGORY_MAP).find(([, v]) => v === data.data.category)?.[0] || slugifyStr(data.data.category || "");
+                          return (
+                            <Card {...data} dataCategory={catSlug} />
+                          );
+                        })}
+                    </ul>
+                  </div>
+                ))}
+            </div>
+          ))
+      }
+    </div>
+
+    <!-- Empty state -->
+    <div id="no-results" class="hidden text-center py-12 text-gray-500 dark:text-gray-400">
+      <p class="text-lg">Không tìm thấy bài viết nào.</p>
+      <p class="text-sm mt-1">Thử bỏ bớt bộ lọc để xem thêm kết quả.</p>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const filterPills = document.querySelectorAll<HTMLButtonElement>(".filter-pill");
+    const postItems = document.querySelectorAll<HTMLElement>(".post-item");
+    const monthGroups = document.querySelectorAll<HTMLElement>(".month-group");
+    const yearGroups = document.querySelectorAll<HTMLElement>(".year-group");
+    const noResults = document.getElementById("no-results");
+
+    // Track active filter
+    let activeCategory = "";
+
+    function updateFilters() {
+      // Update pill styles
+      filterPills.forEach((pill) => {
+        const filterValue = pill.dataset.value;
+        const isActive = filterValue === activeCategory;
+
+        pill.classList.toggle("active", isActive);
+        pill.classList.toggle("bg-accent/10", isActive);
+        pill.classList.toggle("text-accent", isActive);
+        pill.classList.toggle("border-accent", isActive);
+        pill.classList.toggle("border-gray-300", !isActive);
+        pill.classList.toggle("dark:border-gray-600", !isActive);
+        pill.classList.toggle("text-gray-600", !isActive);
+        pill.classList.toggle("dark:text-gray-300", !isActive);
+      });
+
+      // Show/hide posts
+      let visibleCount = 0;
+
+      postItems.forEach((item) => {
+        const cat = item.dataset.category || "";
+        const show = !activeCategory || cat === activeCategory;
+
+        item.classList.toggle("hidden", !show);
+        if (show) visibleCount++;
+      });
+
+      // Show/hide month groups
+      monthGroups.forEach((group) => {
+        const visiblePosts = group.querySelectorAll<HTMLElement>(".post-item:not(.hidden)");
+        const monthCount = group.querySelector<HTMLElement>(".month-count");
+        if (monthCount) monthCount.textContent = String(visiblePosts.length);
+
+        if (visiblePosts.length === 0) {
+          group.classList.add("hidden");
+        } else {
+          group.classList.remove("hidden");
+        }
+      });
+
+      // Show/hide year groups
+      yearGroups.forEach((group) => {
+        const visibleMonths = group.querySelectorAll<HTMLElement>(".month-group:not(.hidden)");
+        const yearCount = group.querySelector<HTMLElement>(".year-count");
+        const visiblePosts = group.querySelectorAll<HTMLElement>(".post-item:not(.hidden)");
+        if (yearCount) yearCount.textContent = String(visiblePosts.length);
+
+        if (visibleMonths.length === 0) {
+          group.classList.add("hidden");
+        } else {
+          group.classList.remove("hidden");
+        }
+      });
+
+      // Show/hide no results
+      if (noResults) {
+        noResults.classList.toggle("hidden", visibleCount > 0);
+      }
+    }
+
+    // Click handlers
+    filterPills.forEach((pill) => {
+      pill.addEventListener("click", () => {
+        const filterValue = pill.dataset.value;
+        activeCategory = activeCategory === filterValue ? "" : filterValue;
+        updateFilters();
+      });
+    });
+
+    // Save backUrl for navigation
+    const indexLayout = (document.querySelector("#main-content") as HTMLElement)?.dataset?.layout;
+    if (!indexLayout) {
+      sessionStorage.setItem("backUrl", "/posts/");
+    }
+  });
+</script>

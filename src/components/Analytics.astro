@@ -1,0 +1,60 @@
+---
+// Analytics: Google Analytics 4 + Microsoft Clarity + Meta Pixel
+// All deferred to load after onload to not block rendering
+---
+
+<script is:inline>
+(function() {
+  function initAnalytics() {
+    // Google Analytics 4
+    var ga = document.createElement('script');
+    ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-749CWEC7W0';
+    ga.async = true;
+    document.head.appendChild(ga);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-749CWEC7W0');
+
+    // Meta Pixel
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '809535550765663');
+    fbq('track', 'PageView');
+
+    // Microsoft Clarity
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xi0gyzzi7p");
+  }
+
+  // Load analytics only on first user interaction (scroll/click/tap)
+  // to avoid impacting LCP and Core Web Vitals
+  var loaded = false;
+  function loadOnce() {
+    if (loaded) return;
+    loaded = true;
+    initAnalytics();
+    document.removeEventListener('scroll', loadOnce);
+    document.removeEventListener('click', loadOnce);
+    document.removeEventListener('touchstart', loadOnce);
+    document.removeEventListener('mousemove', loadOnce);
+  }
+  document.addEventListener('scroll', loadOnce, { once: true });
+  document.addEventListener('click', loadOnce, { once: true });
+  document.addEventListener('touchstart', loadOnce, { once: true });
+  document.addEventListener('mousemove', loadOnce, { once: true });
+  // Fallback: load after 4 seconds if no interaction
+  setTimeout(loadOnce, 4000);
+})();
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=809535550765663&ev=PageView&noscript=1"/></noscript>

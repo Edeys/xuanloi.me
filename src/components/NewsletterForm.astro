@@ -1,0 +1,133 @@
+---
+export interface Props {
+  variant?: "default" | "compact";
+}
+
+const { variant = "default" } = Astro.props;
+---
+
+<div
+  class={variant === 'default' ? 'newsletter-box bg-gray-50 dark:bg-gray-800/50 border border-accent rounded-lg p-6 my-8' : 'newsletter-compact mt-6'}
+  id="newsletter-form"
+>
+  {variant === 'default' && (
+    <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+      Bài viết mới, câu chuyện thực tế và những góc nhìn thú vị gửi thẳng vào email của bạn.
+    </p>
+  )}
+
+  <form id="subscribe-form" class="flex flex-col sm:flex-row gap-3">
+    <input
+      type="text"
+      id="subscribe-name"
+      placeholder="Tên của bạn"
+      autocomplete="name"
+      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+    />
+    <input
+      type="email"
+      id="subscribe-email"
+      placeholder="Email của bạn"
+      required
+      autocomplete="email"
+      class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+    />
+    <button
+      type="submit"
+      id="subscribe-btn"
+      class="px-6 py-2 bg-accent rounded-md hover:bg-accent/90 transition-colors font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+      style="color: white;"
+    >
+      Đăng ký
+    </button>
+  </form>
+
+  <div id="subscribe-msg" class="text-sm mt-3 hidden"></div>
+
+  <!-- Success modal overlay -->
+  <div id="subscribe-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="mx-4 p-8 rounded-2xl shadow-2xl text-center max-w-sm w-full" style="background: #16a34a;">
+      <div class="text-white text-5xl mb-4">&#10003;</div>
+      <p class="text-white text-xl font-semibold">Đăng ký thành công!</p>
+      <p class="text-white/80 mt-2">Cảm ơn bạn đã đăng ký nhận tin.</p>
+      <button id="modal-close" class="mt-6 px-6 py-2 bg-white text-green-700 rounded-lg font-medium hover:bg-white/90 transition-colors">Đóng</button>
+    </div>
+  </div>
+
+  {variant === 'default' && (
+    <p class="text-xs text-gray-500 dark:text-gray-400 mt-3">
+      2 lần mỗi tháng, nội dung chất lượng, không quảng cáo.
+    </p>
+  )}
+</div>
+
+<script>
+  const form = document.getElementById("subscribe-form");
+  const msg = document.getElementById("subscribe-msg");
+  const modal = document.getElementById("subscribe-modal");
+  const modalClose = document.getElementById("modal-close");
+  const btn = document.getElementById("subscribe-btn");
+
+  function showModal() {
+    modal.classList.remove("pointer-events-none");
+    modal.style.opacity = "1";
+  }
+
+  function hideModal() {
+    modal.style.opacity = "0";
+    modal.classList.add("pointer-events-none");
+  }
+
+  modalClose?.addEventListener("click", hideModal);
+  modal?.addEventListener("click", (e) => {
+    if (e.target === modal) hideModal();
+  });
+
+  form?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const name = document.getElementById("subscribe-name").value;
+    const email = document.getElementById("subscribe-email").value;
+
+    if (!email) return;
+
+    btn.disabled = true;
+    btn.textContent = "Đang gửi...";
+    msg.classList.add("hidden");
+
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, name }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        showModal();
+        msg.textContent = "Đăng ký thành công! Cảm ơn bạn.";
+        msg.className = "text-sm mt-3 text-green-600 dark:text-green-400";
+        form.reset();
+      } else {
+        throw new Error(data.error || "Có lỗi xảy ra");
+      }
+    } catch (err) {
+      msg.textContent = err.message || "Có lỗi xảy ra. Vui lòng thử lại.";
+      msg.className = "text-sm mt-3 text-red-600 dark:text-red-400";
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Đăng ký";
+      msg.classList.remove("hidden");
+    }
+  });
+</script>
+
+<style>
+  @media (max-width: 640px) {
+    .newsletter-box {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      border-radius: 0;
+    }
+  }
+</style>

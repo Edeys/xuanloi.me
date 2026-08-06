@@ -1,0 +1,12 @@
+{
+  "host": "vn9.dncloud.net",
+  "port": 2083,
+  "username": "CPANEL_USERNAME",
+  "api_token": "CPANEL_API_TOKEN",
+  "ftp_host": "SERVER_IP",
+  "ftp_user": "FTP_USERNAME",
+  "ftp_pass": "FTP_PASSWORD",
+  "web_root": "/home/USERNAME/public_html",
+  "site_url": "https://xuanloi.me",
+  "ftp_root": "/public_html"
+}

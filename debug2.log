@@ -1,0 +1,23 @@
+﻿node.exe : [astro] `markdown.remarkPlugins`, `markdown.rehypePlugins`, and `markdown.remarkRehype` are deprecated. 
+Pass them to `unified({...})` from `@astrojs/markdown-remark` directly instead.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([astro] `markdo...rectly instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[2m13:40:44[22m [34m[content][39m Syncing content
+[2m13:40:44[22m [34m[content][39m Synced content
+[2m13:40:44[22m [34m[types][39m Generated [2m801ms[22m
+[2m13:40:44[22m [34m[build][39m output: [34m"static"[39m
+[2m13:40:44[22m [34m[build][39m mode: [34m"static"[39m
+[2m13:40:44[22m [34m[build][39m directory: [34mD:\Websites\xuanloi.me\dist\[39m
+[2m13:40:44[22m [34m[build][39m Collecting build info...
+[2m13:40:44[22m [34m[build][39m [32m✓ Completed in 928ms.[39m
+[2m13:40:44[22m [34m[build][39m Building static entrypoints...
+[2m13:40:47[22m [34m[vite][39m [32m✓ built in 2.72s[39m
+[2m13:40:48[22m [34m[vite][39m [32m✓ built in 1.15s[39m
+[2m13:40:48[22m [34m[build][39m [32m✓ Completed in 3.94s.[39m
+[2m13:40:48[22m [34m[@astrojs/sitemap][39m `sitemap-index.xml` created at `dist`
+[2m13:40:48[22m [34m[build][39m 0 page(s) built in [1m4.96s[22m
+[2m13:40:48[22m [34m[build][39m [1mComplete![22m

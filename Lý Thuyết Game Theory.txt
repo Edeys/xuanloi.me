@@ -1,0 +1,230 @@
+# Lý Thuyết Trò Chơi (Game Theory) — Tổng Quan Toàn Diện
+
+Tài liệu tham khảo: nền tảng, phân loại, các khái niệm giải, 10 trò chơi kinh điển kèm ví dụ số, và ứng dụng thực tế.
+
+---
+
+## I. Nền tảng
+
+**Định nghĩa**: Lý thuyết trò chơi nghiên cứu ra quyết định chiến lược khi kết quả của mỗi bên phụ thuộc vào lựa chọn của (các) bên khác — không chỉ của riêng mình. Đây là điểm khác biệt cốt lõi so với lý thuyết ra quyết định thông thường, nơi chỉ có một bên đối mặt với "tự nhiên" chứ không có đối thủ chiến lược.
+
+**Mốc lịch sử chính**:
+- **1928 / 1944** — John von Neumann chứng minh định lý minimax; cùng Oskar Morgenstern xuất bản *Theory of Games and Economic Behavior*, đặt nền toán học cho ngành và lý thuyết utility kỳ vọng.
+- **1950–1951** — John Nash chứng minh mọi trò chơi hữu hạn đều có ít nhất một điểm cân bằng → khái niệm **Nash Equilibrium**.
+- **1994** — Nash, John Harsanyi, Reinhard Selten nhận Nobel Kinh tế cho lý thuyết cân bằng trong trò chơi không hợp tác.
+- **2007** — Hurwicz, Maskin, Myerson nhận Nobel cho nền tảng của **mechanism design**.
+
+---
+
+## II. Thành phần & cách biểu diễn một trò chơi
+
+**5 thành phần bắt buộc**:
+
+| Thành phần | Ý nghĩa |
+|---|---|
+| Players | Các bên ra quyết định độc lập |
+| Strategies | Tập hành động khả dĩ — *thuần túy* (1 lựa chọn cố định) hoặc *hỗn hợp* (xác suất trên nhiều lựa chọn) |
+| Payoffs | Giá trị nhận được ứng với mỗi tổ hợp chiến lược của tất cả các bên |
+| Information | Hoàn hảo/không hoàn hảo (thấy hết nước đi trước không); đầy đủ/không đầy đủ (biết payoff đối thủ không) |
+| Rules | Ai đi trước, bao nhiêu vòng, có lặp lại không |
+
+**Hai cách biểu diễn**:
+- **Normal form** (bảng lợi ích/payoff matrix) — dùng cho trò chơi đồng thời (simultaneous)
+- **Extensive form** (cây trò chơi/game tree) — dùng cho trò chơi tuần tự (sequential), thể hiện rõ trình tự nước đi
+
+---
+
+## III. Phân loại trò chơi
+
+| Trục phân loại | Loại A | Loại B |
+|---|---|---|
+| Khả năng cam kết | **Cooperative** — có thể cam kết ràng buộc | **Non-cooperative** — mỗi bên tự quyết |
+| Tổng lợi ích | **Zero-sum** — tổng luôn = 0 | **Non-zero-sum** — có thể cùng thắng/cùng thua |
+| Trình tự | **Simultaneous** — không thấy nước đi đối phương | **Sequential** — có lượt, thấy nước đi trước |
+| Thông tin | **Perfect information** (cờ vua) | **Imperfect information** (poker) |
+| Số lần lặp | **One-shot** | **Repeated** (finite/infinite) |
+| Đối xứng | **Symmetric** | **Asymmetric** |
+
+Phần lớn tình huống kinh doanh thực tế rơi vào nhóm **non-cooperative, non-zero-sum, repeated** — đây là lý do các mô hình như "chiến tranh giá" hay "hợp tác đối tác lâu dài" quan trọng hơn nhiều so với zero-sum thuần túy.
+
+---
+
+## IV. Các khái niệm giải (Solution Concepts)
+
+1. **Dominant Strategy** — chiến lược tốt nhất bất kể đối thủ làm gì. Nếu tồn tại, đây là dự đoán chắc chắn nhất.
+2. **Nash Equilibrium** — trạng thái không ai có lợi khi đơn phương đổi chiến lược. Mọi trò chơi hữu hạn có ít nhất 1 Nash (thuần túy hoặc hỗn hợp).
+3. **Pareto Optimality** — không thể cải thiện ai mà không làm hại người khác. **Nash equilibrium KHÔNG nhất thiết Pareto optimal** — Song đề tù nhân là ví dụ kinh điển của khoảng cách này.
+4. **Backward Induction** — giải trò chơi tuần tự bằng cách phân tích từ nước đi cuối ngược về đầu.
+5. **Subgame Perfect Equilibrium (SPE)** — Nash equilibrium hợp lệ ở MỌI trò chơi con → loại bỏ đe dọa không đáng tin.
+6. **Minimax / Maximin** — dùng cho zero-sum: chọn chiến lược tối đa hóa kết quả tệ nhất có thể xảy ra.
+7. **Bayesian Nash Equilibrium** (Harsanyi) — cân bằng khi có thông tin không đầy đủ về "loại" đối thủ.
+8. **Correlated Equilibrium** (Aumann, 1974) — mở rộng Nash, cho phép các bên phối hợp qua tín hiệu chung.
+9. **Evolutionarily Stable Strategy — ESS** (Maynard Smith & Price, 1973) — chiến lược không thể bị "xâm lấn" bởi chiến lược khác trong quần thể.
+
+---
+
+## V. 10 trò chơi kinh điển — cơ chế, ví dụ số, ứng dụng
+
+### 1. Song đề tù nhân (Prisoner's Dilemma)
+Hai nghi phạm bị hỏi cung riêng. Phản bội luôn có lợi cá nhân hơn im lặng bất kể đối phương làm gì → dominant strategy là phản bội, dù cả hai cùng im lặng sẽ tốt hơn cho cả hai.
+
+*Ví dụ số (năm tù, số âm = chi phí):*
+
+| | B: Im lặng | B: Phản bội |
+|---|---|---|
+| **A: Im lặng** | A: −1, B: −1 | A: −3, B: 0 |
+| **A: Phản bội** | A: 0, B: −3 | A: −2, B: −2 |
+
+→ (Phản bội, Phản bội) = Nash Equilibrium, dù (Im lặng, Im lặng) tốt hơn cho cả hai (Pareto superior nhưng không phải equilibrium).
+
+**Ứng dụng**: chiến tranh giá giữa 2 đối thủ, gian lận hạn ngạch OPEC, chạy đua khuyến mãi bào mòn lợi nhuận toàn ngành.
+
+### 2. Săn hươu (Stag Hunt)
+Hai thợ săn — cùng săn hươu (payoff lớn, cần cả hai hợp tác) hoặc tự săn thỏ (payoff nhỏ, chắc chắn). Vấn đề không phải động cơ phản bội mà là **niềm tin**.
+
+*Ví dụ số:*
+
+| | B: Săn hươu | B: Săn thỏ |
+|---|---|---|
+| **A: Săn hươu** | A: 4, B: 4 | A: 0, B: 2 |
+| **A: Săn thỏ** | A: 2, B: 0 | A: 2, B: 2 |
+
+→ 2 Nash equilibria: (Hươu, Hươu) tốt nhất nhưng rủi ro nếu đối tác không tin; (Thỏ, Thỏ) an toàn nhưng kém hơn. Không có dominant strategy — kết quả phụ thuộc hoàn toàn vào niềm tin.
+
+**Ứng dụng**: góp vốn đầu tư hạ tầng chung, tìm đồng sáng lập, chuyển đổi công nghệ cần khối lượng tới hạn.
+
+### 3. Trò chơi Gà (Chicken / Hawk-Dove)
+Hai bên lao vào nhau, ai nhường trước là "yếu thế" nhưng nếu không ai nhường thì cả hai thiệt hại nặng. Kết quả: 2 Nash equilibria bất đối xứng (một bên nhường, bên kia không).
+
+**Ứng dụng**: đàm phán brinkmanship, chiến tranh thương mại, đàm phán giá khi cả hai bên đều giữ lập trường cứng.
+
+### 4. Trận chiến giới tính (Battle of the Sexes)
+Coordination game — cả hai muốn ở cùng nhau hơn tách ra, nhưng ưu tiên phương án khác nhau. Kết quả: 2 Nash thuần túy (lệch về 1 bên) + 1 Nash hỗn hợp.
+
+**Ứng dụng**: chọn nền tảng/chuẩn chung giữa các đối tác, thống nhất định hướng sản phẩm giữa các founder.
+
+### 5. Matching Pennies
+Zero-sum thuần túy — không có Nash thuần túy, chỉ có Nash hỗn hợp (50/50).
+
+**Ứng dụng**: sút phạt đền, bluff trong poker, quyết định cần "khó đoán" trước đối thủ.
+
+### 6. Trò chơi Rết (Centipede Game)
+Chuỗi lượt "chia sẻ nhỏ dần hay ăn hết ngay". Backward induction dự đoán dừng ngay từ lượt đầu, nhưng thực nghiệm cho thấy con người hợp tác lâu hơn nhiều — minh chứng khoảng cách giữa lý thuyết thuần túy và hành vi thực tế.
+
+### 7. Trò chơi Tối hậu thư (Ultimatum Game)
+A đề xuất cách chia một khoản tiền, B chấp nhận hoặc từ chối (từ chối = cả hai mất trắng). Lý thuyết cổ điển: B nên chấp nhận bất kỳ số > 0. Thực tế: người ta từ chối đề xuất bị coi là "không công bằng" (thường dưới 20–30%) dù mất tiền.
+
+**Ứng dụng**: đàm phán lương, chia cổ phần giữa các founder, đàm phán M&A — luôn phải tính đến cảm nhận công bằng, không chỉ số học thuần túy.
+
+### 8. Cạnh tranh Cournot & Bertrand
+**Cournot** (cạnh tranh theo sản lượng): cân bằng ở mức giá cao hơn chi phí biên. **Bertrand** (cạnh tranh theo giá): với hàng hóa đồng nhất, chỉ cần 2 đối thủ là giá bị đẩy về đúng chi phí biên (nghịch lý Bertrand).
+
+**Ứng dụng**: quyết định định giá vs quyết định công suất/sản lượng khi có đối thủ trực tiếp trong cùng thị trường.
+
+### 9. Lý thuyết Đấu giá (Auction Theory)
+Đấu giá kín giá cao nhất (first-price): người thắng trả đúng giá đã đặt → có động cơ đặt thấp hơn giá trị thật. Đấu giá Vickrey/giá thứ hai (second-price): người thắng chỉ trả giá cao thứ nhì → chiến lược tối ưu là đặt đúng giá trị thật. Các nền tảng quảng cáo (Google/Meta) dùng biến thể generalized second-price lấy cảm hứng từ logic này.
+
+**Ứng dụng**: hiểu vì sao đặt giá thầu sát giá trị thực tế thường tối ưu hơn "chơi chiến thuật" khi chạy Facebook/Google Ads.
+
+### 10. Bi kịch của cái chung (Tragedy of the Commons)
+Tài nguyên chung bị khai thác quá mức vì mỗi cá nhân hưởng lợi toàn phần nhưng chỉ chịu một phần chi phí suy thoái.
+
+**Ứng dụng**: quản lý đất/nước nông nghiệp chung, chất lượng chung của một kênh marketing khi quá nhiều người bán cùng khai thác.
+
+---
+
+## VI. Trò chơi lặp lại (Repeated Games)
+
+Trò chơi một lần và trò chơi lặp lại cho kết quả rất khác nhau:
+
+- **Folk Theorem**: trong trò chơi lặp lại vô hạn, nhiều kết quả hợp tác (tốt hơn Nash của trò chơi một lần) có thể duy trì được, miễn là các bên đủ kiên nhẫn.
+- **Tit-for-Tat**: chiến lược thắng giải đấu máy tính của Axelrod (1980) — hợp tác ở lượt đầu, sau đó lặp lại đúng nước đi trước của đối thủ. Thắng nhờ 4 đặc tính: tử tế, trả đũa ngay, tha thứ, dễ đoán.
+- **Shadow of the Future**: xác suất gặp lại đối tác càng cao → hợp tác càng dễ duy trì như một cân bằng.
+
+**Ứng dụng**: đây là lý do quan hệ đối tác dài hạn, uy tín thương hiệu, và khách hàng lặp lại tạo động lực hợp tác mà giao dịch một lần không có.
+
+---
+
+## VII. Lý thuyết trò chơi hợp tác & Shapley Value
+
+Khác với phần lớn nội dung trên (non-cooperative), nhánh này giả định các liên minh (coalitions) CÓ THỂ cam kết ràng buộc và cần chia lợi ích chung một cách công bằng.
+
+- **Shapley Value** (Lloyd Shapley, 1953) — công thức phân bổ giá trị một liên minh tạo ra cho từng thành viên, dựa trên đóng góp biên trung bình của người đó qua mọi thứ tự gia nhập liên minh có thể.
+- **Core** — tập hợp các cách phân bổ mà không nhóm con nào có động cơ tách ra tự làm riêng.
+- Shapley cũng nhận Nobel Kinh tế 2012 (cùng Alvin Roth) cho lý thuyết ghép cặp ổn định (stable matching) — một nhánh khác của lý thuyết trò chơi hợp tác, nền tảng cho các hệ thống ghép cặp thực tế (phân bổ trường học, hiến thận).
+
+**Ứng dụng**: chia lợi nhuận/cổ phần giữa các nhà đầu tư góp vốn không đều, chia hoa hồng khi nhiều bên cùng đóng góp vào một deal (ví dụ bất động sản có người dẫn khách + người đàm phán + người chốt).
+
+---
+
+## VIII. Trò chơi tín hiệu (Signaling)
+
+- **Signaling** (Michael Spence, Nobel 2001) — bên có thông tin tốt hơn phát ra tín hiệu đủ tốn kém để phân biệt mình với bên chất lượng thấp hơn (ví dụ: bằng cấp trong tuyển dụng, giá cao như tín hiệu chất lượng).
+- **Cheap talk** — tín hiệu không tốn kém, chỉ đáng tin khi lợi ích các bên đủ tương đồng.
+
+**Ứng dụng**: định giá premium như tín hiệu chất lượng, bảo hành dài như tín hiệu tin cậy sản phẩm, chứng chỉ/case study như tín hiệu năng lực khi bán dịch vụ.
+
+---
+
+## IX. Mechanism Design — "lý thuyết trò chơi ngược"
+
+Thay vì phân tích một trò chơi có sẵn, mechanism design thiết kế luật chơi để đạt kết quả mong muốn khi người chơi hành động vì lợi ích riêng.
+
+- **Incentive Compatibility** — thiết kế cơ chế sao cho hành động thật thà/đúng đắn chính là lựa chọn có lợi nhất cho người chơi.
+- **Revelation Principle** — bất kỳ cơ chế nào cũng có thể quy về một cơ chế mà người chơi tự nguyện tiết lộ thông tin thật.
+
+**Ứng dụng**: thiết kế hoa hồng sale để không khuyến khích "chọn deal dễ bỏ deal khó", thiết kế KPI, thiết kế chính sách hoàn tiền tránh gian lận, thiết kế cơ chế phối hợp giữa các AI agent.
+
+---
+
+## X. Lý thuyết trò chơi hành vi (Behavioral Game Theory)
+
+Giả định "duy lý hoàn toàn" của lý thuyết cổ điển thường không khớp thực tế:
+
+- **Bounded rationality** (Herbert Simon) — con người có giới hạn về khả năng tính toán/thông tin.
+- **Loss aversion & inequity aversion** — con người phản ứng bất cân xứng với mất mát, và sẵn sàng từ chối kết quả "không công bằng" dù bị thiệt hơn (xem Ultimatum Game).
+
+**Ý nghĩa thực tế**: khi áp dụng lý thuyết trò chơi vào đàm phán với người thật, cần tính đến cảm xúc/công bằng — không chỉ payoff thuần túy trên giấy.
+
+---
+
+## XI. Bảng tra nhanh — Tình huống kinh doanh → Framework phù hợp
+
+| Tình huống | Framework |
+|---|---|
+| Đối thủ giảm giá, có nên giảm theo? | Prisoner's Dilemma / Bertrand competition |
+| Cần đối tác cam kết đầu tư chung | Stag Hunt — vấn đề là niềm tin, không phải hợp đồng |
+| Đàm phán giá cứng với đối tác | Chicken Game — ai chịu nhường trước |
+| Chọn nền tảng/chuẩn chung với đối tác | Battle of the Sexes |
+| Đặt giá thầu quảng cáo Facebook/Google | Auction Theory (logic second-price) |
+| Chia cổ phần với co-founder | Ultimatum Game — chú ý cảm nhận công bằng, không chỉ số học |
+| Xây quan hệ khách hàng/đối tác lâu dài | Repeated Games — Tit-for-Tat, Folk Theorem |
+| Chia hoa hồng nhiều bên cùng đóng góp 1 deal | Shapley Value |
+| Thiết kế hoa hồng/KPI cho sale | Mechanism Design — incentive compatibility |
+| Định giá premium / xây uy tín thương hiệu | Signaling |
+| Nhiều người cùng khai thác 1 kênh chung (SEO, group FB...) | Tragedy of the Commons |
+
+---
+
+## XII. Thuật ngữ Anh – Việt
+
+| English | Tiếng Việt |
+|---|---|
+| Player | Người chơi |
+| Strategy (pure/mixed) | Chiến lược (thuần túy/hỗn hợp) |
+| Payoff | Lợi ích / kết quả |
+| Nash Equilibrium | Cân bằng Nash |
+| Dominant strategy | Chiến lược trội |
+| Pareto optimal | Tối ưu Pareto |
+| Zero-sum game | Trò chơi tổng bằng không |
+| Backward induction | Quy nạp lùi |
+| Subgame perfect equilibrium | Cân bằng hoàn hảo trong trò chơi con |
+| Repeated game | Trò chơi lặp lại |
+| Coalition | Liên minh |
+| Mechanism design | Thiết kế cơ chế |
+| Incentive compatibility | Tương thích khuyến khích |
+| Signaling | Phát tín hiệu |
+
+---
+
+*Tài liệu tổng hợp phần lý thuyết cốt lõi của game theory. Có thể mở rộng riêng theo hướng ứng dụng cụ thể: định giá bất động sản, chia hoa hồng đa bên, thiết kế cơ chế multi-agent cho OpenClaw, hoặc chiến lược đàm phán cho một thương vụ cụ thể.*
