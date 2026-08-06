@@ -48,9 +48,11 @@ export default defineConfig({
         // Always exclude archives if not showing them
         if (!SITE.showArchives && page.endsWith("/archives")) return false;
 
-        // Optionally exclude tag pages to reduce sitemap bloat
-        // Uncomment the following line to exclude all tag pages:
-        // if (page.includes("/tags/")) return false;
+        // Exclude utility pages (no search-engine value)
+        if (page.includes("/admin") || page.includes("/search")) return false;
+
+        // Exclude pagination pages (duplicate content)
+        if (page.match(/\/page\/\d+\/?$/)) return false;
 
         return true;
       },

@@ -5,17 +5,27 @@
 ## Docs
 
 - [Tất cả bài viết](https://xuanloi.me/posts): Danh sách đầy đủ các bài viết về phát triển bản thân, marketing, tâm lý & tình yêu, thương hiệu cá nhân, sự nghiệp, cuộc sống, và nông nghiệp.
-- [Về tôi](https://xuanloi.me/about): Thông tin về tác giả Đào Xuân Lợi — hành trình, lĩnh vực chuyên môn, và cách liên hệ.
+- [Về tôi](https://xuanloi.me/about): Thông tin về tác giả Đào Xuân Lợi - hành trình, lĩnh vực chuyên môn, và cách liên hệ.
 
 ## Blog
 
-- [17 câu hỏi từng thay đổi cuộc đời mình](https://xuanloi.me/posts/17-cau-hoi-thay-doi-cuoc-doi): 17 câu hỏi đã thay đổi cách sống và làm việc trong gần 10 năm — về bản thân, sự nghiệp và cuộc sống.
-- [Tại sao muốn tiến lên mà không làm được?](https://xuanloi.me/posts/tai-sao-muon-tien-len-mai-khong-lam-duoc): 3 rào cản tâm lý thực sự ngăn bạn phát triển — không phải do lười biếng — và cách gỡ từng cái.
-- [Bài tập 'định hình nỗi sợ'](https://xuanloi.me/posts/bai-tap-dinh-hinh-noi-so): Phương pháp 3 bước viết ra nỗi sợ để ra quyết định dễ dàng hơn, thay vì để nó lơ lửng trong đầu.
-- [Tại sao người giỏi lại khó lên tiếng nhất](https://xuanloi.me/posts/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat): Phân tích 3 lớp rào cản khiến hơn 80% người có chuyên môn thật im lặng trên Internet — và khung để bắt đầu.
-- [Cái bẫy self-help](https://xuanloi.me/posts/self-help-trap): Càng đọc sách phát triển bản thân, càng ít hành động — và cách thoát ra khỏi vòng lặp đó.
-- [Not-To-Do List xây thương hiệu cá nhân](https://xuanloi.me/posts/not-to-do-list-xay-thuong-hieu-ca-nhan): 8 điều nên dừng lại khi xây thương hiệu cá nhân từ con số 0.
-- [8 thứ tốt hơn cả miễn phí trong thời trí tuệ nhân tạo](https://xuanloi.me/posts/8-thu-tot-hon-ca-mien-phi-trong-thoi-tri-tue-nhan-tao): 8 giá trị không thể sao chép bởi AI — tính tức thời, cá nhân hóa, chân thực, và hơn thế nữa.
+- [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](https://xuanloi.me/posts/2026/so-chon-sai-nghe): 3 câu hỏi giúp thoát vòng lặp lo âu định hướng sau 4 lần chuyển ngành.
+- [Self-help và trì hoãn: bài học sau 50 quyển sách](https://xuanloi.me/posts/2026/self-help-trap): Càng đọc sách phát triển bản thân, càng ít hành động - hội chứng nghiện học và cách thoát.
+- [Not-To-Do List xây thương hiệu cá nhân](https://xuanloi.me/posts/2026/not-to-do-list-xay-thuong-hieu-ca-nhan): 8 điều nên dừng lại khi xây thương hiệu cá nhân từ con số 0.
+- [9 câu hỏi thay đổi cuộc đời](https://xuanloi.me/posts/2026/17-cau-hoi-thay-doi-cuoc-doi): 9 câu hỏi về bản thân, sự nghiệp và cuộc sống đã thay đổi cách sống trong gần 10 năm.
+- [Càng lớn càng khó yêu](https://xuanloi.me/posts/2026/cang-lon-cang-kho-yeu): Hội chứng kệ hàng vô tận - vì sao quá nhiều lựa chọn khiến bạn khó yêu hơn, và 3 bước thoát ra.
+- [Vì sao người giỏi lại khó lên tiếng nhất](https://xuanloi.me/posts/2026/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat): Phân tích 3 lớp rào cản khiến hơn 80% người có chuyên môn thật im lặng trên Internet.
+- [8 thứ tốt hơn cả miễn phí trong thời trí tuệ nhân tạo](https://xuanloi.me/posts/2026/8-thu-tot-hon-ca-mien-phi-trong-thoi-tri-tue-nhan-tao): 8 giá trị AI không thể sao chép - tính tức thời, cá nhân hóa, diễn giải, chân thực và hơn thế nữa.
+- [23 bản nháp, 8 tháng, 0 bài đăng](https://xuanloi.me/posts/2026/23-ban-nhap-8-thang-0-bai-dang): Câu chuyện về nỗi sợ bấm nút Publish và cách định nghĩa lại "sẵn sàng".
+- [Đầu tư đất nông nghiệp: cái bẫy của kẻ nghĩ mình thông minh](https://xuanloi.me/posts/2026/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh): Vì sao mua đất chờ lên giá là công thức của 90% người thua.
+- [Tuổi trẻ không tiền, không người hậu thuẫn](https://xuanloi.me/posts/2026/tuoi-tre-khong-tien-khong-nguoi-hau-thuan): Chỉ còn thời gian - dùng sao cho đúng với bài toán nguồn lực và bi kịch của cái chung.
+- [Tỷ phú xe ôm - chân lý về đất nông nghiệp](https://xuanloi.me/posts/2026/ty-phu-xe-om-chan-ly-ve-dat-nong-nghiep): Câu chuyện về những tỷ phú chân đất Bắc Ninh và bài học về cơ hội.
+- [Đêm không ngủ vì những kịch bản trong đầu](https://xuanloi.me/posts/2026/dem-khong-ngu-vi-kich-ban-trong-dau): Vì sao kịch bản trong đầu toàn bắt đầu bằng chữ "nếu" - và cách không tin bộ phim của chính mình.
+- [Bắt đầu với marketing số](https://xuanloi.me/posts/bat-dau-voi-marketing-so): 3 thứ mình ước mình biết sớm hơn khi mới học marketing.
+- [Bài tập định hình nỗi sợ](https://xuanloi.me/posts/bai-tap-dinh-hinh-noi-so): 3 bước viết ra nỗi sợ để ra quyết định dễ dàng hơn bất kỳ cuốn sách self-help nào.
+- [Phát triển bản thân: 3 bài học sau 5 năm](https://xuanloi.me/posts/bai-hoc-phat-trien-ban-than): Phát triển bản thân không phải biết thêm mà là bỏ bớt.
+- [Khoảnh khắc nhận ra sức khỏe đang hỏng](https://xuanloi.me/posts/khoanh-khac-nhan-ra-suc-khoe-bi-hong): "Nợ sức khỏe" của người trẻ và 3 thói quen nhỏ đã cứu mình.
+- [Tại sao muốn tiến lên mà không làm được](https://xuanloi.me/posts/tai-sao-muon-tien-len-mai-khong-lam-duoc): 3 rào cản tâm lý thực sự ngăn bạn phát triển - không phải do lười biếng.
 
 ## Key Facts
 
