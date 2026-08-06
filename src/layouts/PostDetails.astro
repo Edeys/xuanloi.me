@@ -17,6 +17,28 @@ import Layout from "@/layouts/Layout.astro";
 import { getPath } from "@/utils/getPath";
 import { calculateReadingTime } from "@/utils/readingTime";
 import { slugifyStr } from "@/utils/slugify";
+import GithubSlugger from "github-slugger";
+
+// Build ToC items server-side from raw markdown headings.
+// This is important: client-side ToC injection causes layout shift (CLS)
+// which tanks Core Web Vitals AND the agentic-browsing score.
+function buildTocItems(body: string) {
+  const slugger = new GithubSlugger();
+  const items: { id: string; text: string; tag: "h2" | "h3" }[] = [];
+  for (const line of (body || "").split("\n")) {
+    const m = line.match(/^(#{2,3})\s+(.*)$/);
+    if (!m) continue;
+    const level = m[1].length;
+    const raw = m[2].trim();
+    const text = raw
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+      .replace(/[*_`#]/g, "")
+      .trim();
+    if (!text) continue;
+    items.push({ id: slugger.slug(text), text, tag: level === 2 ? "h2" : "h3" });
+  }
+  return items;
+}
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -41,6 +63,7 @@ const {
 
 const { Content } = await render(post);
 const readingTime = calculateReadingTime(post.body ?? "");
+const tocItems = buildTocItems(post.body ?? "");
 
 let ogImageUrl: string | undefined;
 
@@ -149,7 +172,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       <EditPost class="max-sm:hidden" {hideEditPost} {post} />
     </div>
 
-    <TableOfContents />
+    <TableOfContents items={tocItems} />
 
     <article id="article" class="mx-auto prose mt-6 max-w-3xl">
 

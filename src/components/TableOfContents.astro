@@ -1,3 +1,29 @@
+---
+export interface TocItem {
+  id: string;
+  text: string;
+  tag: "h2" | "h3";
+}
+
+export interface Props {
+  items?: TocItem[];
+}
+
+const { items = [] } = Astro.props;
+
+// Nest h3 under the most recent h2
+const nested: { id: string; text: string; children: { id: string; text: string }[] }[] = [];
+for (const item of items) {
+  if (item.tag === "h2") {
+    nested.push({ id: item.id, text: item.text, children: [] });
+  } else if (item.tag === "h3" && nested.length > 0) {
+    nested[nested.length - 1].children.push({ id: item.id, text: item.text });
+  } else if (item.tag === "h3") {
+    nested.push({ id: item.id, text: item.text, children: [] });
+  }
+}
+---
+
 <nav id="table-of-contents" class="toc not-prose" aria-label="Mục lục">
   <details open class="toc-details">
     <summary class="toc-toggle">
@@ -6,7 +32,30 @@
         <path d="m9 18 6-6-6-6"/>
       </svg>
     </summary>
-    <ul class="toc-list" id="toc-list"></ul>
+    {
+      nested.length > 0 ? (
+        <ul class="toc-list" id="toc-list">
+          {nested.map((item) => (
+            <li class="toc-item">
+              <a class="toc-link" href={`#${item.id}`} data-target-id={item.id}>{item.text}.</a>
+              {
+                item.children.length > 0 && (
+                  <ul class="toc-list" style="margin-top:0">
+                    {item.children.map((child) => (
+                      <li class="toc-item">
+                        <a class="toc-link toc-link-h3" href={`#${child.id}`} data-target-id={child.id}>{child.text}.</a>
+                      </li>
+                    ))}
+                  </ul>
+                )
+              }
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <ul class="toc-list" id="toc-list"></ul>
+      )
+    }
   </details>
 </nav>
 
@@ -101,138 +150,72 @@
 </style>
 
 <script>
-  function buildToC() {
-    const article = document.querySelector("#article");
-    const tocList = document.getElementById("toc-list");
-    if (!article || !tocList) return;
-
-    // Clear any existing items (for astro:page-load re-runs)
-    tocList.innerHTML = "";
-
-    // Get all headings
-    const headings = article.querySelectorAll("h2, h3");
-    if (headings.length === 0) {
-      // Hide the whole ToC if no headings
-      const toc = document.getElementById("table-of-contents");
-      if (toc) toc.style.display = "none";
-      return;
-    }
-
-    const items: { tag: string; id: string; text: string }[] = [];
-
-    headings.forEach((h) => {
-      const id = h.id;
-      if (!id) return;
-      const text = h.textContent?.trim() || "";
-      if (!text) return;
-      items.push({ tag: h.tagName.toLowerCase(), id, text });
-    });
+  // Scroll-spy only: items are pre-rendered server-side (no CLS).
+  function setupScrollSpy(article, tocList) {
+    const items = Array.from(tocList.querySelectorAll("a.toc-link"))
+      .map((a) => ({
+        el: a,
+        target: document.getElementById(a.dataset.targetId || ""),
+      }))
+      .filter((x) => x.target);
 
     if (items.length === 0) return;
-
-    // Render tree: h2 top-level, h3 nested under previous h2
-    let currentUl = tocList;
-    let lastH2Li: HTMLLIElement | null = null;
-
-    items.forEach((item) => {
-      const li = document.createElement("li");
-      li.className = "toc-item";
-
-      const a = document.createElement("a");
-      a.className = "toc-link";
-      if (item.tag === "h3") {
-        a.classList.add("toc-link-h3");
-      }
-      a.href = "#" + item.id;
-      a.textContent = "− " + item.text + ".";
-      a.dataset.targetId = item.id;
-
-      a.addEventListener("click", (e) => {
-        e.preventDefault();
-        const target = document.getElementById(item.id);
-        if (target) {
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
-          // Update URL hash without jump
-          history.pushState(null, "", "#" + item.id);
-        }
-      });
-
-      li.appendChild(a);
-
-      if (item.tag === "h2") {
-        currentUl.appendChild(li);
-        lastH2Li = li;
-      } else if (item.tag === "h3" && lastH2Li) {
-        // Create or reuse sub-ul under last h2
-        let subUl = lastH2Li.querySelector("ul");
-        if (!subUl) {
-          subUl = document.createElement("ul");
-          subUl.className = "toc-list";
-          // Reset gap for nested
-          subUl.style.marginTop = "0";
-          lastH2Li.appendChild(subUl);
-        }
-        subUl.appendChild(li);
-      } else {
-        // h3 without preceding h2 — treat as top-level
-        currentUl.appendChild(li);
-      }
-    });
-
-    // Scroll spy: IntersectionObserver
-    const headingElements = items
-      .map((item) => document.getElementById(item.id))
-      .filter(Boolean) as HTMLElement[];
-
-    if (headingElements.length === 0) return;
 
     const allLinks = tocList.querySelectorAll<HTMLAnchorElement>(".toc-link");
 
     const observer = new IntersectionObserver(
       (entries) => {
         let activeId = "";
-
-        // Collect visible headings priority
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Use the first visible heading from top
             const id = entry.target.id;
-            if (!activeId || entry.boundingClientRect.top < document.getElementById(activeId)!.getBoundingClientRect().top) {
+            if (
+              !activeId ||
+              entry.boundingClientRect.top <
+                document.getElementById(activeId)!.getBoundingClientRect().top
+            ) {
               activeId = id;
             }
           }
         });
 
         if (!activeId) {
-          // If nothing visible, find the last heading that's above viewport
           let lastAbove = "";
-          headingElements.forEach((el) => {
-            const rect = el.getBoundingClientRect();
-            if (rect.top < 100) {
-              lastAbove = el.id;
-            }
+          items.forEach(({ target }) => {
+            if (target.getBoundingClientRect().top < 100) lastAbove = target.id;
           });
           activeId = lastAbove;
         }
 
-        // Update active class
         allLinks.forEach((link) => {
           link.classList.remove("active");
-          if (link.dataset.targetId === activeId) {
-            link.classList.add("active");
-          }
+          if (link.dataset.targetId === activeId) link.classList.add("active");
         });
       },
-      {
-        rootMargin: "-80px 0px -70% 0px",
-        threshold: 0,
-      }
+      { rootMargin: "-80px 0px -70% 0px", threshold: 0 },
     );
 
-    headingElements.forEach((el) => observer.observe(el));
+    items.forEach(({ target }) => observer.observe(target));
+
+    // Smooth-scroll on click (prevent default jump)
+    allLinks.forEach((a) => {
+      a.addEventListener("click", (e) => {
+        const id = a.dataset.targetId;
+        const target = id && document.getElementById(id);
+        if (!target) return;
+        e.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.pushState(null, "", "#" + id);
+      });
+    });
   }
 
-  // Run on load and on Astro page transitions
-  document.addEventListener("DOMContentLoaded", buildToC);
-  document.addEventListener("astro:page-load", buildToC);
+  function init() {
+    const article = document.querySelector("#article");
+    const tocList = document.getElementById("toc-list");
+    if (article && tocList) setupScrollSpy(article, tocList);
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
+  document.addEventListener("astro:page-load", init);
 </script>
