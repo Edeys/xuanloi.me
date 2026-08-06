@@ -9,7 +9,6 @@ keyword: "người giỏi"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Người giỏi khó lên tiếng không phải vì thiếu tự tin, mà vì chính cái giỏi tạo ra 3 lớp rào cản: không biết bắt đầu từ đâu, cảm thấy chưa đủ giỏi, và sợ người trong nghề dèm pha. Cách gỡ: bắt đầu từ chuẩn "đủ giỏi 1 bước" — giúp người đi sau bạn 1-2 năm giải quyết một vấn đề cụ thể.
 
 Mình quan sát một hiện tượng lặp đi lặp lại ở rất nhiều người có chuyên môn thật: người càng giỏi, càng khó mở miệng. Họ làm tốt việc của mình trong nhiều năm, có khách hàng, có kết quả, nhưng khi được hỏi *"Anh chị có thể chia sẻ điều này lên mạng không?"* thì câu trả lời phổ biến nhất vẫn là *"Chưa đủ giỏi đâu"*.
 
@@ -210,14 +209,7 @@ Bạn không cần giỏi nhất. Bạn không cần bằng cấp cao nhất. B�
 
 Đó là cách mình đang đi. Đó là cách mời bạn cùng đi.
 
-## Tóm lại
-
-- Người giỏi khó lên tiếng vì 3 lớp rào cản thật: nhận diện, hợp lý, xã hội — không phải "thiếu tự tin".
-- Chuẩn "đủ giỏi 1 bước": bạn đủ giỏi để dạy khi giúp người đi sau 1-2 năm giải quyết một vấn đề cụ thể.
-- Tự tin không phải điều kiện để bắt đầu — bắt đầu mới là điều kiện để có tự tin.
-- Giỏi là điều kiện cần, lên tiếng là điều kiện đủ. Bạn chỉ cần rõ hơn hôm qua.
-
-Nếu bạn đang ở một trong 3 lớp rào cản mà mình vừa nêu, hãy cho mình biết trong phần bình luận: bạn đang kẹt ở lớp nào nhất. Mình sẽ viết tiếp về cách gỡ lớp đó.
+Nếu bạn đang ở một trong 3 lớp rào cản mà mình vừa nêu, hãy cho mình biết trong phần bình luận: bạn đang kẹt ở lớp nào nhất. Mình sẽ viết tiếp về cách gỡ lớp đó. Bởi vì mình tin rằng cái giỏi của bạn có giá trị — nó chỉ đang chờ một người đủ dũng cảm để nói ra thôi.
 
 ---
 

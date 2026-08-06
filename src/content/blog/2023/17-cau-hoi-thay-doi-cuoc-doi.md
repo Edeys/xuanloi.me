@@ -8,8 +8,6 @@ keyword: "câu hỏi thay đổi cuộc đời"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Câu hỏi thay đổi cuộc đời quyết định chất lượng sống hơn bất kỳ câu trả lời nào — nhưng không phải ai cũng biết hỏi. Đây là 9 câu hỏi đã thay đổi cách mình sống và làm việc trong gần 10 năm, chia làm 3 nhóm: bản thân, sự nghiệp, cuộc sống.
-
 Mình từng tin rằng cuộc đời thay đổi nhờ câu trả lời.
 
 Tìm được việc tốt, kiếm được nhiều tiền, gặp được đúng người — đó là đáp án. Vấn đề là mình không có đáp án.
@@ -113,15 +111,6 @@ Mình không hỏi cả 9 câu cùng lúc. Cách áp dụng cụ thể:
 
 Mình tin: nếu bạn dành 15 phút mỗi tuần để trả lời một trong những câu hỏi này, cuộc đời bạn sẽ khác sau 6 tháng.
 
-Không phải vì bạn tìm được câu trả lời đúng. Mà vì bạn đã dừng lại để hỏi — điều mà hầu hết mọi người không làm.
-
----
-
-## Tóm lại
-
-- Câu hỏi quyết định chất lượng cuộc sống hơn bất kỳ câu trả lời nào.
-- Câu hỏi đúng buộc bạn lựa chọn — "sẵn sàng hy sinh gì?" — thay vì tìm kiếm.
-- 9 câu hỏi chia 3 nhóm: bản thân, sự nghiệp, cuộc sống. Chọn 1 câu mỗi tuần, trả lời 15 phút.
-- Sau 6 tháng, cuộc đời khác không phải vì bạn có đáp án, mà vì bạn đã dừng lại để hỏi.
+Không phải vì bạn tìm được câu trả lời đúng. Mà vì bạn đã dừng lại để hỏi — điều mà hầu hết mọi người không làm. Mình không dám nói mình trả lời được hết 9 câu. Nhưng mỗi tuần mình chọn một câu, viết vài dòng, và đủ để mình thấy đường đi rõ hơn một chút. Bạn thử một tuần xem sao.
 
 Có thể bạn cũng muốn đọc [bài về 3 câu hỏi giúp thoát khỏi vòng lặp lo âu định hướng](/posts/2022/so-chon-sai-nghe/) — mình viết nó trước bài này, và hai bài này bổ sung cho nhau nhiều hơn mình nghĩ. Còn nếu bạn thấy mình đang "học mà không hành", [bài về cái bẫy self-help](/posts/2022/self-help-trap/) sẽ giải thích vì sao bạn trì hoãn bằng cách phát triển bản thân.

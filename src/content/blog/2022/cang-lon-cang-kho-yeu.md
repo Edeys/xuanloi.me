@@ -8,8 +8,6 @@ keyword: "càng lớn càng khó yêu"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Càng lớn càng khó yêu không phải vì bạn khó tính, mà vì bạn có quá nhiều lựa chọn và so sánh người thật với tưởng tượng ghép từ 50 profile. Cách thoát: viết ra 3 tiêu chí cốt lõi, tập trung vào một người, và chấp nhận rủi ro.
-
 Một tối cuối tuần, đứa em họ mới tốt nghiệp đại học qua nhà mình chơi.
 
 Nó ngồi phịch xuống ghế, mở điện thoại, quẹo hết app này sang app khác. Im lặng một lúc, nó ngước lên:
@@ -118,16 +116,7 @@ App hẹn hò kiếm tiền từ việc bạn lướt, không phải từ việc
 
 Nhận ra được cái bẫy là bước đầu tiên.
 
-Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa chọn đó.
-
----
-
-## Tóm lại
-
-- Càng lớn càng khó yêu không phải vì bạn khó tính — mà vì quá nhiều lựa chọn.
-- Hội chứng kệ hàng vô tận: càng nhiều chọn lựa, càng khó quyết định.
-- Viết 3 tiêu chí cốt lõi, tập trung một người trong 1-2 tháng, và chấp nhận rủi ro.
-- Không chọn cũng là một lựa chọn — và nó thường là lựa chọn tệ nhất.
+Bước thứ hai là dám chọn, và dám chịu trách nhiệm cho lựa chọn đó. Mình viết bài này không phải để khuyên bạn phải yêu ai hay cưới ai gấp — mình chỉ mong bạn đừng để những ngón tay lướt trên app thay thế trái tim mình. Người thật không hiện ra từ một danh sách tiêu chuẩn hoàn hảo đâu.
 
 *Bài viết này và [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) cùng nói về một nỗi sợ — sợ chọn sai. Trong tình yêu cũng như sự nghiệp. Nếu bạn muốn hiểu vì sao câu hỏi quyết định chất lượng cuộc sống, hãy đọc thêm [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/).*
 

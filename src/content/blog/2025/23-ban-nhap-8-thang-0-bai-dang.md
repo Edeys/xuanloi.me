@@ -8,8 +8,6 @@ keyword: "bản nháp"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** 23 bản nháp trong 8 tháng, không bài nào được đăng — vấn đề không phải kỹ năng viết mà là đợi cảm giác sẵn sàng không bao giờ tới. Bài đầu tiên mình đăng không phải bài hay nhất, mà là bài mình dám bấm nút Publish nhất.
-
 Mình có 23 bản nháp trong 8 tháng. Không cái nào được đăng.
 
 23 cái. Mỗi cái là một lần mình mở file Word, viết vài đoạn, thấy dở, xóa hết, đóng lại.
@@ -80,21 +78,10 @@ Nếu bạn đang có một folder đầy bản nháp chưa dám đăng, cách m
 2. **Sửa tối đa 3 lần rồi dừng** — sửa lần thứ ba trở đi, bài không còn là của bạn nữa.
 3. **Bấm Publish dù chưa ưng** — vì không ai đọc bản nháp đầu của bạn ngoài chính bạn, và đăng lên mới có dữ liệu để học.
 
----
-
-## Tóm lại
-
-- 23 bản nháp không phải tại viết dở — mà tại đợi cảm giác sẵn sàng không bao giờ tới.
-- "Đủ hay" là vòng lặp không có điểm dừng — nó không phải cái đích.
-- Cái chết của người mới không phải thất bại, mà là không dám bắt đầu.
-- Bài đầu tiên đăng không cần hay nhất — chỉ cần bạn dám bấm nút Publish.
-
 Có bao nhiêu người ở đây cũng có một folder "23 bản nháp" của riêng mình?
 
 Một bài viết, một video, hay một dự án nào đó đang để dành cho "khi nào sẵn sàng"? Comment dưới bài viết này nhé.
 
-Còn nếu bạn đang đọc tới đây và đang có một bản nháp chưa dám đăng — thì bài blog này cũng chỉ là một bản nháp trước khi nó được đăng thôi.
-
-Điểm khác biệt duy nhất là mình bấm nút lần này.
+Còn nếu bạn đang đọc tới đây và đang có một bản nháp chưa dám đăng — thì bài blog này cũng chỉ là một bản nháp trước khi nó được đăng thôi. Điểm khác biệt duy nhất là mình bấm nút lần này.
 
 *Mình từng viết về [cách thoát vòng lặp "chuẩn bị" khi chọn nghề](/posts/2022/so-chon-sai-nghe/) — nỗi sợ ngồi yên không thử cũng giống hệt nỗi sợ bản nháp này. Và nếu bạn thấy mình đang "học mà không hành", bài [cái bẫy self-help](/posts/2022/self-help-trap/) sẽ giải thích vì sao.*

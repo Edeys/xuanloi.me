@@ -8,8 +8,6 @@ keyword: "thương hiệu cá nhân"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Xây thương hiệu cá nhân là quá trình để một nhóm người cụ thể nhận ra bạn qua đúng vấn đề bạn giải quyết — không phải chuyện đăng bài mỗi ngày. Sau 60 bài chỉ được 11 follow, mình rút ra 8 điều nên dừng ngay, và cách gỡ từng cái.
-
 Hai tháng trước mình đăng 60 bài lên Facebook cá nhân. Có bài viết, có video ngắn, có bài chia sẻ ảnh — đều đặn mỗi ngày. Kết quả: 11 người theo dõi mới, 0 inbox hỏi thuê, và 1 cảm giác rất rõ ràng là mình đang tự huỷ mình bằng sự chăm chỉ.
 
 Mình ngồi trước màn hình tối đó, đọc lại 1 bài mình viết. Nó không tệ. Nó cũng không hay. Nó chỉ là một bài nữa trong 60 bài, và mình không thể nhớ nổi mình muốn nói gì khi viết nó.
@@ -189,14 +187,6 @@ Bỏ được 1 trong 8 thứ trên, bạn sẽ có thêm 1 tháng mỗi năm. B
 
 Câu chuyện mình kể ở đầu — 60 bài, 11 follow, 0 inbox — không phải để khoe sự chăm chỉ. Mà để nói: mình đã từng tin rằng chỉ cần chăm chỉ là đủ. Mình sai. Và mình viết bài này để ít nhất 1 người khỏi sai giống mình.
 
----
-
-## Tóm lại
-
-- Đừng đăng mỗi ngày — đăng 1 bài dài mỗi tuần trả lời 1 câu hỏi cụ thể của 1 người cụ thể.
-- Đừng đầu tư thiết bị trước — dùng đồ đang có, nâng cấp sau khi có phản hồi thật.
-- Đừng đo follow — đo inbox, comment sâu, và lượt chia sẻ tự nhiên.
-- Đừng mở 8 kênh — làm 1 kênh trong 6 tháng, có nhịp rồi mới thêm.
-- Mỗi tháng, chỉ so sánh với chính mình tháng trước.
+Nếu bạn đang đọc đến đây, mình chỉ muốn nhắn bạn một câu: đừng dùng danh sách này như một thứ phải làm hết. Hãy chọn đúng 1 điều bạn đang mắc nhất, bỏ nó trong 30 ngày, rồi quay lại đọc tiếp. Mình vẫn đang làm vậy với 3 điều còn dang dở của chính mình đây.
 
 *Bài này nằm trong chuỗi **Người Giỏi Lên Tiếng** trên xuanloi.me. Đọc thêm [bài đầu tiên giải thích tại sao người giỏi lại khó lên tiếng](/posts/2021/vi-sao-nguoi-gioi-lai-kho-len-tieng-nhat/) nếu bạn muốn hiểu rõ hơn về 3 rào cản tâm lý. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2022/so-chon-sai-nghe/) dùng chung 3 câu hỏi hành động để thoát vòng lặp trì hoãn.*

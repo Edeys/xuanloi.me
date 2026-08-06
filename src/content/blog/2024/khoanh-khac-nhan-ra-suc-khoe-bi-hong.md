@@ -8,8 +8,6 @@ keyword: "sức khỏe"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Sức khỏe người trẻ không hỏng vì một tai nạn — nó hỏng từng ngày vì thói quen: thức khuya, ăn vội, bỏ tập. Mình gọi đó là "nợ sức khỏe": cơ thể không đòi ngay, nhưng một ngày nào đó nó trình hóa đơn. Cách trả nợ chỉ cần 3 thói quen nhỏ.
-
 Mình từng nghĩ sức khỏe là thứ mặc định.
 
 Cả ngày ngồi máy tính, ăn uống tùy tiện, ngủ 5-6 tiếng mỗi đêm, uống cà phê như nước lọc để duy trì năng lượng. Mình tự hào vì làm được nhiều việc, thức khuya dậy sớm, "bận quá không có thời gian tập thể dục".
@@ -82,13 +80,6 @@ Mình không giảm 10kg, không có cơ bụng 6 múi, không chạy được m
 
 Nhưng mình hết đau lưng. Ngủ ngon hơn. Tập trung tốt hơn. Và quan trọng nhất: mình không còn sợ mỗi sáng thức dậy sẽ thấy cơ thể có vấn đề gì mới nữa.
 
-## Tóm lại
-
-- Sức khỏe người trẻ hỏng từng ngày vì thói quen, không phải vì một tai nạn.
-- "Nợ sức khỏe": mỗi lần thức khuya, ăn vội, bỏ tập là một khoản vay — cơ thể sẽ trình hóa đơn.
-- Sức khỏe là nền tảng: nó yếu thì việc, học, quan hệ đều sụp theo.
-- 3 thay đổi nhỏ đủ cứu bạn: ngủ trước 12h, đi bộ 20 phút, ăn một bữa tử tế.
-
-Mình viết bài này không phải để kêu gọi bạn tập gym hay chạy bộ. Mình viết để nói: sức khỏe không phải thứ bạn cải thiện khi có thời gian. Nó là thứ bạn mất đi từng ngày nếu không chú ý.
+Mình viết bài này không phải để kêu gọi bạn tập gym hay chạy bộ. Mình viết để nói: sức khỏe không phải thứ bạn cải thiện khi có thời gian. Nó là thứ bạn mất đi từng ngày nếu không chú ý. Ngày mình không ngồi dậy được ấy, mình đã ước có ai đó cảnh báo mình sớm hơn — nên hôm nay mình viết ra, cho những ai còn đang kịp.
 
 Và nó không đợi bạn sẵn sàng đâu. Nếu bạn cũng từng trải qua cảm giác này, bài [phát triển bản thân: 3 bài học sau 5 năm](/posts/2020/bai-hoc-phat-trien-ban-than/) có một kết luận giống hệt: sức khỏe không phải phần phụ, nó là nền tảng. Còn nếu bạn đang đợi "sẵn sàng" để thay đổi, bài [23 bản nháp, 8 tháng, 0 bài đăng](/posts/2025/23-ban-nhap-8-thang-0-bai-dang/) giải thích vì sao cảm giác đó không bao giờ tới.

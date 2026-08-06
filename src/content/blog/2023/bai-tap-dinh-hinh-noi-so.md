@@ -8,8 +8,6 @@ keyword: "định hình nỗi sợ"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Bài tập định hình nỗi sợ là một cách viết ra điều tồi tệ nhất có thể xảy ra thay vì để nó lơ lửng trong đầu — vì nỗi sợ chỉ mạnh khi nó còn mơ hồ. 3 bước: viết ra viễn cảnh tệ nhất, liệt kê cách ngăn chặn, và tính cái giá của việc không hành động.
-
 Có một nghịch lý mình từng không hiểu.
 
 Những quyết định quan trọng nhất đời — có nên bỏ việc, có nên chuyển ngành, có nên bắt đầu một thứ mới — thường bị trì hoãn lâu nhất. Không phải vì thiếu thông tin. Mà vì sợ.
@@ -93,13 +91,6 @@ Nỗi sợ trong đầu bạn thường to hơn nỗi sợ ngoài đời thực 
 
 Không phải để bạn trở nên dũng cảm. Mà để bạn thấy: phần lớn những gì bạn sợ đều không đáng sợ đến thế. Và ngay cả khi điều tệ nhất xảy ra, bạn vẫn ổn.
 
----
-
-## Tóm lại
-
-- Nỗi sợ chỉ mạnh khi nó còn mơ hồ — viết ra thì nó nhỏ lại.
-- 3 bước: viết viễn cảnh tệ nhất, liệt kê cách khắc phục, tính giá của việc không hành động.
-- Rủi ro không hành động (mất 1-2 năm cuộc đời) thường đắt hơn rủi ro hành động (khó khăn 3-6 tháng).
-- Nỗi sợ trong đầu to hơn ngoài đời thực gấp 10 lần.
+Mình vẫn còn cuốn sổ đó. Thỉnh thoảng gặp quyết định lớn, mình lại lật ra, viết viễn cảnh tệ nhất xuống — và bao giờ cũng thấy nó nhỏ lại sau vài dòng. Bạn thử đêm nay xem, khi mọi thứ yên tĩnh nhất. Cầm bút lên là được.
 
 *Bài này nối tiếp [bài về sợ chọn sai nghề](/posts/2022/so-chon-sai-nghe/) — nếu bạn đang trong giai đoạn lo âu về sự nghiệp, bài đó sẽ giúp ích. Cũng đừng quên [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/) — câu hỏi "mình đang tránh điều gì" trong đó áp dụng trực tiếp cho bài tập này.*

@@ -8,8 +8,6 @@ keyword: "tuổi trẻ không tiền"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Tuổi trẻ không tiền, không người hậu thuẫn không phải bất lợi — miễn là bạn nhận ra thứ duy nhất mình có là thời gian. Dùng nó đúng cách nghĩa là chọn một nghề có đường dài và học từ gốc, thay vì chạy loạn từ cơ hội này sang cơ hội khác vì sợ bỏ lỡ.
-
 Có một câu hỏi mà hầu như người trẻ nào cũng từng tự hỏi: "Mình nên làm gì với cuộc đời mình?"
 
 Câu hỏi đó càng khó hơn khi bạn nhìn quanh và thấy người thì có sẵn tiền, người có sẵn mối quan hệ, còn mình thì chẳng có gì.
@@ -117,13 +115,6 @@ Nhưng nếu nhìn bằng lý thuyết trò chơi, khi nguồn lực của bạn
 Bạn không thể đánh nhiều ô cùng lúc khi tay chỉ có một đồng xu.
 
 Bạn chọn một ô, đặt toàn bộ thời gian của mình vào đó, đào sâu đến mức không ai có thể đuổi kịp. Đến lúc đó, đường dài mới thực sự mở ra.
-
-## Tóm lại
-
-- Tam giác nguồn lực: tiền, con người, thời gian — người trẻ không tiền chỉ còn thời gian.
-- Bi kịch của cái chung: mỗi lần chạy theo cơ hội mới là một lần thả bò lên đồng cỏ tuổi trẻ.
-- Kiếm tiền để sống là đáng trọng — nhưng đừng quên xây một nghề thực thụ.
-- Chọn một nghề có đường dài, học từ gốc, đặt cược tập trung — đó là chiến lược tối ưu khi nguồn lực hạn chế.
 
 Tuổi trẻ không tiền, không người hậu thuẫn — đó không phải là bất lợi. Đó là điểm xuất phát của rất nhiều người.
 

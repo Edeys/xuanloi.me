@@ -8,8 +8,6 @@ keyword: "kịch bản trong đầu"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Những kịch bản trong đầu lúc 2 giờ sáng — nợ, mất đất, bị người khác chê — gần như không bao giờ xảy ra, vì chúng toàn bắt đầu bằng chữ "nếu". Cách mình thoát: viết kịch bản ra giấy, rồi hỏi "nó đã xảy ra chưa?" — nếu chưa, không được phép tiêu năng lượng của hôm nay cho nó.
-
 2 giờ sáng.
 
 Đắk Nông, mùa mưa.
@@ -147,13 +145,6 @@ Mình hỏi: "Nó đã xảy ra chưa?"
 Nếu chưa — mình không được phép tiêu năng lượng của hôm nay cho nó.
 
 Nghe đơn giản. Nhưng phải mất nhiều tháng mình mới làm được điều đó một cách tự nhiên.
-
-## Tóm lại
-
-- Kịch bản trong đầu toàn bắt đầu bằng chữ "nếu" — và "nếu" thì chưa từng xảy ra.
-- Không thể dừng nỗi sợ bằng lý trí — chỉ có thể đưa nó ra khỏi đầu bằng bút và giấy.
-- Đổi câu hỏi: từ "nếu xảy ra thì sao?" thành "nó đã xảy ra chưa?" và "mình làm được gì?"
-- Đáy không phải nơi bạn rơi xuống — đáy là lúc bạn tin vào những thứ mình tự bịa ra.
 
 Mình không dám nói mình hết mất ngủ. Nói thật, vẫn còn những đêm.
 

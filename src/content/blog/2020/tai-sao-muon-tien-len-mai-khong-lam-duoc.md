@@ -8,8 +8,6 @@ keyword: "muốn tiến lên mà không làm được"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Muốn tiến lên mà không làm được không phải vì bạn lười — mà vì 3 rào cản bên trong: sợ bị nhìn thấy thất bại, quá tải lựa chọn, và bắt đầu quá lớn. Cách gỡ: hành động ẩn, chọn 1 thứ trong 3 tháng, và bắt đầu từ 5 phút.
-
 "Tôi muốn phát triển bản thân. Tôi muốn có thu nhập cao hơn. Tôi muốn trở nên giỏi giang."
 
 Bạn đã nói câu này bao nhiêu lần? Mình cũng vậy. Hàng trăm lần.
@@ -84,17 +82,8 @@ Sau 30 ngày, bạn sẽ có 30 câu. Đó là bằng chứng 100% bạn đã ti
 
 ---
 
-## Tóm lại
+Viết đến đây, mình chợt nhớ lại bao nhiêu lần mình ngồi trước màn hình, mở 15 tab trình duyệt rồi không bắt đầu được cái nào. Nếu bạn cũng đang ở trong cảnh đó, mình hiểu lắm. Nhưng mình cũng tin một điều: bạn không cần kế hoạch hoàn hảo, bạn chỉ cần một bước nhỏ, ngay hôm nay. Một bước thôi. Rồi ngày mai thêm một bước nữa.
 
-- Muốn tiến lên mà không làm được không phải vì lười — vì hệ thống phòng thủ giữ bạn trong vùng an toàn.
-- 3 rào cản thật: sợ bị nhìn thấy thất bại, quá tải lựa chọn, bắt đầu quá lớn.
-- Cách gỡ: hành động ẩn, 1 thứ duy nhất trong 3 tháng, bắt đầu từ 5 phút.
-- Bước nhỏ hôm nay đáng giá hơn kế hoạch hoàn hảo.
-
-> **Thành công không nằm ở chỗ "ta muốn đi xa". Mà nằm ở chỗ "ta có dám bước đi hay không".**
-
-Bạn không cần một kế hoạch hoàn hảo. Bạn cần một bước nhỏ, ngay hôm nay. Một bước thôi. Rồi ngày mai thêm một bước.
-
-Bài viết này không phải để thuyết phục bạn. Nó là để nhắc bạn — cũng như nhắc chính mình — điều mà cả hai đều đã biết nhưng hay quên.
+Bài viết này mình viết ra không phải để thuyết phục bạn. Nó là để nhắc bạn — cũng như nhắc chính mình — điều mà cả hai đều đã biết nhưng hay quên.
 
 *Bài này liên quan đến bài [Mình từng đọc 50 quyển self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình ở trong vòng lặp "học mà không làm", bài đó sẽ nói thêm về cách thoát. Còn nếu bạn đang kẹt ở nỗi sợ quyết định, hãy thử [bài tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) — viết ra điều tồi tệ nhất thay vì để nó lơ lửng trong đầu.*

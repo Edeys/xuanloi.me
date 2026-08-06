@@ -8,8 +8,6 @@ keyword: "phát triển bản thân"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Phát triển bản thân không phải học thêm, mà là bỏ bớt — bỏ thói quen xấu, mối quan hệ tiêu cực, niềm tin giới hạn. Sau 5 năm đọc sách, học khóa học, nghe podcast, mình nhận ra 3 điều: bỏ bớt tốt hơn biết thêm, kiên nhẫn là làm mỗi ngày, và sức khỏe là nền tảng.
-
 Bài viết này là bài đầu tiên trên blog của Đào Xuân Lợi — viết khi mình mới bắt đầu, còn lộn xộn trong suy nghĩ. Mình viết lại nó để phản ánh đúng hơn những gì mình đã học được sau gần 5 năm.
 
 ---
@@ -69,11 +67,6 @@ Sau gần 5 năm "phát triển bản thân", mình rút gọn toàn bộ hành 
 
 Nếu không có câu trả lời, thì mọi cuốn sách, mọi khóa học, mọi podcast đều không có nghĩa.
 
-## Tóm lại
-
-- Phát triển bản thân là bỏ bớt, không phải biết thêm — bỏ 3 thứ xấu còn giá trị hơn học 3 kỹ năng mới.
-- Kiên nhẫn là làm mỗi ngày dù không muốn, không phải ngồi đợi.
-- Sức khỏe là nền tảng — nó yếu thì mọi thứ xây trên đó đều đổ.
-- Mọi sách vở, khóa học chỉ có nghĩa khi tuần này bạn tốt hơn tuần trước.
+Câu hỏi đó mình tự hỏi mình mỗi cuối tuần. Có tuần mình trả lời được, có tuần mình im lặng — và những tuần im lặng ấy, mình biết mình đang lừa dối bản thân bằng đống sách vở. Nên mình viết bài này như một lời nhắc, cho chính mình trước, rồi mới đến ai đó đang đọc.
 
 *Bài này là bài đầu tiên trên blog, được viết lại sau gần 1 năm — vì mình đã thay đổi. Nếu bạn đang trên hành trình tương tự, có thể bài [tại sao muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/) sẽ hữu ích — hoặc [bài về cái bẫy self-help](/posts/2022/self-help-trap/) nếu bạn đang đọc nhiều mà làm ít.*

@@ -8,8 +8,6 @@ keyword: "self-help"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Self-help trở thành trì hoãn khi bạn đọc để có cảm giác tiến bộ thay vì để thay đổi. Sau 50 quyển sách gần như không áp dụng gì, mình đổi quy tắc: đọc 1 chương, dừng lại, làm theo — thay vì đọc hết rồi cất lên kệ.
-
 Năm 2019, mình — lúc ấy còn là một nhân viên marketing tên Xuân Lợi — có một tủ sách self-help dày hơn bất kỳ thứ gì mình từng sở hữu.
 
 7 Habits. Deep Work. Atomic Habits. The Power of Habit. Think and Grow Rich. How to Win Friends. Dịch thuật và tiếng Việt lẫn lộn. Mình đọc hết, gạch chân hết, ghi chép hết.
@@ -114,22 +112,13 @@ Câu hỏi hơi ngạo nhưng rất hữu ích. Nó giúp mình nhận ra: phầ
 
 ---
 
-## Tóm lại
-
-- Hội chứng nghiện học là đọc để có cảm giác tiến bộ thay vì để thay đổi.
-- Não bộ không phân biệt được học và làm — cảm giác thỏa mãn khi đọc là ảo.
-- Quy tắc mới: đọc 1 chương, dừng lại, làm theo — một quyển sách dùng 3 tháng còn hơn 3 ngày không áp dụng gì.
-- Trước khi đọc, hỏi: mình sẽ làm gì khác sau khi đọc quyển này?
-
 Mình vẫn đọc self-help. Nhưng mỗi năm chỉ 4-5 quyển, thay vì 20-30 như trước.
 
 Ít hơn. Nhưng làm nhiều hơn.
 
-Và mình thấy mình thay đổi nhiều hơn trong 1 năm ít đọc so với 3 năm đọc ngấu nghiến.
+Và mình thấy mình thay đổi nhiều hơn trong 1 năm ít đọc so với 3 năm đọc ngấu nghiến. Có thể bạn cũng vậy. Không cần dừng đọc. Chỉ cần hỏi mình: "Đọc xong rồi, mình sẽ làm gì với nó?"
 
-Có thể bạn cũng vậy. Không cần dừng đọc. Chỉ cần hỏi mình: "Đọc xong rồi, mình sẽ làm gì với nó?"
-
-Nếu chưa có câu trả lời — thì hãy đóng sách lại, và bắt đầu làm một việc gì đó trước đã.
+Nếu chưa có câu trả lời — thì hãy đóng sách lại, và bắt đầu làm một việc gì đó trước đã. Mình đã mất 50 quyển sách để học được bài này, mong bạn đừng mất nhiều như vậy.
 
 *Bài này nói cùng một vấn đề với [bài về 3 rào cản khiến bạn muốn tiến lên mà không làm được](/posts/2020/tai-sao-muon-tien-len-mai-khong-lam-duoc/) — mời bạn đọc thêm. Còn nếu bạn đang sợ chọn sai nghề, bài [Sợ chọn sai nghề: nỗi sợ lớn nhất tuổi 23](/posts/2022/so-chon-sai-nghe/) cũng chia sẻ cách thoát vòng lặp "chuẩn bị" tương tự.*
 

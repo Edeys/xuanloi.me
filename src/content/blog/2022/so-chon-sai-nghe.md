@@ -8,8 +8,6 @@ keyword: "chọn sai nghề"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Chọn sai nghề không phải sai lầm — ngồi yên không thử mới là sai lầm. Sau 4 lần chuyển ngành từ bán hàng, dạy tiếng Anh, marketing đến nông nghiệp, mình tin câu hỏi đúng không phải "mình hợp nghề gì" mà là "6 tháng tới mình muốn học gì?".
-
 Mình nhớ cái cảm giác tuổi 23.
 
 23 tuổi, vừa tốt nghiệp đại học, CV để trống phân nửa vì không biết viết gì vào ô "kinh nghiệm". Ngồi trước máy tính, mở LinkedIn lướt một vòng, thấy bạn bè ai cũng đã có việc. Đứa làm ngân hàng, đứa làm IT, đứa vào marketing, đứa đi du học.
@@ -118,12 +116,7 @@ Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có 
 
 ---
 
-## Tóm lại
-
-- Chọn sai nghề không phải sai lầm — ngồi yên không thử mới là sai lầm.
-- Ba cái bẫy kẹt định hướng: sợ chọn sai nên không chọn, ảo tưởng đam mê, so sánh trên mạng.
-- Thay vì hỏi "mình hợp nghề gì", hãy hỏi "6 tháng tới mình muốn học gì?" và bắt đầu thử.
-- Tuổi 20 là thời gian thu thập dữ liệu, không phải để có câu trả lời đúng.
+Tuổi 20 là thời gian để thu thập dữ liệu, không phải để có câu trả lời đúng. Mình viết bài này lúc đã qua bao nhiêu lần chuyển ngành, và mình chỉ ước hồi 23 tuổi có ai đó nói với mình câu này sớm hơn: bạn không cần biết mình hợp nghề gì, bạn chỉ cần thử một thứ và xem mình có muốn làm tiếp không.
 
 Mình viết bài này cùng ngày với [bài về cái bẫy self-help](/posts/2022/self-help-trap/) — nếu bạn thấy mình đang "học mà không hành", bài đó sẽ bổ sung cho bài này. Còn nếu nỗi sợ của bạn là "không biết mình sợ gì", hãy thử [bài tập định hình nỗi sợ](/posts/2023/bai-tap-dinh-hinh-noi-so/) — nó giúp mình ra quyết định dễ dàng hơn bất kỳ cuốn sách self-help nào.
 

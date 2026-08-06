@@ -8,8 +8,6 @@ keyword: "đất nông nghiệp"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Chân lý về đất nông nghiệp mà tỷ phú xe ôm dạy mình: người giàu từ đất không bán đất — họ trồng cây trên đất và sống bằng dòng tiền nông sản mỗi mùa. Họ mua rẻ khi mọi người bỏ cuộc, như mua đất Đắk Lắk thời giá cà phê sụp đổ năm 2000, và giữ nó qua mọi thăng trầm.
-
 Hà Nội đón mình vào một buổi chiều tháng 11 se lạnh — cái lạnh ngọt ngào mà một người đã sống lâu ở vùng đất Tây Nguyên nắng gió như mình đã lâu không cảm nhận được.
 
 Mình ra Hà Nội lần này để tham dự một khóa học. Kết thúc khóa học với nhiều điều háo hức, mình lên taxi ra sân bay để về lại Đắk Nông. Trên xe, câu chuyện của mình và bác tài xế Grab khiến mình không thể kìm lại được để viết nó xuống khi đang chờ lên máy bay.
@@ -83,13 +81,6 @@ Mình nhận ra ba thứ mà những tỷ phú xe ôm làm đúng — và mình 
 1. **Mua khi mọi người bỏ cuộc** — họ mua đất Đắk Lắk thời giá cà phê sụp đổ, khi người trong vùng còn bảo họ dở hơi.
 2. **Trồng cây trên đất ngay** — đất chỉ sinh lời khi có sản xuất, cây trồng tạo dòng tiền đều đặn mỗi mùa.
 3. **Không bán đất** — họ giữ đất qua mọi thăng trầm và sống bằng nông sản, mỗi mùa thu hoạch đủ tiền mua một căn nhà ở chợ.
-
-## Tóm lại
-
-- Người giàu từ đất nông nghiệp không bán đất — họ sống bằng dòng tiền nông sản mỗi mùa.
-- Cơ hội đến khi mọi người bỏ cuộc: mua đất Đắk Lắk thời giá cà phê sụp đổ năm 2000.
-- Sau mỗi mùa thu hoạch, họ đủ tiền mua cả căn nhà ở chợ — đất vẫn còn đó.
-- Cơ hội không chỉ ở mảnh đất — mà ở nơi ít người nhìn tới, thời điểm ít người dám bước.
 
 Chuyến xe ra sân bay hôm đó kết thúc. Câu chuyện "tỷ phú xe ôm" mà bác tài kể cứ đọng lại trong mình suốt chuyến bay về.
 

@@ -8,8 +8,6 @@ keyword: "marketing số"
 locale: "vi"
 ---
 
-**Trả lời nhanh:** Bắt đầu với marketing số, điều quan trọng nhất không phải học công cụ mà là học cách nghĩ. Sau gần 6 năm làm marketing thực tế, mình rút gọn toàn bộ vào 2 câu hỏi: mình đang giúp ai giải quyết vấn đề gì, và họ có đang thấy mình không?
-
 Năm 2019, mình bắt đầu học marketing số.
 
 Cũng như bao người mới, mình mở Google search "marketing số là gì", đọc 5 bài viết đầu tiên, ghi chép cẩn thận: SEO, Facebook Ads, Google Ads, Email Marketing, Content Marketing. 5 kênh. Mình nghĩ chỉ cần học hết 5 thứ này là sẽ làm được marketing.
@@ -87,11 +85,8 @@ Nếu trả lời được 2 câu đó, phần còn lại chỉ là kỹ thuật
 
 ---
 
-## Tóm lại
+---
 
-- Bắt đầu với marketing số không phải học công cụ — mà là học cách nghĩ.
-- 3 bẫy của người mới: học 5 kênh cùng lúc, chạy theo thuật toán, đo sai chỉ số.
-- Làm 1 kênh trong 6 tháng, nghe khách hàng 1 tháng, đo đúng doanh thu và chi phí.
-- Toàn bộ marketing rút gọn thành 2 câu hỏi: giúp ai, và họ có thấy mình không?
+Nếu có ai đó đang đọc đến đây mà đang mông lung như mình hồi năm 2019, mình chỉ muốn nói một điều: đừng cố học hết 5 kênh cùng lúc. Chọn một kênh, làm 6 tháng, nghe khách hàng của mình nhiều hơn nghe bất kỳ ai trên mạng. Marketing không khó như người ta vẽ ra — nó chỉ cần bạn dừng lại và hỏi đúng câu hỏi: mình đang giúp ai, và họ có thấy mình không?
 
 *Bài này nằm trong quá trình mình hệ thống lại những gì đã học về marketing và xây thương hiệu cá nhân. Anh em có thể đọc thêm [bài về personal branding](/posts/2021/not-to-do-list-xay-thuong-hieu-ca-nhan/) để thấy mình đã áp dụng marketing cho chính mình thế nào, và [9 câu hỏi thay đổi cuộc đời](/posts/2023/17-cau-hoi-thay-doi-cuoc-doi/) để tìm hướng đi trước khi học kỹ thuật.*
