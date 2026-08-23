@@ -6,6 +6,9 @@
 ErrorDocument 404 /404.html
 ErrorDocument 500 /500.html
 
+# --- Disable directory listing (hardening) ---
+Options -Indexes
+
 # --- Canonical host: redirect www -> non-www ---
 <IfModule mod_rewrite.c>
   RewriteEngine On
