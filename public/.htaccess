@@ -34,6 +34,9 @@ Options -Indexes
 
   # --- Newsletter API: internal rewrite to PHP relay (keeps POST method) ---
   RewriteRule ^api/subscribe/?$ api/subscribe.php [L]
+
+  # --- Block web access to private project folder (serve 404 to hide existence) ---
+  RewriteRule ^dautudatnongnghiep(/|$) - [R=404,L]
 </IfModule>
 
 # --- Security headers (origin level) ---
