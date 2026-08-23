@@ -179,7 +179,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       <EditPost class="max-sm:hidden" {hideEditPost} {post} />
     </div>
 
-    <TableOfContents items={tocItems} />
+    {tocItems.length > 0 && <TableOfContents items={tocItems} />}
 
     <article id="article" class="mx-auto prose mt-6 max-w-3xl">
 

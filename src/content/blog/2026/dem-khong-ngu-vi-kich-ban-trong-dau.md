@@ -24,6 +24,8 @@ Và nó chưa từng có một cảnh tốt lành nào.
 
 ---
 
+## Mọi thứ treo lửng
+
 Hồi đó, mình đang có quá nhiều thứ treo lơ lửng.
 
 Những mối quan hệ quanh mình, mình không có thời gian dành để xây dựng. Chúng rạn nứt từng ngày.
@@ -45,6 +47,8 @@ Bên trong, mình đang gào thét.
 "Chẳng lẽ về quê là một sai lầm?"
 
 ---
+
+## Đêm tồi tệ nhất
 
 Đêm tồi tệ nhất, mình nhớ rõ.
 
@@ -78,6 +82,8 @@ Cái ngày mình sợ nhất, nó chưa từng đến. Nó chỉ tồn tại tro
 
 ---
 
+## Mình thử mọi cách để dừng nó
+
 Mình bắt đầu để ý một thứ.
 
 Mỗi lần lo lắng, mình đều xem kịch bản đó là thật. Mình trả lời nó. Mình tức giận với nó. Mình sợ nó.
@@ -93,6 +99,8 @@ Tâm sự với bạn bè — họ bảo: "Mày nghĩ nhiều quá." Mình biế
 Mỗi cách đều thất bại. Vì mình đang cố thuyết phục nỗi sợ bằng lý trí. Mà nỗi sợ thì không bao giờ nghe lý trí.
 
 ---
+
+## Viết kịch bản ra giấy
 
 Rồi một đêm.
 
@@ -130,6 +138,8 @@ Câu hỏi đó buộc mình đi tìm đường thoát, thay vì đi tìm đư�
 
 Lần đầu tiên trả lời, mình chỉ tìm được một đường. Nhưng một đường là đủ để hết tê liệt.
 
+## Nó đã xảy ra chưa
+
 Dần dần, mình đổi được một thói quen.
 
 Khi kịch bản xuất hiện, mình không hỏi: "Nếu xảy ra thì sao?"
@@ -157,6 +167,8 @@ Mình thay đổi qua nhiều đêm. Từng chút một.
 Nó vẫn chiếu. Nhưng mình biết nó là phim.
 
 Rồi nó tắt.
+
+## Phim tắt
 
 Bây giờ, mình vẫn có những đêm trằn trọc. Không phải tự nhiên hết lo.
 

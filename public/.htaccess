@@ -28,6 +28,9 @@ ErrorDocument 500 /500.html
   RewriteRule ^posts/2026/23-ban-nhap-8-thang-0-bai-dang/?$ /posts/2025/23-ban-nhap-8-thang-0-bai-dang/ [L,R=301]
   RewriteRule ^posts/2026/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/?$ /posts/2025/dau-tu-nong-nghiep-cai-bay-cua-nhung-nguoi-nghi-minh-thong-minh/ [L,R=301]
   RewriteRule ^posts/2026/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/?$ /posts/2025/tuoi-tre-khong-tien-khong-nguoi-hau-thuan/ [L,R=301]
+
+  # --- Newsletter API: internal rewrite to PHP relay (keeps POST method) ---
+  RewriteRule ^api/subscribe/?$ api/subscribe.php [L]
 </IfModule>
 
 # --- Security headers (origin level) ---
