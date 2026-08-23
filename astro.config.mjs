@@ -48,7 +48,7 @@ export default defineConfig({
         if (!SITE.showArchives && page.endsWith("/archives")) return false;
 
         // Exclude utility pages (no search-engine value)
-        if (page.includes("/admin") || page.includes("/search")) return false;
+        if (page.includes("/admin") || page.includes("/search") || page.includes("/thank-you")) return false;
 
         // Exclude pagination pages (duplicate content)
         if (page.match(/\/page\/\d+\/?$/) || page.match(/\/posts\/\d+\/?$/)) return false;

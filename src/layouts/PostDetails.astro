@@ -3,7 +3,6 @@ import { type CollectionEntry, render } from "astro:content";
 import TableOfContents from "@/components/TableOfContents.astro";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
-import BackButton from "@/components/BackButton.astro";
 import Datetime from "@/components/Datetime.astro";
 import EditPost from "@/components/EditPost.astro";
 import Footer from "@/components/Footer.astro";
@@ -142,13 +141,21 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     )
   }
   <Header />
-  <BackButton />
+  <nav
+    class="mx-auto mt-8 w-full max-w-3xl px-4"
+    aria-label="breadcrumb"
+  >
+    <ol class="flex flex-wrap items-center gap-1.5 text-sm text-foreground/50">
+      <li><a href="/" class="hover:text-accent">Trang chủ</a></li>
+      <li aria-hidden="true">/</li>
+      <li><a href="/posts/" class="hover:text-accent">Bài viết</a></li>
+      <li aria-hidden="true">/</li>
+      <li aria-current="page" class="truncate text-foreground/75">{title}</li>
+    </ol>
+  </nav>
   <main
     id="main-content"
-    class:list={[
-      "mx-auto w-full max-w-3xl px-4 pb-12",
-      { "mt-8": !SITE.showBackButton },
-    ]}
+    class="mx-auto mt-4 w-full max-w-3xl px-4 pb-12"
     data-pagefind-body
   >
     <h1
