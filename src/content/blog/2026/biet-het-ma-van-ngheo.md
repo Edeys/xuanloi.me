@@ -2,7 +2,6 @@
 title: "Biết hết mà vẫn nghèo — 5 chướng ngại trong đầu"
 description: "Đọc xong mười mấy cuốn sách về tiền nhưng lương lãnh được 2 tuần chỉ còn dư 5 triệu rưỡi — 5 chướng ngại tâm lý: sợ mất, hoài nghi, bận rộn, trả mình sau cùng, và cái chữ 'biết rồi'."
 pubDatetime: 2026-08-24T00:00:00+07:00
-draft: true
 category: "Phát triển bản thân"
 tags: ["tam-ly-tai-chinh", "tu-duy", "phat-trien-ban-than", "nguoi-tre"]
 keyword: "biết nhiều mà vẫn nghèo"
