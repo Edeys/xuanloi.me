@@ -12,10 +12,11 @@
 - GitHub: https://github.com/Edeys
 - Email: xuanloi.me@gmail.com
 
-## Tất cả bài viết (17 bài)
+## Tất cả bài viết (18 bài)
 
 ### Phát triển bản thân
 
+- [Biết hết mà vẫn nghèo — 5 chướng ngại trong đầu](https://xuanloi.me/posts/2026/biet-het-ma-van-ngheo/): Đọc mười mấy cuốn sách về tiền nhưng lương lãnh 2 tuần chỉ còn dư 5 triệu rưỡi. 5 chướng ngại tâm lý ngăn người hiểu biết trở nên giàu: sợ mất tiền, hoài nghi, bận rộn, trả mình sau cùng, và kiêu ngạo.
 - [Đêm mình không ngủ được vì những kịch bản trong đầu](https://xuanloi.me/posts/2026/dem-khong-ngu-vi-kich-ban-trong-dau/): Áp lực lớn nhất không đến từ người khác, mà từ những kịch bản xấu mình tự dựng trong đầu lúc 2 giờ sáng. Câu chuyện về đáy, nợ, và cách mình học cách không tin bộ phim của chính mình.
 - [Bài học từ hành trình phát triển bản thân — và 3 điều mình đã thay đổi cách nghĩ](https://xuanloi.me/posts/2020/bai-hoc-phat-trien-ban-than/): Mình từng nghĩ phát triển bản thân là đọc sách, học khóa học, nghe podcast. Sau 5 năm, mình nhận ra mình đã sai ngay từ định nghĩa.
 - [Bài tập 'định hình nỗi sợ' — thứ giúp mình ra quyết định dễ dàng hơn bất kỳ cuốn sách self-help nào](https://xuanloi.me/posts/2023/bai-tap-dinh-hinh-noi-so/): 3 bước viết ra nỗi sợ thay vì để nó lơ lửng trong đầu. Một bài tập đơn giản giúp mình vượt qua những quyết định khó nhất.
@@ -62,4 +63,4 @@
 - Ngôn ngữ: Tiếng Việt
 - Nền tảng: YouTube @xuanloi_mkt, Facebook xuanloi.me, GitHub Edeys
 - Bắt đầu blog: 2026
-- Tổng số bài: 17
+- Tổng số bài: 18

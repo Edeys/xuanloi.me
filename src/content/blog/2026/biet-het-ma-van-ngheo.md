@@ -42,7 +42,7 @@ Mình từ chối. Lý do nghe rất chín: "Nguy hiểm lắm. Mất tiền bâ
 
 Tiền của mình thời điểm đó nằm yên trong ngân hàng. Lãi tiết kiệm 3% một năm. Mình thấy rất an toàn.
 
-An toàn thật. Cho đến một buổi chiều tính lại: tiền trọ tăng, tiền cơm tăng, ly cà phê sáng tăng, còn số dư thì đứng im như tượng.
+An toàn thật. Cho đến một buổi chiều tính lại: tiền ăn tăng, xăng xe tăng, ly cà phê sáng tăng, còn số dư thì đứng im như tượng.
 
 Mình chợt hiểu ra một điều khó nghe: tiền đứng yên không phải là không mất. Nó đang mất, chỉ là mất im lặng.
 
@@ -82,7 +82,7 @@ Mình từng là con gà đó. Và con gà thì không nghèo vì thị trườn
 
 Ngày nào của mình hồi đó trông rất chăm chỉ.
 
-Chín tiếng ở công ty. Hai tiếng di chuyển. Về phòng trọ, mở laptop dở việc, rồi tay tự động mở mạng xã hội. Lướt. Lướt. Nhìn lên đồng hồ thì mười hai giờ đêm.
+Chín tiếng ở công ty. Hai tiếng di chuyển. Về nhà, mở laptop dở việc, rồi tay tự động mở mạng xã hội. Lướt. Lướt. Nhìn lên đồng hồ thì mười hai giờ đêm.
 
 Sáng dậy, câu đầu tiên mình nói với chính mình: "Tuần này bận quá, đành để mai tính chuyện học cái đã."
 
@@ -102,7 +102,7 @@ Khi "nên học" đổi thành "muốn đỡ lo", ba mươi phút mỗi đêm t�
 
 Ngày nhận lương với mình giống ngày lễ. Lễ trả nợ.
 
-Tiền trọ. Tiền điện nước. Kỳ trả góp chiếc điện thoại 13 triệu mua nửa năm trước, lý do nghe rất hợp lý: "để phục vụ công việc". Thẻ tín dụng của tháng trước, vốn là của lương tháng trước nữa.
+Tiền ăn. Tiền điện nước. Kỳ trả góp chiếc điện thoại 13 triệu mua nửa năm trước, lý do nghe rất hợp lý: "để phục vụ công việc". Thẻ tín dụng của tháng trước, vốn là của lương tháng trước nữa.
 
 Trả xong, mình dặn mình: phần dư, tháng này mình sẽ để dành.
 
@@ -116,7 +116,7 @@ Sáng hôm nhận lương, trước khi trả bất kỳ hóa đơn nào, mình 
 
 Tháng đầu tiên, những ngày cuối tháng mình ăn mì gói. Không đùa.
 
-Nhưng cũng trong tháng đó, lần đầu tiên sau ba năm, mình có một khoản tiền mang tên mình. Không phải tên chủ nợ, không phải tên chủ trọ, không phải tên hãng điện thoại.
+Nhưng cũng trong tháng đó, lần đầu tiên sau ba năm, mình có một khoản tiền mang tên mình. Không phải tên chủ nợ, không phải tên công ty thẻ tín dụng, không phải tên hãng điện thoại.
 
 Mình hiểu ra thói quen xấu không cần to đùng để phá hỏng một người. Nó chỉ cần xảy ra trước mọi thứ khác. Mỗi. Tháng.
 
