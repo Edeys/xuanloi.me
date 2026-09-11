@@ -1,9 +1,0 @@
-[astro] `markdown.remarkPlugins`, `markdown.rehypePlugins`, and `markdown.remarkRehype` are deprecated. Pass them to `unified({...})` from `@astrojs/markdown-remark` directly instead.
-[31m[1m23:22:03[22m [ERROR][39m Invalid assignment target
-  [1mStack trace:[22m
-[2m    at D:\Dự Án Cá Nhân\xuanloi.me\D:\Dự Án Cá Nhân\xuanloi.me\src\components\Socials.astro:56:68
-    [...] See full stack trace in the browser, or rerun with --verbose.[22m
-[31m[1m23:22:08[22m [ERROR][39m Invalid assignment target
-  [1mStack trace:[22m
-[2m    at failureErrorWithLog (D:\Dự Án Cá Nhân\xuanloi.me\node_modules\esbuild\lib\main.js:1467:15)
-    [...] See full stack trace in the browser, or rerun with --verbose.[22m
