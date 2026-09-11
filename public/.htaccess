@@ -46,6 +46,9 @@ Options -Indexes
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
   Header set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+  Header set Content-Security-Policy "frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+  Header set X-Permitted-Cross-Domain-Policies "none"
 </IfModule>
 
 # --- MIME types ---

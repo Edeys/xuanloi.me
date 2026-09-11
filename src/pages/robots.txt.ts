@@ -40,6 +40,10 @@ Content-Signal: ai-train=yes, search=yes, ai-retrieval=yes
 # Default: allow all other crawlers
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /search
+Disallow: /api/
+Disallow: /thank-you
 
 Sitemap: ${sitemapURL.href}
 `;
