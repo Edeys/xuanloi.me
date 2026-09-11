@@ -19,8 +19,8 @@
 | Thông số | Giá trị |
 |----------|---------|
 | **Hosting** | DNCloud CP-2, cPanel |
-| **IP (origin)** | `103.116.38.9` |
-| **cPanel** | https://vn9.dncloud.net:2083/ (user: `ktixknjc`) |
+| **IP (origin)** | `<HOSTING_IP>` |
+| **cPanel** | https://vn9.dncloud.net:2083/ (user: `<CPANEL_USER>`) |
 | **Root** | `/public_html/` |
 | **Access** | FTP only (không có SSH) |
 | **Web server** | LiteSpeed — chạy Astro SSR qua Node.js |
@@ -36,7 +36,7 @@
 | `www.xuanloi.me` | A | qua Cloudflare (104.21.24.34 / 172.67.216.188) | Hoạt động tốt |
 
 - **DNS Provider:** Cloudflare
-- **Cloudflare proxy:** ĐANG BẬT — traffic tới user qua Cloudflare edge, origin ẩn là 103.116.38.9
+- **Cloudflare proxy:** ĐANG BẬT — traffic tới user qua Cloudflare edge, origin ẩn là <HOSTING_IP>
 - Vì Cloudflare proxy bật, mọi thay đổi hosting/SSL ở origin đều được Cloudflare che — site luôn phục vụ qua edge.
 
 ---
@@ -54,7 +54,7 @@
 ## 5. Kiến Trúc Chạy Site
 
 ```
-User → Cloudflare (proxy, SSL edge) → DNCloud CP-2 103.116.38.9
+User → Cloudflare (proxy, SSL edge) → DNCloud CP-2 <HOSTING_IP>
                                         └─ LiteSpeed + Node.js (Astro SSR)
                                            └─ /public_html/
 ```
@@ -167,7 +167,7 @@ npm run build
 - [x] Fix double-layout crash (xoá `layout` khỏi MDX frontmatter)
 - [x] Fix JSON-LD `datePublished:"undefined"`
 - [x] Patch static-build.js cho Vite 6
-- [x] Chuyển từ DigitalOcean (129.212.238.158, nginx + Let's Encrypt) → DNCloud CP-2 (103.116.38.9, LiteSpeed + Node.js SSR)
+- [x] Chuyển từ DigitalOcean (<SERVER_IP>, nginx + Let's Encrypt) → DNCloud CP-2 (<HOSTING_IP>, LiteSpeed + Node.js SSR)
 - [x] Bật Cloudflare proxy cho xuanloi.me + www
 - [x] Viết `scripts/deploy.py` tự động hóa deploy FTP
 - [x] SSL quản lý bởi Cloudflare edge (không cần quản lý cert origin)
@@ -212,6 +212,6 @@ Theme toggle script trong `src/layouts/Layout.astro`:
 ## 13. Lịch Sử Hosting (tham khảo)
 
 Trước đây site chạy trên **DigitalOcean**:
-- IP cũ: `129.212.238.158` (sgp1, Ubuntu 24.04, 1 vCPU/1GB)
+- IP cũ: `<SERVER_IP>` (sgp1, Ubuntu 24.04, 1 vCPU/1GB)
 - Nginx + Let's Encrypt certbot, root `/var/www/xuanloi.me`
 - **Đã ngừng dùng** — hiện deploy trên DNCloud CP-2 (xem mục 2)

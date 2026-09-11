@@ -76,3 +76,25 @@ scripts/gsc-*.json
 # Temp test dirs
 /_min-test/
 
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+
+# Local scratch scripts (prefix underscore) & shell helpers
+_*.py
+_*.sh
+
+# Logs
+*.log
+
+# Local scratch text/html output
+.*.txt
+_*.txt
+_*.html
+temp_*.txt
+
+# Local backups
+.backup-*/
+backup_*/
+*.bak
+

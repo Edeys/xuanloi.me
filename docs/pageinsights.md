@@ -3,7 +3,7 @@
 Save this for future use:
 
 ```
-API_KEY="AIzaSyCVzKlJ_VRRYNHyiak7HfPAVJuUcTx8o5U"
+API_KEY="YOUR_PAGESPEED_API_KEY"
 ```
 
 Usage:

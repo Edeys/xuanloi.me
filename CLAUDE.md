@@ -142,8 +142,8 @@ npm run build
 ### Step 4: Deploy lên server (a ko cần hỏi, deploy là mặc định)
 
 ```bash
-cd dist && scp -i ~/.ssh/do-9router -r * root@129.212.238.158:/var/www/xuanloi.me/
-ssh -i ~/.ssh/do-9router root@129.212.238.158 "nginx -t && systemctl reload nginx"
+cd dist && scp -i <SSH_KEY_PATH> -r * <SSH_USER>@<SERVER_IP>:/var/www/xuanloi.me/
+ssh -i <SSH_KEY_PATH> <SSH_USER>@<SERVER_IP> "nginx -t && systemctl reload nginx"
 ```
 
 ### Step 5: Verify live site
@@ -198,13 +198,13 @@ ssh -i ~/.ssh/do-9router root@129.212.238.158 "nginx -t && systemctl reload ngin
 Trên Windows, `rsync` không có sẵn. Dùng lệnh này:
 
 ```bash
-cd dist && scp -i ~/.ssh/do-9router -r * root@129.212.238.158:/var/www/xuanloi.me/
+cd dist && scp -i <SSH_KEY_PATH> -r * <SSH_USER>@<SERVER_IP>:/var/www/xuanloi.me/
 ```
 
 Sau đó SSH reload nginx:
 
 ```bash
-ssh -i ~/.ssh/do-9router root@129.212.238.158 "nginx -t && systemctl reload nginx"
+ssh -i <SSH_KEY_PATH> <SSH_USER>@<SERVER_IP> "nginx -t && systemctl reload nginx"
 ```
 
 Verify:
@@ -218,11 +218,11 @@ curl -sI https://xuanloi.me/
 ## Deployment Context
 
 - **Live site**: https://xuanloi.me (HTTPS, Let's Encrypt, www.xuanloi.me cũng serve)
-- **Server**: DigitalOcean droplet, Ubuntu 24.04, IP 129.212.238.158, user root
+- **Server**: DigitalOcean droplet, Ubuntu 24.04, IP <SERVER_IP>, user <SSH_USER>
 - **Web root**: `/var/www/xuanloi.me` (Nginx serves static files)
 - **Nginx config**: `/etc/nginx/sites-enabled/xuanloi.me`
 - **SSL certs**: `/etc/letsencrypt/live/xuanloi.me/`
-- **Local source**: `D:\Dự Án Cá Nhân\xuanloi.me`
-- **Local SSH key**: `~/.ssh/do-9router` (chmod 600, server 1)
+- **Local source**: `<LOCAL_PROJECT_PATH>`
+- **Local SSH key**: `<SSH_KEY_PATH>` (chmod 600, server 1)
 - **Vite 6 patch**: `node_modules/astro/dist/core/build/static-build.js` — cần reapply sau mỗi `npm install`
 - **Repo**: https://github.com/Edeys/xuanloi.me (a quản lý visibility)

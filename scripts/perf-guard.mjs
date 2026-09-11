@@ -41,7 +41,7 @@ const PSI_URLS = [
   "https://xuanloi.me/posts/2026/so-chon-sai-nghe/",
 ];
 
-const PSI_KEY = "AIzaSyCVzKlJ_VRRYNHyiak7HfPAVJuUcTx8o5U";
+const PSI_KEY = process.env.PSI_API_KEY || "";
 const useFail = process.argv.includes("--fail");
 const runPsi = process.argv.includes("--psi");
 const writeBaseline = process.argv.includes("--baseline");
@@ -91,6 +91,10 @@ async function bundleCheck() {
 }
 
 async function psiCheck() {
+  if (!PSI_KEY) {
+    log("WARN", "PSI_API_KEY not set - skipping PSI check (set env PSI_API_KEY to enable)");
+    return;
+  }
   log("INFO", `PSI check (${PSI_URLS.length} URLs, ~30-60s each)...`);
   for (const url of PSI_URLS) {
     const api = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=mobile&key=${PSI_KEY}`;

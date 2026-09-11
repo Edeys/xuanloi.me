@@ -11,7 +11,7 @@
 
 ## Deploy Website (xuanloi.me)
 
-Site deployed to DNCloud CP-2 hosting (103.116.38.9, cPanel). No SSH — FTP only.
+Site deployed to DNCloud CP-2 hosting (<HOSTING_IP>, cPanel). No SSH — FTP only.
 
 ### Auto deploy (after code changes)
 ```bash
@@ -33,8 +33,8 @@ npm run build
 ```
 
 ### Hosting details
-- IP: 103.116.38.9
-- cPanel: https://vn9.dncloud.net:2083/ (ktixknjc)
+- IP: <HOSTING_IP>
+- cPanel: https://vn9.dncloud.net:2083/ (<CPANEL_USER>)
 - Root: `/public_html/`
 - Site runs Astro SSR via Node.js hosted on LiteSpeed
 - After deploy, restart Node.js via cPanel → Setup Node.js App → Restart
