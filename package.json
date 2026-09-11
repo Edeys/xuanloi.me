@@ -9,8 +9,6 @@
     "preview": "astro preview",
     "astro": "astro",
     "deploy": "python scripts/deploy.py",
-    "add-source-metadata": "node scripts/add-source-metadata.mjs",
-    "remove-tags": "node scripts/remove-tags-from-posts.mjs",
     "sync": "astro sync",
     "lint": "oxlint --deny-warnings --import-plugin --react-plugin src astro.config.mjs",
     "lint:fix": "oxlint --fix --deny-warnings --import-plugin --react-plugin src astro.config.mjs",
