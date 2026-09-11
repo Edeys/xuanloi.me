@@ -1,4 +1,7 @@
-name: Deploy to xuanloi.me
+name: Deploy to xuanloi.me (DNCloud FTP)
+
+# Workflow: local code -> push main -> CI (lint + build) xanh -> job deploy mới chạy.
+# PR chỉ chạy lint + build (astro-build.yml, lint.yml), không deploy.
 
 on:
   push:
@@ -15,30 +18,40 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-
       - name: Enable pnpm
         run: corepack enable
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Run lint and format check
+        run: pnpm run check
 
+  build:
+    needs: lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Enable pnpm
+        run: corepack enable
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
       - name: Build Astro site
         run: pnpm run build
-
       - name: Check build output
         run: ls -la dist/
-
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
@@ -49,9 +62,8 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     environment: production
-
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
@@ -59,45 +71,22 @@ jobs:
           name: dist
           path: dist/
 
-      - name: Copy dist to server
-        uses: appleboy/scp-action@v0.1.7
+      - name: Sync dist to DNCloud via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "dist/*"
-          target: ${{ secrets.WEB_ROOT }}
-          strip_components: 1
-          rm: true
-          timeout: 120s
-
-      - name: Set permissions (chmod 755 _astro/)
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            find ${{ secrets.WEB_ROOT }}/_astro -type d -exec chmod 755 {} \;
-            find ${{ secrets.WEB_ROOT }}/_astro -type f -exec chmod 644 {} \;
-            chown -R root:root ${{ secrets.WEB_ROOT }}
-
-      - name: Reload nginx
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: nginx -t && systemctl reload nginx
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: ./dist/
+          server-dir: /public_html/
+          exclude: |
+            **/.DS_Store
 
       - name: Verify deploy
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            echo "=== Last 5 files in web root ==="
-            ls -lt ${{ secrets.WEB_ROOT }} | head -5
-            echo "=== Index check ==="
-            curl -sI https://xuanloi.me/ | head -3
+        run: |
+          echo "=== robots.txt ==="
+          curl -sI https://xuanloi.me/robots.txt | head -3
+          echo "=== llms.txt ==="
+          curl -sI https://xuanloi.me/llms.txt | head -3
+          echo "=== homepage ==="
+          curl -sI https://xuanloi.me/ | head -3
