@@ -5,7 +5,7 @@
 Set permissions on web root:
 
 ```bash
-ssh -i ~/.ssh/do-9router root@129.212.238.158
+ssh -i <SSH_KEY_PATH> root@<SERVER_IP>
 chown -R www-data:www-data /var/www/xuanloi.me
 find /var/www/xuanloi.me -type d -exec chmod 755 {} \;
 find /var/www/xuanloi.me -type f -exec chmod 644 {} \;
@@ -30,9 +30,9 @@ EOF
 
 ```bash
 npm run build
-scp -i ~/.ssh/do-9router -C -r dist/* root@129.212.238.158:/var/www/xuanloi.me/
-ssh -i ~/.ssh/do-9router root@129.212.238.158 "find /var/www/xuanloi.me -type d -perm 700 -exec chmod 755 {} \;"
-ssh -i ~/.ssh/do-9router root@129.212.238.158 "nginx -t && systemctl reload nginx"
+scp -i <SSH_KEY_PATH> -C -r dist/* root@<SERVER_IP>:/var/www/xuanloi.me/
+ssh -i <SSH_KEY_PATH> root@<SERVER_IP> "find /var/www/xuanloi.me -type d -perm 700 -exec chmod 755 {} \;"
+ssh -i <SSH_KEY_PATH> root@<SERVER_IP> "nginx -t && systemctl reload nginx"
 ```
 
 ## Verify
