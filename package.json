@@ -16,8 +16,8 @@
     "lint:fix": "oxlint --fix --deny-warnings --import-plugin --react-plugin src astro.config.mjs",
     "format": "oxfmt --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.mjs\" \"src/**/*.js\" astro.config.mjs package.json",
     "format:check": "oxfmt --check \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.mjs\" \"src/**/*.js\" astro.config.mjs package.json",
-    "check": "pnpm run format:check && pnpm run lint",
-    "check:fix": "pnpm run format && pnpm run lint:fix",
+    "check": "npm run format:check && npm run lint",
+    "check:fix": "npm run format && npm run lint:fix",
     "perf:check": "node scripts/perf-guard.mjs --psi",
     "perf:baseline": "node scripts/perf-guard.mjs --baseline",
     "prepare": "husky"
