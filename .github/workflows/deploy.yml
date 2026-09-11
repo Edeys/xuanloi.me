@@ -27,12 +27,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Enable pnpm
-        run: corepack enable
+          cache: "npm"
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm ci
       - name: Run lint and format check
-        run: pnpm run check
+        run: npm run check
 
   build:
     needs: lint
@@ -44,12 +43,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Enable pnpm
-        run: corepack enable
+          cache: "npm"
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm ci
       - name: Build Astro site
-        run: pnpm run build
+        run: npm run build
       - name: Check build output
         run: ls -la dist/
       - name: Upload build artifact
