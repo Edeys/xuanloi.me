@@ -64,6 +64,8 @@ const { variant = "default" } = Astro.props;
 </div>
 
 <script>
+  import { launchFireworks } from "@/scripts/fireworks";
+
   const form = document.getElementById("subscribe-form");
   const msg = document.getElementById("subscribe-msg");
   const btn = document.getElementById("subscribe-btn");
@@ -102,6 +104,18 @@ const { variant = "default" } = Astro.props;
       }
 
       if (data.success) {
+        // Celebrate at the button before handing over to the thank-you page.
+        const rect = btn.getBoundingClientRect();
+        const originX = Math.min(
+          Math.max((rect.left + rect.width / 2) / window.innerWidth, 0.15),
+          0.85
+        );
+
+        btn.textContent = "Đã đăng ký!";
+        msg.textContent = "Đăng ký thành công! Đang chuyển hướng...";
+        msg.className = "text-sm mt-3 font-medium text-accent";
+
+        await launchFireworks({ originX });
         window.location.href = "/thank-you/";
         return;
       } else {
