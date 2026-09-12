@@ -4,25 +4,26 @@ import PostDetails from "@/layouts/PostDetails.astro";
 import { getPath } from "@/utils/getPath";
 import getSortedPosts from "@/utils/getSortedPosts";
 
-export interface Props {
-  post: CollectionEntry<"blog">;
-}
-
+// Route params must NOT carry a trailing slash (Astro adds it via trailingSlash: "always")
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
   const postResult = posts.map((post) => ({
-    params: { slug: getPath(post.id, post.filePath, false) },
+    params: { slug: getPath(post.id, post.filePath, false).replace(/\/+$/, "") },
     props: { post },
   }));
 
   // Also include unlisted posts so they can be accessed via direct URL
   const unlistedPosts = await getCollection("blog", ({ data }) => !data.draft && data.unlisted);
   const unlistedResult = unlistedPosts.map((post) => ({
-    params: { slug: getPath(post.id, post.filePath, false) },
+    params: { slug: getPath(post.id, post.filePath, false).replace(/\/+$/, "") },
     props: { post },
   }));
 
   return [...postResult, ...unlistedResult];
+}
+
+export interface Props {
+  post: CollectionEntry<"blog">;
 }
 
 const { post } = Astro.props;

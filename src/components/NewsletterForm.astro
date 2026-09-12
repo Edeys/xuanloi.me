@@ -16,18 +16,30 @@ const { variant = "default" } = Astro.props;
     </p>
   )}
 
-  <form id="subscribe-form" class="flex flex-col sm:flex-row gap-3">
+  <form id="subscribe-form" action="/api/subscribe" method="POST" class="flex flex-col sm:flex-row gap-3">
+    <input
+      type="text"
+      name="website"
+      class="hidden"
+      tabindex="-1"
+      autocomplete="off"
+      aria-hidden="true"
+    />
     <input
       type="text"
       id="subscribe-name"
+      name="name"
       placeholder="Tên của bạn"
+      aria-label="Họ và tên"
       autocomplete="name"
       class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
     />
     <input
       type="email"
       id="subscribe-email"
+      name="email"
       placeholder="Email của bạn"
+      aria-label="Địa chỉ email"
       required
       autocomplete="email"
       class="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-900 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
@@ -42,7 +54,7 @@ const { variant = "default" } = Astro.props;
     </button>
   </form>
 
-  <div id="subscribe-msg" class="text-sm mt-3 hidden"></div>
+  <div id="subscribe-msg" role="alert" aria-live="polite" class="text-sm mt-3 hidden"></div>
 
   {variant === 'default' && (
     <p class="text-xs text-gray-500 dark:text-gray-400 mt-3">
@@ -55,15 +67,19 @@ const { variant = "default" } = Astro.props;
   const form = document.getElementById("subscribe-form");
   const msg = document.getElementById("subscribe-msg");
   const btn = document.getElementById("subscribe-btn");
+  const nameInput = document.getElementById("subscribe-name");
+  const emailInput = document.getElementById("subscribe-email");
 
   form?.addEventListener("submit", async (e) => {
     e.preventDefault();
-    const name = document.getElementById("subscribe-name").value;
-    const email = document.getElementById("subscribe-email").value;
+    const name = nameInput.value;
+    const email = emailInput.value;
 
     if (!email) return;
 
     btn.disabled = true;
+    nameInput.disabled = true;
+    emailInput.disabled = true;
     btn.textContent = "Đang gửi...";
     msg.classList.add("hidden");
 
@@ -74,7 +90,16 @@ const { variant = "default" } = Astro.props;
         body: JSON.stringify({ email, name }),
       });
 
-      const data = await res.json();
+      if (!res.ok) {
+        throw new Error("Có lỗi xảy ra khi gửi. Vui lòng thử lại sau.");
+      }
+
+      let data;
+      try {
+        data = await res.json();
+      } catch (err) {
+        throw new Error("Phản hồi từ máy chủ không hợp lệ. Vui lòng thử lại sau.");
+      }
 
       if (data.success) {
         window.location.href = "/thank-you/";
@@ -85,8 +110,9 @@ const { variant = "default" } = Astro.props;
     } catch (err) {
       msg.textContent = err.message || "Có lỗi xảy ra. Vui lòng thử lại.";
       msg.className = "text-sm mt-3 text-red-600 dark:text-red-400";
-    } finally {
       btn.disabled = false;
+      nameInput.disabled = false;
+      emailInput.disabled = false;
       btn.textContent = "Đăng ký";
       msg.classList.remove("hidden");
     }

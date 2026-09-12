@@ -6,7 +6,7 @@ import { SITE } from "@/config";
 import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout title={`404 Không tìm thấy | ${SITE.title}`} description="Trang không tồn tại. Bài viết hoặc đường dẫn không đúng trên blog của Đào Xuân Lợi.">
+<Layout title={`404 Không tìm thấy | ${SITE.title}`} description="Trang không tồn tại. Bài viết hoặc đường dẫn không đúng trên blog của Đào Xuân Lợi." noindex={true}>
   <Header />
 
   <main
@@ -17,14 +17,17 @@ import Layout from "@/layouts/Layout.astro";
       <h1 class="text-9xl font-bold text-accent">404</h1>
       <span aria-hidden="true">¯\_(ツ)_/¯</span>
       <p class="mt-4 text-2xl sm:text-3xl">Không tìm thấy trang</p>
-      <span>
-        <LinkButton
-          href="/"
-        class="my-6 text-lg underline decoration-dashed underline-offset-8"
-      >
-        Về trang chủ
-      </LinkButton>
-      </span>
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <LinkButton href="/" class="my-6 text-lg underline decoration-dashed underline-offset-8">
+          Về trang chủ
+        </LinkButton>
+        <LinkButton href="/posts/" class="my-6 text-lg underline decoration-dashed underline-offset-8">
+          Xem bài viết
+        </LinkButton>
+        <LinkButton href="/search/" class="my-6 text-lg underline decoration-dashed underline-offset-8">
+          Tìm kiếm
+        </LinkButton>
+      </div>
     </div>
   </main>
 

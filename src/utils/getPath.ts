@@ -24,9 +24,17 @@ export function getPath(id: string, filePath: string | undefined, includeBase = 
   const slug = blogId.length > 0 ? blogId.slice(-1) : blogId;
 
   // If not inside the sub-dir, simply return the file path
+  let path: string;
   if (!pathSegments || pathSegments.length < 1) {
-    return [basePath, slug].join("/");
+    path = [basePath, slug].join("/");
+  } else {
+    path = [basePath, ...pathSegments, slug].join("/");
   }
 
-  return [basePath, ...pathSegments, slug].join("/");
+  // Always return a path ending with a trailing slash (trailing slash standard)
+  if (!path.endsWith("/")) {
+    path += "/";
+  }
+
+  return path;
 }

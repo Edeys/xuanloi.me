@@ -5,6 +5,7 @@ import Layout from "@/layouts/Layout.astro";
 <Layout noindex>
   <main class="max-w-2xl mx-auto p-6 pt-12">
     <h1 class="text-2xl font-bold mb-6">Tạo bài viết mới</h1>
+    <a href="/" class="text-accent underline mb-6 inline-block hover:opacity-80">← Quay lại trang chủ</a>
 
     <form id="post-form" class="flex flex-col gap-4">
       <div>
@@ -71,15 +72,14 @@ import Layout from "@/layouts/Layout.astro";
     <div id="result" class="mt-4 hidden"></div>
 
     <script>
+      import { slugifyStr } from "@/utils/slugify";
+
       document.getElementById('post-form').addEventListener('submit', (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
         const data = Object.fromEntries(formData);
 
-        const slug = data.title
-          .toLowerCase()
-          .replace(/[^a-z0-9]+/g, '-')
-          .replace(/^-|-$/g, '');
+        const slug = slugifyStr(data.title);
 
         const year = new Date(data.pubDatetime).getFullYear();
         const datetime = new Date(data.pubDatetime).toISOString().replace(/\.\d{3}/, '');

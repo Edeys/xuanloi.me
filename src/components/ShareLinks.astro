@@ -10,6 +10,13 @@ import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import { SHARE_LINKS } from "@/constants";
 import LinkButton from "./LinkButton.astro";
 
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = "", description = "" } = Astro.props;
+
 const URL = Astro.url;
 
 const iconMap = {
@@ -21,6 +28,16 @@ const iconMap = {
   telegram: IconTelegram,
   pinterest: IconPinterest,
   mail: IconMail,
+};
+
+const shareUrl = encodeURIComponent(URL.href);
+const shareText = encodeURIComponent(title || "");
+
+const buildHref = (icon: string, base: string) => {
+  if (icon === "twitter" || icon === "telegram") {
+    return `${base}${shareUrl}&text=${shareText}`;
+  }
+  return `${base}${shareUrl}`;
 };
 ---
 
@@ -39,7 +56,8 @@ const iconMap = {
               data-astro-ignore
               class="group inline-block hover:text-accent p-3 sm:p-2 hover:rotate-6"
               title={social.linkTitle}
-              data-share-url={URL}
+              data-share-url={URL.href}
+              data-share-title={title}
             >
               {IconComponent && (
                 <IconComponent class="inline-block size-8 sm:size-6 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent" />
@@ -50,7 +68,9 @@ const iconMap = {
         }
         return (
           <LinkButton
-            href={`${social.href + URL}`}
+            href={buildHref(social.icon, social.href)}
+            target="_blank"
+            rel="noopener noreferrer"
             class="p-3 sm:p-2 hover:rotate-6"
             title={social.linkTitle}
           >
@@ -60,9 +80,20 @@ const iconMap = {
             <span class="sr-only">{social.linkTitle}</span>
           </LinkButton>
         );
-    })
-  }
+      })
+    }
+    <button
+      type="button"
+      id="copy-link-btn"
+      data-copy-url={URL.href}
+      class="group inline-block hover:text-accent p-3 sm:p-2 hover:rotate-6"
+      title="Sao chép liên kết"
+      aria-label="Sao chép liên kết bài viết"
+    >
+      <span class="sr-only">Sao chép liên kết</span>
+    </button>
   </div>
+  <span id="copy-link-msg" role="status" class="text-sm text-accent hidden">Đã sao chép liên kết</span>
 </div>
 
 <script is:inline>
@@ -75,9 +106,35 @@ const iconMap = {
       e.preventDefault();
       e.stopPropagation();
       var url = el.getAttribute("data-share-url");
+      var title = el.getAttribute("data-share-title") || "Xem bài viết này";
       window.location.href =
-        "mail" + "to:?subject=" + encodeURIComponent("Xem bài viết này") + "&body=" + encodeURIComponent(url);
+        "mail" + "to:?subject=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(url);
     },
     true,
   );
+
+  // Copy link button
+  document.getElementById("copy-link-btn")?.addEventListener("click", function () {
+    var url = this.getAttribute("data-copy-url");
+    if (!url) return;
+    var fallback = function () {
+      var msg = document.getElementById("copy-link-msg");
+      if (msg) {
+        msg.classList.remove("hidden");
+        setTimeout(function () {
+          msg.classList.add("hidden");
+        }, 2000);
+      }
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard
+        .writeText(url)
+        .then(fallback)
+        .catch(function () {
+          fallback();
+        });
+    } else {
+      fallback();
+    }
+  });
 </script>

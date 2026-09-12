@@ -76,7 +76,7 @@ if (typeof initOgImage === "string") {
 
 // Use dynamic OG image if enabled and no remote|local ogImage
 if (!ogImageUrl && SITE.dynamicOgImage) {
-  ogImageUrl = `${getPath(post.id, post.filePath)}/index.png`;
+  ogImageUrl = `${getPath(post.id, post.filePath)}index.png`;
 }
 
 // Resolve OG image URL (or fallback to SITE.ogImage / default `og.png`)
@@ -109,8 +109,11 @@ const allPosts = posts.map(({ data: { title }, id }) => ({
 
 const currentPostIndex = allPosts.findIndex((a) => a.slug === post.id);
 
-const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
-const nextPost = currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+const prevPost = currentPostIndex > 0 ? allPosts[currentPostIndex - 1] : null;
+const nextPost =
+  currentPostIndex >= 0 && currentPostIndex < allPosts.length - 1
+    ? allPosts[currentPostIndex + 1]
+    : null;
 
 // Calculate word count for structured data
 const wordCount = (post.body ?? "").split(/\s+/).length;
@@ -226,7 +229,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     <div
       class="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end sm:gap-4"
     >
-      <ShareLinks />
+      <ShareLinks {title} />
 
       <button
         id="back-to-top"
@@ -243,13 +246,13 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     <div 
       data-pagefind-ignore 
       class="flex flex-col sm:flex-row justify-between gap-6"
-      data-prev-url={prevPost ? `/posts/${prevPost.slug}` : ''}
-      data-next-url={nextPost ? `/posts/${nextPost.slug}` : ''}
+      data-prev-url={prevPost ? `/posts/${prevPost.slug}/` : ''}
+      data-next-url={nextPost ? `/posts/${nextPost.slug}/` : ''}
     >
       {
         prevPost && (
           <a
-            href={`/posts/${prevPost.slug}`}
+            href={`/posts/${prevPost.slug}/`}
             class="flex gap-2 hover:opacity-75 items-start"
             id="prev-post-link"
           >
@@ -264,7 +267,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       {
         nextPost && (
           <a
-            href={`/posts/${nextPost.slug}`}
+            href={`/posts/${nextPost.slug}/`}
             class="flex gap-2 hover:opacity-75 items-start justify-end text-right ml-auto"
             id="next-post-link"
           >
@@ -327,7 +330,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
   /** Attaches copy buttons to code blocks in the document,
    * allowing users to copy code easily. */
   function attachCopyButtons() {
-    const copyButtonLabel = "Copy";
+    const copyButtonLabel = "Sao chep";
     const codeBlocks = Array.from(document.querySelectorAll("pre"));
 
     for (const codeBlock of codeBlocks) {
@@ -357,7 +360,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
       await navigator.clipboard.writeText(text ?? "");
 
       // visual feedback that task is completed
-      button.innerText = "Copied";
+      button.innerText = "Da sao chep";
 
       setTimeout(() => {
         button.innerText = copyButtonLabel;
@@ -370,8 +373,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
    * the "Back to Top" button is clicked. */
   function backToTop() {
     document.querySelector("#back-to-top")?.addEventListener("click", () => {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
   backToTop();
@@ -416,6 +418,7 @@ const wordCount = (post.body ?? "").split(/\s+/).length;
     });
   }
   setupKeyboardNavigation();
+</script>
 
 <style>
   .youtube-embed-container {

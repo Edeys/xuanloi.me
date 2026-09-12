@@ -28,7 +28,7 @@ const isActive = (path: string) => {
     href="#main-content"
     class="absolute -top-full left-16 z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
   >
-    Bỏ qua nội dung
+    Chuyển đến nội dung chính
   </a>
   <div
     id="nav-container"
@@ -68,7 +68,7 @@ const isActive = (path: string) => {
           ]}
         >
           <li class="col-span-2">
-            <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
+            <a href="/posts/" class:list={{ "active-nav": isActive("/posts") }}>
               Bài viết
             </a>
           </li>
@@ -78,7 +78,7 @@ const isActive = (path: string) => {
             </a>
           </li> -->
           <li class="col-span-2">
-            <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
+            <a href="/about/" class:list={{ "active-nav": isActive("/about") }}>
               Về tôi
             </a>
           </li>
@@ -86,7 +86,7 @@ const isActive = (path: string) => {
             SITE.showArchives && (
               <li class="col-span-2">
                 <LinkButton
-                  href="/archives"
+                  href="/archives/"
                   class:list={[
                     "focus-outline flex justify-center p-3 sm:p-1",
                     {
@@ -105,7 +105,7 @@ const isActive = (path: string) => {
           <li class="col-span-1 flex items-center justify-center">
             <span>
               <LinkButton
-                href="/search"
+                href="/search/"
               class:list={[
                 "focus-outline flex p-3 sm:p-1",
                 { "[&>svg]:stroke-accent": isActive("/search") },
@@ -116,6 +116,7 @@ const isActive = (path: string) => {
               <IconSearch />
               <span class="sr-only">Tìm kiếm</span>
             </LinkButton>
+            </span>
           </li>
           {
             SITE.lightAndDarkMode && (

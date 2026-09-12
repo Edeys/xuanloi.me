@@ -6,7 +6,7 @@ import { SITE } from "@/config";
 import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout title={`500 Lỗi máy chủ | ${SITE.title}`} description="Trang lỗi nội bộ. Vui lòng thử lại sau.">
+<Layout title={`500 Lỗi máy chủ | ${SITE.title}`} description="Trang lỗi nội bộ. Vui lòng thử lại sau." noindex={true}>
   <Header />
 
   <main id="main-content" class="mx-auto flex max-w-3xl flex-1 items-center justify-center">

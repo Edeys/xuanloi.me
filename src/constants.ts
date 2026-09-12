@@ -46,6 +46,18 @@ export const SHARE_LINKS = [
     icon: "facebook",
   },
   {
+    name: "Twitter",
+    href: "https://twitter.com/intent/tweet?url=",
+    linkTitle: `Chia sẻ bài viết trên Twitter/X`,
+    icon: "twitter",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/sharing/share-offsite/?url=",
+    linkTitle: `Chia sẻ bài viết trên LinkedIn`,
+    icon: "linkedin",
+  },
+  {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
     linkTitle: `Chia sẻ bài viết qua Telegram`,

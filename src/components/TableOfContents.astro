@@ -37,13 +37,13 @@ for (const item of items) {
         <ul class="toc-list" id="toc-list">
           {nested.map((item) => (
             <li class="toc-item">
-              <a class="toc-link" href={`#${item.id}`} data-target-id={item.id}>{item.text}.</a>
+              <a class="toc-link" href={`#${item.id}`} data-target-id={item.id}>{item.text}</a>
               {
                 item.children.length > 0 && (
                   <ul class="toc-list" style="margin-top:0">
                     {item.children.map((child) => (
                       <li class="toc-item">
-                        <a class="toc-link toc-link-h3" href={`#${child.id}`} data-target-id={child.id}>{child.text}.</a>
+                        <a class="toc-link toc-link-h3" href={`#${child.id}`} data-target-id={child.id}>{child.text}</a>
                       </li>
                     ))}
                   </ul>
