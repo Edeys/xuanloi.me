@@ -29,6 +29,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Root pages: `/about.md`
 - Raw markdown served with `Content-Type: text/plain` and proper caching headers
 - Redirect from steipete.me/*.md URLs to steipete.md/* (#133)
+- Fireworks celebration after a successful newsletter signup
+  - `src/scripts/fireworks.ts`: dependency-free canvas overlay with theme-aware colours and trails
+  - The submit handler shows the success message, plays the show, then redirects to `/thank-you/`
+  - Skipped entirely when the visitor prefers reduced motion or the tab is hidden
 
 ### Fixed
 - Slow theme switching animation on iPhone Safari (#122)
